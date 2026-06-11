@@ -1,5 +1,5 @@
 TẬP DỰNG LỀU
-
+ 
 
 Để dựng được lều nhanh, gọn các bạn nên tuân thủ các bước sau đây:
 
@@ -27,7 +27,7 @@ II. CHỌN HƯỚNG LỀU
 III. DỰNG LỀU
 Các bước dựng lều bạt theo trình tự: Trải bạt – trải lều – sắp xếp cột chính – cọc phụ – dây cột – đóng cọc:
 ![Hình](ảnh/ảnh_bài_2/lều.png)
-
+ 
 
 ĐỘNG TÁC DỰNG LỀU
 *Với đội hình 8 người:
@@ -68,3 +68,5 @@ Tiêu chuẩn của một cái lều:
 – Cân đối, đẹp mắt.
 – Có rãnh thoát nước.
 ![Hình](ảnh/ảnh_bài_2/lều2.png)
+ 
+

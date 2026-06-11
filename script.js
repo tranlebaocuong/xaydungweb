@@ -51,6 +51,29 @@ const structure = {
             files: ['bài_1.txt','bài_2.txt','bài_3.txt','bài_4.txt','bài_5.txt','bài_6.txt','bài_7.txt']
           }
         }
+      },
+      'CHÂN CỨNG': {
+        sections: {
+          'PHẬT PHÁP': {
+            introFile: 'data/oanh_vũ/chân_cứng/phật pháp/giới_thiệu.txt',
+            basePath: 'data/oanh_vũ/chân_cứng/phật pháp',
+            files: [
+              'bài_1.txt','bài_2.txt','bài_3.txt','bài_4.txt','bài_5.txt','bài_6.txt','bài_7.txt','bài_8.txt','bài_9.txt','bài_10.txt','bài_11.txt','bài_12.txt','bài_13.txt','bài_14.txt'
+            ]
+          },
+          'HOẠT ĐỘNG THANH NIÊN VÀ XÃ HỘI': {
+            introFile: 'data/oanh_vũ/chân_cứng/hoạt_động_thanh_niên_và_xã_hội/giới_thiệu.txt',
+            basePath: 'data/oanh_vũ/chân_cứng/hoạt_động_thanh_niên_và_xã_hội',
+            files: [
+              'bài_1.txt','bài_2.txt','bài_3.txt','bài_4.txt','bài_5.txt','bài_6.txt','bài_7.txt','bài_8.txt','bài_9.txt','bài_10.txt','bài_11.txt','bài_12.txt','bài_13.txt','bài_14.txt','bài_15.txt','bài_16.txt','bài_17.txt','bài_18.txt','bài_19.txt','bài_20.txt'
+            ]
+          },
+          'VĂN NGHỆ': {
+            introFile: 'data/oanh_vũ/chân_cứng/văn_nghệ/giới_thiệu.txt',
+            basePath: 'data/oanh_vũ/chân_cứng/văn_nghệ',
+            files: ['bài_1.txt','bài_2.txt','bài_3.txt','bài_4.txt','bài_5.txt','bài_6.txt','bài_7.txt']
+          }
+        }
       }
     }
   },
@@ -197,7 +220,14 @@ function resolveImagePath(baseDir, src) {
   if (!baseDir || baseDir === '.') {
     return src;
   }
-  const result = `${baseDir}/${src}`;
+
+  const normalizedSrc = src.replace(/\\/g, '/').replace(/^\.\/+/, '');
+  if (/^ảnh_bài_/i.test(normalizedSrc)) {
+    const result = `${baseDir}/ảnh/${normalizedSrc}`;
+    console.log(`[IMAGE DEBUG] baseDir="${baseDir}" src="${src}" result="${result}"`);
+    return result;
+  }
+  const result = `${baseDir}/${normalizedSrc}`;
   console.log(`[IMAGE DEBUG] baseDir="${baseDir}" src="${src}" result="${result}"`);
   return result;
 }

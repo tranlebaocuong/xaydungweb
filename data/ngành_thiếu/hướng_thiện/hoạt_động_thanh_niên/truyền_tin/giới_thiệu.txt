@@ -1,6 +1,6 @@
 TRUYỀN TIN
 
-– Thuộc bảng ký hiệu Morse
+– Thuộc bảng ký hiệu Morse 
 – Truyền và nhận tin bằng còi
 
 Hiện nay, hệ thống bưu điện trên thế giới không còn sử dụng tín hiệu Morse để truyền đi các bức điện tín nữa. Bởi vì nó đã nhường chỗ cho những phương tiện hiện đại của công nghệ thông tin như: Fax, Email… những kiểu truyền tin này đã phổ biến rộng rãi trên khắp toàn cầu thông qua đường dẫn truyền Internet. Tuy nhiên, trong trò chơi sinh hoạt tập thể của các đội nhóm hiện nay, chúng ta vẫn còn sử dụng tín hiệu Morse (Moóc-xơ) như một công cụ để phát triển trí tuệ, sự nhạy bén và phản xạ nhanh. Nhưng lớn hơn hết, khi sử dụng tín hiệu Morse để giải mã, ta cũng trân trọng gìn giữ một di sản qúy báu của nhân loại. Nhờ vào đó mà cả thế giới đã đi một bước khá lớn trong công nghệ thông tin toàn cầu. Tín hiệu Morse được truyền đi khắp thế giới được xem như một phát minh vĩ đại nhất của thế kỷ 19. Trong một thời gian dài gần 2 thế kỷ, nó đã giúp cho biết bao nhiêu người ở những vị trí khác nhau trên thế giới được gần lại, nhờ những bức điện của những nhân viên bưu chính phát đi.

@@ -2,12 +2,12 @@ THUỘC CÁC MẪU TỰ
 
 Theo bảng sắp xếp đối nhau: Bảng 1 gồm 8 chữ (đối xứng)
 
-        E • T −
-        I • • M − −
-        S • • • O − − −
-        H • • • • • CH − − − −
+        E •                     T −  
+        I •  •                  M −  −  
+        S •  •  •               O −  −  −  
+        H •  •  •  •  •         CH −  −  −  −
 
-Tập thổi còi truyền tin, nhận tin các ký tự theo tháp Morse:
+Tập thổi còi  truyền tin, nhận tin các ký tự theo tháp Morse:
 
 ![Hình](ảnh/ảnh_bài_1/tháp.png)
 
@@ -22,4 +22,5 @@ Tập thổi còi truyền tin, nhận tin các ký tự theo tháp Morse:
 – Phát tín hiệu “Tích, Tích, Tích” và ngưng: chữ S
 – Phát tín hiệu “Tích, Tích, Tích, Tích” và ngưng: chữ H
 Áp dụng: Truyền tin, nhận tin các câu sau (tiếng Việt không có dấu), chẳng hạn như:
-            Chờ cho một tí. – Cho tôi một mét thôi.
+            Chờ cho một tí.     –    Cho tôi một mét thôi.
+ 

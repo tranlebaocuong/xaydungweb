@@ -1,31 +1,31 @@
-THUỘC VÀ THỔI CÒI - NHẬN ĐƯỢC CÁC MẪU TỰ BẰNG KÝ HIỆU MORSE
-E - I - S - H - T - M - O - CH
-A - U - V - N - D - B
-
-I. Chuẩn bị:
-- Bảng ký hiệu morse
-- Còi, cờ
-- Một số bản văn ngắn.
-II. Nội dung bài học:
-1. Lợi ích của việc truyền tin:
-- Rèn luyện trí nhớ.
-- Sức nhìn, sức nghe.
-- Tập tính tháo vát lanh lẹ, tinh thần vui chơi thoải
-mái, hứng thú trong sinh hoạt.
-2. Các cách truyền tin:
-2.1. Dùng tai nghe:
-Dùng còi, tù và, kèn, trống.
-2.2. Cách dùng mắt nhìn:
+THUỘC VÀ THỔI CÒI - NHẬN ĐƯỢC CÁC MẪU TỰ BẰNG KÝ HIỆU MORSE 
+E - I - S - H - T - M - O - CH 
+A - U - V - N - D - B 
+ 
+I. Chuẩn bị: 
+- Bảng ký hiệu morse 
+- Còi, cờ 
+- Một số bản văn ngắn. 
+II. Nội dung bài học: 
+1. Lợi ích của việc truyền tin: 
+- Rèn luyện trí nhớ. 
+- Sức nhìn, sức nghe. 
+- Tập tính tháo vát lanh lẹ, tinh thần vui chơi thoải 
+mái, hứng thú trong sinh hoạt. 
+2. Các cách truyền tin: 
+2.1. Dùng tai nghe: 
+Dùng còi, tù và, kèn, trống. 
+2.2. Cách dùng mắt nhìn: 
 Dùng cờ, đèn, khói lửa.
-3. Các mẫu tự cần học:
-E . T - A . - N -.
-I .. M - - U .. - D -..
-S ... O - - - V ... - B -...
-H .... CH - - - -
-4. Thực hành:
-- Truyền các bản tin ngắn cho các em nhận (đã
-chuẩn bị trước). Đầu truyền chậm, sau khi các em khá
-thành thạo thì truyền nhanh hơn.
-- Chia các em thành 2 nhóm để vừa truyền
+3. Các mẫu tự cần học: 
+E  .    T -         A . -      N -. 
+I ..    M - -       U .. -     D -.. 
+S  ...  O - - -     V ... -    B -... 
+H ....  CH - - - - 
+4. Thực hành: 
+-  Truyền các bản tin ngắn  cho  các em nhận (đã 
+chuẩn bị trước). Đầu truyền chậm, sau khi các em khá 
+thành thạo thì truyền nhanh hơn. 
+-  Chia  các  em  thành  2  nhóm  để  vừa  truyền       
 vừa nhận.
 ![Hình](ảnh/ảnh_bài_8/cuối.png)
