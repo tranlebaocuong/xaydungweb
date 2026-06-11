@@ -1,7 +1,7 @@
 KHÁI NIỆM VỀ MẬT THƯ
 
 ![Hình](ảnh/ảnh_bài_1/mt.png)
- 
+
 1. KHÁI NIỆM
 – Mật thư là một văn bản chứa đựng một thông tin hay mệnh lệnh đã được mã hóa để giữ bí mật nội dung. Và chỉ giải mã được bằng những quy ước đã quy định trước bởi người gởi và người nhận.
 – Mật thư thường có 2 phần:

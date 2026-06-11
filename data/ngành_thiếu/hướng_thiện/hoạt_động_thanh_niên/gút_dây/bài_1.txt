@@ -1,13 +1,13 @@
 GÚT DẸT (DẸP)
 
 
-1. Tên gọi: dẹp hay dẹt                     
+1. Tên gọi: dẹp hay dẹt
 ![Hình](ảnh/ảnh_bài_1/dẹp.png)
 2. Thể loại: nối, trang trí.
- 
 
- 
- 
+
+
+
 3. Công dụng: nối hai đầu dây có tiết diện bằng nhau
 4. Ứng dụng:
 
@@ -21,4 +21,3 @@ trang trí trên gậy
 7. Hướng dẫn thực hiện:
 
 ![Hình](ảnh/ảnh_bài_1/cuối.png)
-

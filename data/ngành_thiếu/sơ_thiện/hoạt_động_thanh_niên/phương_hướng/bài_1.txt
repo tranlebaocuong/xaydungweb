@@ -1,75 +1,75 @@
-CÁCH TÌM PHƯƠNG HƯỚNG  
-BẰNG ĐỒNG HỒ CÓ KIM GIỜ 
-Chúng ta biết: Buổi sáng, mặt trời mọc ở đằng 
-Đông (Đông Nam, Đông Đông Nam, chính Đông, Đông 
-Đông Bắc,…). Buổi chiều, mặt trời lặn ở đằng Tây 
-(Tây Bắc, Tây Tây Bắc, chính Tây, Tây Tây Nam,…). Vị trí 
-mọc và lặn của mặt trời trong năm không cố định 
-mà thay đổi theo chu kỳ: Xuân Phân, Hạ Chí, Thu 
-Phân, Đông Chí. 
-Theo đó, (đối với vị trí Việt Nam) những ngày 
-Xuân Phân và Thu Phân thì mặt trời sẽ mọc ở chính 
-Đông và lặn chính Tây. Những ngày Hạ Chí (mùa 
-Hè) thì mặt trời mọc ở Đông Bắc và lặn ở Tây Bắc. 
-Những ngày Đông Chí (mùa Đông) thì Mặt trời 
-mọc ở Đông Nam và lặn ở Tây Nam. Giữa trưa, 
-Mặt trời không đứng bóng mà lại chệch về hướng 
-Nam, lúc đó bóng của vật sẽ đổ về hướng Bắc. 
-Đó là xem phương hướng trực tiếp theo mặt trời. 
-Sau đây, giới thiệu cách xác định phương hướng 
-bằng đồng hồ có kim giờ và mặt trời. 
-Xác định phương hướng bằng đồng hồ có kim giờ 
-và mặt trời: 
-1) Ở Bắc bán cầu:  
-Dùng một que nhỏ (cỡ cây 
-tăm), cắm thẳng góc với mặt 
-đất, que sẽ cho ta một cái 
-bóng. Ta đặt đồng hồ sao cho 
-bóng của cây tăm trùng lên kim chỉ giờ. Đường phân 
-giác của góc hợp bởi kim chỉ giờ và số 12 cho ta 
-hướng Nam. Như vậy, hướng đối diện là hướng Bắc. 
-2) Ở Nam bán cầu: 
-Các bạn xoay đồng hồ 
-sao cho bóng que trùng lên 
-trên số 12. Đường phân giác 
-của góc hợp bởi số 12 và 
-kim chỉ giờ sẽ cho ta hướng 
-Bắc. Như vậy, hướng đối 
-diện là hướng Nam. 
-*) Cách đơn giản hơn: 
-Đặt đồng hồ nằm ngang trên lòng bàn tay, hướng 
-kim giờ về phía mặt trời. Lấy đường phân giác của 
-góc tạo bởi kim giờ và đường thẳng 6-12 sẽ chỉ 
-hướng bắc nam. Ở Bắc bán cầu, tia phân giác của 
-phía góc nhỏ chỉ hướng Nam, tia phân giác của góc 
-lớn chỉ hướng Bắc. Ở Nam bán cầu thì hướng Bắc 
-Nam chọn ngược lại. 
-Chú ý:  Ở Bắc bán cầu: 
-+ Buổi sáng, nhìn vào đồng hồ thì kim giờ ở bên trái 
-đường thẳng 6-12, tia phân giác của góc nhỏ tạo bởi 
-kim giờ và đường thẳng 6-12 nằm bên trái (chỉ hướng 
-Nam, ngược lại là hướng Bắc). 
-+ Buổi chiều, nhìn vào đồng hồ thì kim giờ ở bên 
-phải đường thẳng 6-12, tia phân giác của góc nhỏ tạo 
-bởi kim giờ và đường thẳng 6-12 nằm bên phải (chỉ 
-hướng Nam, ngược lại là hướng Bắc). 
-Nguyên lý của phương pháp này dựa trên hiện tượng 
-Mặt Trời mọc và lặn đối với Trái Đất, tạo thành một 
-đường tròn xung quanh Trái Đất, trong 24 tiếng đồng 
-hồ. Kim giờ của đồng hồ thì quay một vòng tròn trong 
-12 giờ, nghĩa là trong cùng một thời gian, kim đồng hồ 
-vạch cung lớn hơn 2 lần. 
-Hiểu một cách ngược lại, nếu ta lấy hướng Bắc – 
-Nam chia đôi cung do kim giờ vạch ra (với vị trí của 
-mặt đồng hồ như đã làm ở trên), ta sẽ tìm thấy hướng 
-của Mặt Trời đang hiện diện. 
-Tuy nhiên, phương pháp này không chính xác cho 
-lắm, sai số có thể lên đến hàng chục độ. Nguyên nhân 
-chính là vì mặt đồng hồ được đặt song song với mặt 
-phẳng chân trời, còn đường di chuyển hàng ngày của 
-Mặt Trời chỉ ở cực mới nằm trên mặt phẳng nằm 
-ngang. Còn ở các vĩ độ khác, đường đó tạo nên với 
-đường chân trời những góc khác nhau, góc đó có thể 
-lớn hơn 900 (ở Xích Đạo). Vì lẽ đó, chỉ có ở vùng gần 
-cực thì mới có thể dùng phương pháp này để xác định 
-phương hướng cho kết qủa chính xác mà thôi. 
+CÁCH TÌM PHƯƠNG HƯỚNG
+BẰNG ĐỒNG HỒ CÓ KIM GIỜ
+Chúng ta biết: Buổi sáng, mặt trời mọc ở đằng
+Đông (Đông Nam, Đông Đông Nam, chính Đông, Đông
+Đông Bắc,…). Buổi chiều, mặt trời lặn ở đằng Tây
+(Tây Bắc, Tây Tây Bắc, chính Tây, Tây Tây Nam,…). Vị trí
+mọc và lặn của mặt trời trong năm không cố định
+mà thay đổi theo chu kỳ: Xuân Phân, Hạ Chí, Thu
+Phân, Đông Chí.
+Theo đó, (đối với vị trí Việt Nam) những ngày
+Xuân Phân và Thu Phân thì mặt trời sẽ mọc ở chính
+Đông và lặn chính Tây. Những ngày Hạ Chí (mùa
+Hè) thì mặt trời mọc ở Đông Bắc và lặn ở Tây Bắc.
+Những ngày Đông Chí (mùa Đông) thì Mặt trời
+mọc ở Đông Nam và lặn ở Tây Nam. Giữa trưa,
+Mặt trời không đứng bóng mà lại chệch về hướng
+Nam, lúc đó bóng của vật sẽ đổ về hướng Bắc.
+Đó là xem phương hướng trực tiếp theo mặt trời.
+Sau đây, giới thiệu cách xác định phương hướng
+bằng đồng hồ có kim giờ và mặt trời.
+Xác định phương hướng bằng đồng hồ có kim giờ
+và mặt trời:
+1) Ở Bắc bán cầu:
+Dùng một que nhỏ (cỡ cây
+tăm), cắm thẳng góc với mặt
+đất, que sẽ cho ta một cái
+bóng. Ta đặt đồng hồ sao cho
+bóng của cây tăm trùng lên kim chỉ giờ. Đường phân
+giác của góc hợp bởi kim chỉ giờ và số 12 cho ta
+hướng Nam. Như vậy, hướng đối diện là hướng Bắc.
+2) Ở Nam bán cầu:
+Các bạn xoay đồng hồ
+sao cho bóng que trùng lên
+trên số 12. Đường phân giác
+của góc hợp bởi số 12 và
+kim chỉ giờ sẽ cho ta hướng
+Bắc. Như vậy, hướng đối
+diện là hướng Nam.
+*) Cách đơn giản hơn:
+Đặt đồng hồ nằm ngang trên lòng bàn tay, hướng
+kim giờ về phía mặt trời. Lấy đường phân giác của
+góc tạo bởi kim giờ và đường thẳng 6-12 sẽ chỉ
+hướng bắc nam. Ở Bắc bán cầu, tia phân giác của
+phía góc nhỏ chỉ hướng Nam, tia phân giác của góc
+lớn chỉ hướng Bắc. Ở Nam bán cầu thì hướng Bắc
+Nam chọn ngược lại.
+Chú ý: Ở Bắc bán cầu:
++ Buổi sáng, nhìn vào đồng hồ thì kim giờ ở bên trái
+đường thẳng 6-12, tia phân giác của góc nhỏ tạo bởi
+kim giờ và đường thẳng 6-12 nằm bên trái (chỉ hướng
+Nam, ngược lại là hướng Bắc).
++ Buổi chiều, nhìn vào đồng hồ thì kim giờ ở bên
+phải đường thẳng 6-12, tia phân giác của góc nhỏ tạo
+bởi kim giờ và đường thẳng 6-12 nằm bên phải (chỉ
+hướng Nam, ngược lại là hướng Bắc).
+Nguyên lý của phương pháp này dựa trên hiện tượng
+Mặt Trời mọc và lặn đối với Trái Đất, tạo thành một
+đường tròn xung quanh Trái Đất, trong 24 tiếng đồng
+hồ. Kim giờ của đồng hồ thì quay một vòng tròn trong
+12 giờ, nghĩa là trong cùng một thời gian, kim đồng hồ
+vạch cung lớn hơn 2 lần.
+Hiểu một cách ngược lại, nếu ta lấy hướng Bắc –
+Nam chia đôi cung do kim giờ vạch ra (với vị trí của
+mặt đồng hồ như đã làm ở trên), ta sẽ tìm thấy hướng
+của Mặt Trời đang hiện diện.
+Tuy nhiên, phương pháp này không chính xác cho
+lắm, sai số có thể lên đến hàng chục độ. Nguyên nhân
+chính là vì mặt đồng hồ được đặt song song với mặt
+phẳng chân trời, còn đường di chuyển hàng ngày của
+Mặt Trời chỉ ở cực mới nằm trên mặt phẳng nằm
+ngang. Còn ở các vĩ độ khác, đường đó tạo nên với
+đường chân trời những góc khác nhau, góc đó có thể
+lớn hơn 900 (ở Xích Đạo). Vì lẽ đó, chỉ có ở vùng gần
+cực thì mới có thể dùng phương pháp này để xác định
+phương hướng cho kết qủa chính xác mà thôi.
