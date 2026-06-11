@@ -1,0 +1,27 @@
+KHÁI NIỆM VỀ MẬT THƯ
+
+![Hình](ảnh_bài_1/mt.png)
+ 
+1. KHÁI NIỆM
+– Mật thư là một văn bản chứa đựng một thông tin hay mệnh lệnh đã được mã hóa để giữ bí mật nội dung. Và chỉ giải mã được bằng những quy ước đã quy định trước bởi người gởi và người nhận.
+– Mật thư thường có 2 phần:
+* Bản mật mã (BMM): Là những ký tự hoặc hình vẽ, thoạt đầu có vẽ rất khó hiểu. Sau khi nghiên cứu kỹ chìa khóa, ta sẽ tìm ra hướng giải bằng cách đối chiếu những dữ kiện mà chìa khoá đã gợi ý.
+* Chìa khóa: Một hình thức gợi ý cho người dịch tìm ra hướng giải mật thư. Chìa khóa có thể là một câu thơ hoặc một ký hiệu nào đó bằng hình vẽ. Ký hiệu của chìa khóa là: OTT- Sau khi giải mã xong, ta sẽ được một bản văn hoàn chỉnh, ta gọi đó là bạch văn. Bạch văn là một văn bản hoàn chỉnh, tức là sau khi dịch xong, ta viết ra thành một bản văn bình thường mà ai cũng có thể đọc được.
+– Có thể nói trong một mật thư thì hệ thống mã hóa là cái ổ khóa mà nhìn vào ta có thể thấy được dễ dàng, còn khóa mới chính là cái chìa để mở, việc hiểu được khóa mới có thể cho ta 1 cái chìa vừa vặn để mở cái ổ đó.
+– Trong các cuộc thi trò chơi lớn, muốn giải một mật thư đưa ra ta cần xem xét bản văn để tìm hiểu hệ thống mã hóa mà mật thư sử dụng, và xem xét khóa để giải. (không xem khóa mà giải thẳng từ bản mật mã gọi là “mò”)
+
+2. TÌM MẬT THƯ
+Bất cứ mật thư nào được cất giấu cũng phải có 1 dấu hiệu hướng dẫn. Dấu hiệu đó có thể bằng hình vẽ, có thể là một văn bản.
+Trước khi tìm mật thư, ta phải luôn bình tĩnh và đề cao cảnh giác, đọc kỹ ký hiệu, hướng mật thư và khoảng cách mật thư, rồi làm chính xác theo chỉ dẫn, đứng quan sát xem vị trí đó có gì khác thường, đặc biệt.
+Có thể có một viên sỏi trong đám cỏ, hoặc một nhúm cỏ bị vặt lá,… nhẹ nhàng tìm kiếm cẩn thận, đừng vội vã bới tung hoặc quần nát vị trí mật thư. Bởi vì mật thư không chỉ là một tờ giấy được giấu ở dưới mặt đất mà có thể là những lá cỏ xếp lại trên đất mà ta đã xóa, hoặc là một lá cây khô được để khơi khơi,…
+Ta luôn nhớ: mật thư tìm bằng trí chứ không dùng bằng sức, phải lưu ý những dấu hiện khác thường, đặc biệt vì trong trò chơi lớn tất cả đều đã được tính toán.
+
+3. GIẢI MÃ MẬT THƯ
+Khi giải mã mật thư, bạn cần phải:
+– Phải hết sức bình tĩnh.
+– Tự tin nhưng không được chủ quan.
+– Nghiên cứu khóa giải thật kỹ.
+– Đặt các giả thiết và lần lượt giải quyết.
+– Đối với việc giải mật thư trong trò chơi lớn, ta nên sao y bản chính và chia thành nhiều nhóm nhỏ để dịch. Như thế, ta sẽ tận dụng được hết những chất xám trí tuệ ở trong đội. Tránh tình trạng xúm lại, chụm đầu vào tranh dành xem một tờ giấy để rồi kết quả không đi tới đâu, mà dễ làm rách tờ giấy mật thư của chúng ta nữa.
+– Cuối cùng, nếu dịch xong, ta viết lại bản bạch văn cho thật rõ ràng, sạch sẽ và đầy đủ ý nghĩa.
+![Hình](ảnh_bài_1/cuối.png)

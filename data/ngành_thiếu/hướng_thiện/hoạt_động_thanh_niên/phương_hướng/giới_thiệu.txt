@@ -1,0 +1,4 @@
+PHƯƠNG HƯỚNG
+Có nhiều cách để tìm phương hướng, trong chương trình Bậc Hướng Thiện, giới thiệu cách tìm phương hướng:
+- Tìm phương hướng bằng mặt trời.
+- Tìm phương hướng bằng mặt trăng.
