@@ -1,33 +1,33 @@
-TRUYỀN NHẬN TIN BẰNG CỜ 
-SỬ DỤNG BẢNG MORSE 
-1. Cờ sử dụng trong truyền tin: 
-Quy cách, kích thước cờ và cán cờ - Kích thước: 40 cm x 40 cm. - Có hai màu: nửa trắng, nửa đỏ (hình tam giác) 
-hoặc trắng và hai ô đỏ đôi xứng hình chéo (sự đối 
-xứng là bắt buộc – xem hình vẽ). - Cán cờ: dài khoảng 
-50cm 55cm (kể cả cờ), 
-nhỏ bằng ngón tay. Khi 
-buộc cờ vào thân gậy rồi, 
-cán cờ còn khoảng 10cm 
-đến 15cm. 
-10-15cm 
-2. Một số qui ước khi sử dụng cờ trong truyền tin 
-bằng Morse 
-a. Cách phát tin bằng cờ: - Chuẩn bị: -  Tín hiệu tích: đưa một cánh tay 
-phải cầm cờ ra ngang vai, sau đó hạ 
-xuống để chéo trước bụng. 
-Tín hiệu tè: đưa hai cánh tay cầm cờ ra ngang vai, sau đó hạ 
-xuống để chéo trước bụng. -  Khi phát tin xong 1 từ (tiếng) 
-đưa hai tay cầm cờ ngang trên 
-đầu để báo hiệu. 
-b. Các dấu hiệu truyền tin bằng cờ: - Kêu gọi để truyền tin: đưa hai tay cầm cờ ngang 
-vai rồi hạ xuống thấp sát thân người (giống tư thế 
-đứng nghiêm). Làm động tác này nhiều lần đến khi 
-nào nhận được tín hiệu trả lời: sẵn sàng nhận tin. - Sẵn sàng nhận tin: đưa hai tay cầm cờ chéo trên 
-đầu,  phất chéo qua chéo lại theo hình số 8 nhiều lần. - Hiểu rồi, đồng ý: đưa tay phải cầm cờ ngang vai, 
-tay trái cầm cờ để chéo trước bụng. - Xin lặp lại: đưa hai tay cầm cờ ngang vai đến khi 
-nhận được tín hiệu trả lời. - Hết bản tin: đưa hai tay cầm cờ để chéo trên đầu. - Những quy tắc khác giống truyền tin bằng còi. 
-Chú ý:  - Khi phát tin, tay cầm cờ phải đưa theo hình số 8 
-để lá cờ không bị cuốn lại, gây khó khăn quan sát 
-cho người nhận tin. - Người phát tin luôn luôn chọn vị trí cao để đứng 
-và ở tư thế nghiêm. 
-Thực hành:  - Thực hành nhận bản tin được đánh bằng cờ. - Thực hành phát bản tin tự đánh bằng
+TRUYỀN NHẬN TIN BẰNG CỜ
+SỬ DỤNG BẢNG MORSE
+1. Cờ sử dụng trong truyền tin:
+Quy cách, kích thước cờ và cán cờ - Kích thước: 40 cm x 40 cm. - Có hai màu: nửa trắng, nửa đỏ (hình tam giác)
+hoặc trắng và hai ô đỏ đôi xứng hình chéo (sự đối
+xứng là bắt buộc – xem hình vẽ). - Cán cờ: dài khoảng
+50cm 55cm (kể cả cờ),
+nhỏ bằng ngón tay. Khi
+buộc cờ vào thân gậy rồi,
+cán cờ còn khoảng 10cm
+đến 15cm.
+10-15cm
+2. Một số qui ước khi sử dụng cờ trong truyền tin
+bằng Morse
+a. Cách phát tin bằng cờ: - Chuẩn bị: - Tín hiệu tích: đưa một cánh tay
+phải cầm cờ ra ngang vai, sau đó hạ
+xuống để chéo trước bụng.
+Tín hiệu tè: đưa hai cánh tay cầm cờ ra ngang vai, sau đó hạ
+xuống để chéo trước bụng. - Khi phát tin xong 1 từ (tiếng)
+đưa hai tay cầm cờ ngang trên
+đầu để báo hiệu.
+b. Các dấu hiệu truyền tin bằng cờ: - Kêu gọi để truyền tin: đưa hai tay cầm cờ ngang
+vai rồi hạ xuống thấp sát thân người (giống tư thế
+đứng nghiêm). Làm động tác này nhiều lần đến khi
+nào nhận được tín hiệu trả lời: sẵn sàng nhận tin. - Sẵn sàng nhận tin: đưa hai tay cầm cờ chéo trên
+đầu, phất chéo qua chéo lại theo hình số 8 nhiều lần. - Hiểu rồi, đồng ý: đưa tay phải cầm cờ ngang vai,
+tay trái cầm cờ để chéo trước bụng. - Xin lặp lại: đưa hai tay cầm cờ ngang vai đến khi
+nhận được tín hiệu trả lời. - Hết bản tin: đưa hai tay cầm cờ để chéo trên đầu. - Những quy tắc khác giống truyền tin bằng còi.
+Chú ý: - Khi phát tin, tay cầm cờ phải đưa theo hình số 8
+để lá cờ không bị cuốn lại, gây khó khăn quan sát
+cho người nhận tin. - Người phát tin luôn luôn chọn vị trí cao để đứng
+và ở tư thế nghiêm.
+Thực hành: - Thực hành nhận bản tin được đánh bằng cờ. - Thực hành phát bản tin tự đánh bằng

@@ -254,7 +254,7 @@ function formatLessonHTML(text, baseDir) {
     const listMatch = line.match(listItem);
     if (listMatch) {
       if (!inList) {
-        htmlLines.push('<ul class="lesson-list">');
+        htmlLines.push('<ul class="lesson-list-items">');
         inList = true;
       }
       htmlLines.push(`<li>${escapeHtml(listMatch[1].trim())}</li>`);

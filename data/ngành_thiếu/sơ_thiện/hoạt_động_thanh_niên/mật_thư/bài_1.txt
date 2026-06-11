@@ -1,168 +1,168 @@
-MỘT VÀI CÁCH GIẢI MẬT THƯ 
-DẠNG THƯỜNG GẶP 
-HỆ THỐNG DỜI CHỖ, ẨN DẤU.  
-Văn bản được mã hóa bằng cách thay thế bởi 
-những chữ, số, kí hiệu riêng (bao gồm cả âm thanh, 
-hình ảnh...) theo một hệ thống. Hệ thống làm ẩn bạch 
-văn trong chương trình Bậc Sơ Thiện, xin giới thiệu 
-một số mật thư được soạn theo lối dời chỗ, ẩn dấu. 
-I. Mật thư trong hệ thống dời chỗ 
-* Mật thư trong hệ thống dời chỗ là hệ thống mà 
-trong đó bản tin được mã hóa bằng cách di chuyển 
-nội dung bản văn, không dùng ký hiệu mật mã 
-nhưng nó xáo trộn trật tự bản tin. 
-* Một số dạng mật thư trong hệ thống dời chỗ 
-thông thường bản tin cho trước n nhóm chữ, mỗi 
-nhóm chữ có m ký tự. 
-Cách giải, tùy theo khóa đã cho mà sắp xếp các 
-nhóm chữ theo một thứ tự hợp lý, thông thường: 
-Dạng 1: - Mỗi nhóm viết m chữ số theo hàng ngang - Xếp n nhóm thứ tự theo khóa đã cho 
-thành cột dọc từ trên xuống dưới. 
-Dạng 2: - Mỗi nhóm viết m chữ số theo cột dọc - Xếp n nhóm theo thứ tự theo khóa đã 
-cho thành hàng ngang từ trái sang phải. 
-Ngoài ra, nếu không đọc được bản tin thì tìm 
-hiểu và sắp xếp lại cho hợp lý với khóa đưa ra. 
-Ví dụ: Mật thư 1 
-“Lạ nhĩ! mùa này gió thổi hướng tây nam”. 
-NGYAPA – AFIJNE – MHDFEM – ODTUOD – 
-OHSWOF – INRAQA – ADNUNS.  AR 
-Cách giải:  
-Ta thấy bản tin có 7 cụm chữ, mỗi cụm có 6 ký 
-tự, khóa chỉ hướng đọc bản tin theo hướng tây nam. 
-+ Kẻ bảng gồm 7 dòng và 6 cột. 
-+ Lần lượt viết các cụm chữ theo hàng ngang: 
-hàng ngang 1 là cụm chữ: NGYAPA, hàng ngang 
-thứ 2 là cụm chữ: AFIJNE… cho đến hàng ngang 
-thứ 7 là cụm chữ: ADNUNS. 
-+ Xác định hướng: Bắc – Nam theo chiều dọc 
-thẳng đứng của tờ giấy,… (Hình 1) 
-+ Theo khóa, xác định hướng tây nam và đọc bản 
-tin theo hướng mũi tên tây nam. 
-N G Y A P A 
-A F I J N E 
-M H D F E M 
-O D T U O D 
-O H S W O F 
-I 
-N R A Q A 
-A D N U N S 
-Tây 
-Tây Nam 
-Bắc 
-Nam 
-(Hình 1) 
-Đông 
-Bản dịch: NGAYF MAI HOPJ DDOANF 
-THIEEUS NAM OWR DDOANF QUANS 
-“Ngày mai họp Đoàn Thiếu Nam ở Đoàn quán” 
-Ví dụ: Mật thư 2 
-Khóa:             SEN VÀNG 
-HNESH - DUAEM - OSDRW - IOMEJ - EGXTU - 
-DHNDA – TWSNT.  AR 
-Cách giải:  
-Ta thấy bản tin có 7 cụm chữ và khóa cũng có 7 
-ký tự. Cách giải phụ thuộc vào việc dời những cụm 
-chữ vào vị trí thích hợp để ra bản văn.  
-+ Ta đặt cụm HNESH là cụm 1 và cứ thế đến 
-cụm thứ 7 là TWSNT.  
-+ Khóa ta có chữ SEN VÀNG, ta chọn ký tự A 
-của chữ VÀNG là 1 (vì đứng đầu bảng chữ cái), 
-tiếp theo E là 2, G là 3, N của chữ SEN là 4, N của 
-chữ VÀNG là 5, S là 6, V là 7.  
-A B C D E F G H I J K L M N O P Q R S T U V X Y Z 
-1              2      3                       45                6          7 
-Sau đó ta lập bảng sau: 
-S E N V A N G 
-6 2 4 7 1 5 3 
-D D I T H E O 
-H U O W N G S 
-N A M S E X D 
-D E E N S T R 
-A M J T H U W 
-(Khóa) 
-(Thứ tự cột số) 
-(Sắp xếp thứ 
-tự các cụm 
-chữ đã cho 
-theo  thứ tự 
-cột đã chọn) 
-Bản dịch: DDI THEO HUOWNGS NAM SEX 
-DDEENS TRAMJ THUW. 
-“Đi theo hướng nam sẽ đến trạm thư” 
-Ví dụ: Mật thư 3 
-“Được ngọc” 
-ATGNORTJTAAHPFMITSIOOHSMASFAUHCFEEV- AR 
-Cách giải: Đọc khóa "Được ngọc" là "Đọc ngược". 
-Bản dịch: VEEF CHUAF SAMS HOOIS TIMF 
-PHAATJ TRONG TA. 
-“Về chùa sám hối tìm Phật trong ta” 
-II. Mật thư ẩn dấu 
-* Mật thư ẩn dấu: Bản tin vẫn giữ bình thường và 
-không được thay thế bằng ký hiệu mật mã, nhưng 
-lại được ngụy trang dưới một hình thức khác. Ý 
-nghĩa của bản văn được giấu kín bằng các từ, bằng 
-cụm từ, bằng số và bằng nhiều dạng ký tự khác,…  
-Ví dụ: Mật thư 4 
-“Một sống, một chết” 
-N A G E O T A M I D F C T G A M K Q H P O C O X 
-N E G L C B O A S R K V H P O V B Y A V U F S -AR 
-Cách giải:  
-Theo khóa, có nghĩa là chữ đầu tiên giữ lại (“một 
-sống” được viết trước), chữ thứ hai bỏ đi (“một 
-chết” được viết sau) lấy viết gạch bỏ, chữ kế tiếp 
-giữ lại, chữ kế tiếp bỏ đi (gạch bỏ),… và cứ như thế 
-sẽ được bản văn. 
-N A G E O T A M I D F C T G A M K Q H P O C O X 
-N E G L C B O A S R K V H P O V B Y A V U F S. 
-Bản dịch: “Ngoài ta không có kho báu” 
-Ví dụ: Mật thư 5 
-Khởi một niệm sân đốt cả rừng công đức. 
+MỘT VÀI CÁCH GIẢI MẬT THƯ
+DẠNG THƯỜNG GẶP
+HỆ THỐNG DỜI CHỖ, ẨN DẤU.
+Văn bản được mã hóa bằng cách thay thế bởi
+những chữ, số, kí hiệu riêng (bao gồm cả âm thanh,
+hình ảnh...) theo một hệ thống. Hệ thống làm ẩn bạch
+văn trong chương trình Bậc Sơ Thiện, xin giới thiệu
+một số mật thư được soạn theo lối dời chỗ, ẩn dấu.
+I. Mật thư trong hệ thống dời chỗ
+* Mật thư trong hệ thống dời chỗ là hệ thống mà
+trong đó bản tin được mã hóa bằng cách di chuyển
+nội dung bản văn, không dùng ký hiệu mật mã
+nhưng nó xáo trộn trật tự bản tin.
+* Một số dạng mật thư trong hệ thống dời chỗ
+thông thường bản tin cho trước n nhóm chữ, mỗi
+nhóm chữ có m ký tự.
+Cách giải, tùy theo khóa đã cho mà sắp xếp các
+nhóm chữ theo một thứ tự hợp lý, thông thường:
+Dạng 1: - Mỗi nhóm viết m chữ số theo hàng ngang - Xếp n nhóm thứ tự theo khóa đã cho
+thành cột dọc từ trên xuống dưới.
+Dạng 2: - Mỗi nhóm viết m chữ số theo cột dọc - Xếp n nhóm theo thứ tự theo khóa đã
+cho thành hàng ngang từ trái sang phải.
+Ngoài ra, nếu không đọc được bản tin thì tìm
+hiểu và sắp xếp lại cho hợp lý với khóa đưa ra.
+Ví dụ: Mật thư 1
+“Lạ nhĩ! mùa này gió thổi hướng tây nam”.
+NGYAPA – AFIJNE – MHDFEM – ODTUOD –
+OHSWOF – INRAQA – ADNUNS. AR
+Cách giải:
+Ta thấy bản tin có 7 cụm chữ, mỗi cụm có 6 ký
+tự, khóa chỉ hướng đọc bản tin theo hướng tây nam.
++ Kẻ bảng gồm 7 dòng và 6 cột.
++ Lần lượt viết các cụm chữ theo hàng ngang:
+hàng ngang 1 là cụm chữ: NGYAPA, hàng ngang
+thứ 2 là cụm chữ: AFIJNE… cho đến hàng ngang
+thứ 7 là cụm chữ: ADNUNS.
++ Xác định hướng: Bắc – Nam theo chiều dọc
+thẳng đứng của tờ giấy,… (Hình 1)
++ Theo khóa, xác định hướng tây nam và đọc bản
+tin theo hướng mũi tên tây nam.
+N G Y A P A
+A F I J N E
+M H D F E M
+O D T U O D
+O H S W O F
+I
+N R A Q A
+A D N U N S
+Tây
+Tây Nam
+Bắc
+Nam
+(Hình 1)
+Đông
+Bản dịch: NGAYF MAI HOPJ DDOANF
+THIEEUS NAM OWR DDOANF QUANS
+“Ngày mai họp Đoàn Thiếu Nam ở Đoàn quán”
+Ví dụ: Mật thư 2
+Khóa: SEN VÀNG
+HNESH - DUAEM - OSDRW - IOMEJ - EGXTU -
+DHNDA – TWSNT. AR
+Cách giải:
+Ta thấy bản tin có 7 cụm chữ và khóa cũng có 7
+ký tự. Cách giải phụ thuộc vào việc dời những cụm
+chữ vào vị trí thích hợp để ra bản văn.
++ Ta đặt cụm HNESH là cụm 1 và cứ thế đến
+cụm thứ 7 là TWSNT.
++ Khóa ta có chữ SEN VÀNG, ta chọn ký tự A
+của chữ VÀNG là 1 (vì đứng đầu bảng chữ cái),
+tiếp theo E là 2, G là 3, N của chữ SEN là 4, N của
+chữ VÀNG là 5, S là 6, V là 7.
+A B C D E F G H I J K L M N O P Q R S T U V X Y Z
+1 2 3 45 6 7
+Sau đó ta lập bảng sau:
+S E N V A N G
+6 2 4 7 1 5 3
+D D I T H E O
+H U O W N G S
+N A M S E X D
+D E E N S T R
+A M J T H U W
+(Khóa)
+(Thứ tự cột số)
+(Sắp xếp thứ
+tự các cụm
+chữ đã cho
+theo thứ tự
+cột đã chọn)
+Bản dịch: DDI THEO HUOWNGS NAM SEX
+DDEENS TRAMJ THUW.
+“Đi theo hướng nam sẽ đến trạm thư”
+Ví dụ: Mật thư 3
+“Được ngọc”
+ATGNORTJTAAHPFMITSIOOHSMASFAUHCFEEV- AR
+Cách giải: Đọc khóa "Được ngọc" là "Đọc ngược".
+Bản dịch: VEEF CHUAF SAMS HOOIS TIMF
+PHAATJ TRONG TA.
+“Về chùa sám hối tìm Phật trong ta”
+II. Mật thư ẩn dấu
+* Mật thư ẩn dấu: Bản tin vẫn giữ bình thường và
+không được thay thế bằng ký hiệu mật mã, nhưng
+lại được ngụy trang dưới một hình thức khác. Ý
+nghĩa của bản văn được giấu kín bằng các từ, bằng
+cụm từ, bằng số và bằng nhiều dạng ký tự khác,…
+Ví dụ: Mật thư 4
+“Một sống, một chết”
+N A G E O T A M I D F C T G A M K Q H P O C O X
+N E G L C B O A S R K V H P O V B Y A V U F S -AR
+Cách giải:
+Theo khóa, có nghĩa là chữ đầu tiên giữ lại (“một
+sống” được viết trước), chữ thứ hai bỏ đi (“một
+chết” được viết sau) lấy viết gạch bỏ, chữ kế tiếp
+giữ lại, chữ kế tiếp bỏ đi (gạch bỏ),… và cứ như thế
+sẽ được bản văn.
+N A G E O T A M I D F C T G A M K Q H P O C O X
+N E G L C B O A S R K V H P O V B Y A V U F S.
+Bản dịch: “Ngoài ta không có kho báu”
+Ví dụ: Mật thư 5
+Khởi một niệm sân đốt cả rừng công đức.
 THSEOHUAOWANNGSSDDOONAGAGANWPJ
-NGUYHIEEMR - AR 
-Cách giải:  
-Theo khóa: “Khởi một niệm sân đốt cả rừng công 
-đức”. Muốn bảo vệ căn lành, người tu phải diệt lửa sân.  
-Khóa muốn ta phải bỏ từ SÂN (SAAN) trong bản 
-tin. Người giải gạch bỏ hợp lý từ “SAAN”, còn 
-“SAAN” thì tiếp tục bỏ hợp lý: 
+NGUYHIEEMR - AR
+Cách giải:
+Theo khóa: “Khởi một niệm sân đốt cả rừng công
+đức”. Muốn bảo vệ căn lành, người tu phải diệt lửa sân.
+Khóa muốn ta phải bỏ từ SÂN (SAAN) trong bản
+tin. Người giải gạch bỏ hợp lý từ “SAAN”, còn
+“SAAN” thì tiếp tục bỏ hợp lý:
 THSEOHUAOWANNGSSDDOONAGAGANWPJ
-NGUYHIEEMR 
-Bản dịch: THEO HUOWNGS DDOONG GAWPJ 
-NGUY HIEEMR 
-“Theo hướng đông gặp nguy hiểm” 
-Ví dụ: Mật thư 6 
-Nhị vĩ nhị trung, nhất vĩ nhất trung. 
-Mật thư: “Không đội nào được quay về 
-Cứ lịch trình diện mà đi 
-Dụng cụ sẵn sàng dựng trại 
-Các anh chị Trưởng chờ các em 
-Hãy tinh tấn.”  AR 
-Cách giải:  
-Mật thư là bản văn như một thông báo, làm thế 
-nào có bản dịch, chọn những từ nào ra đây? 
-Theo khóa:  
-+ Nhị vĩ nhị trung: câu đầu lấy 2 từ cuối (nhị là 2, 
-vĩ là đuôi): “quay về”, câu thứ 2 lấy 2 từ giữa (nhị 
-trung): “trình diện”. 
-+ Tiếp theo, nhất vĩ nhất trung: câu thứ 3 lấy 1 từ 
-cuối (nhất vĩ): “trại”, câu thứ 4 lấy 1 từ giữa (nhất 
-trung): “trưởng”. 
-(gạch chân các từ được chọn trên mật thư) 
-Bản dịch: “Quay về trình diện trại trưởng” 
-Mật thư dạng dời chỗ và ẩn dấu rất phong phú và 
-thật hấp dẫn, còn rất nhiều kiểu thể hiện. Khi giải, 
-cần bình tâm, không nôn nóng cho mau có lời giải 
-liền; đọc kỹ bản văn mật thư và khóa, đọc lại chậm 
-vài ba lần, rồi suy đoán ý muốn hợp lý của mật thư 
-đưa ra để có cách giải quyết nhanh nhất. Khi đó bắt 
-tay vào giải, chắc dễ thành công. 
-Cần sưu tập và luyện tập giải nhiều mật thư để có 
-kinh nghiệm, nhạy bén trong suy luận, lập luận hợp 
-lý, tập tính kiên trì vượt khó, luyện trí nhớ. 
-LUYỆN TẬP: Giải mật thư  
-“Vững tâm” 
-Mật thư: “Đừng chia rẽ bạn nhé 
-Sống cần phải quan tâm 
-Sống phải có tấm lòng 
-Đừng làm mất nhân cách 
-Như bức thư vô hồn.    AR
+NGUYHIEEMR
+Bản dịch: THEO HUOWNGS DDOONG GAWPJ
+NGUY HIEEMR
+“Theo hướng đông gặp nguy hiểm”
+Ví dụ: Mật thư 6
+Nhị vĩ nhị trung, nhất vĩ nhất trung.
+Mật thư: “Không đội nào được quay về
+Cứ lịch trình diện mà đi
+Dụng cụ sẵn sàng dựng trại
+Các anh chị Trưởng chờ các em
+Hãy tinh tấn.” AR
+Cách giải:
+Mật thư là bản văn như một thông báo, làm thế
+nào có bản dịch, chọn những từ nào ra đây?
+Theo khóa:
++ Nhị vĩ nhị trung: câu đầu lấy 2 từ cuối (nhị là 2,
+vĩ là đuôi): “quay về”, câu thứ 2 lấy 2 từ giữa (nhị
+trung): “trình diện”.
++ Tiếp theo, nhất vĩ nhất trung: câu thứ 3 lấy 1 từ
+cuối (nhất vĩ): “trại”, câu thứ 4 lấy 1 từ giữa (nhất
+trung): “trưởng”.
+(gạch chân các từ được chọn trên mật thư)
+Bản dịch: “Quay về trình diện trại trưởng”
+Mật thư dạng dời chỗ và ẩn dấu rất phong phú và
+thật hấp dẫn, còn rất nhiều kiểu thể hiện. Khi giải,
+cần bình tâm, không nôn nóng cho mau có lời giải
+liền; đọc kỹ bản văn mật thư và khóa, đọc lại chậm
+vài ba lần, rồi suy đoán ý muốn hợp lý của mật thư
+đưa ra để có cách giải quyết nhanh nhất. Khi đó bắt
+tay vào giải, chắc dễ thành công.
+Cần sưu tập và luyện tập giải nhiều mật thư để có
+kinh nghiệm, nhạy bén trong suy luận, lập luận hợp
+lý, tập tính kiên trì vượt khó, luyện trí nhớ.
+LUYỆN TẬP: Giải mật thư
+“Vững tâm”
+Mật thư: “Đừng chia rẽ bạn nhé
+Sống cần phải quan tâm
+Sống phải có tấm lòng
+Đừng làm mất nhân cách
+Như bức thư vô hồn. AR

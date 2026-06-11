@@ -1,9 +1,9 @@
 HỌC THUỘC THÊM CÁC MẪU TỰ
 
 Theo bảng sắp xếp đối nhau: Bảng 2 gồm 6 chữ (đảo ngược)
-        A •  −              N −  •   
-        U •  •  −           D −  •  •   
-        V •  •  •  −        B −  •  •  •  
+        A • − N − •
+        U • • − D − • •
+        V • • • − B − • • •
 
 ![Hình](ảnh/ảnh_bài_2/tháp.png)
 
@@ -25,4 +25,3 @@ Theo bảng sắp xếp đối nhau: Bảng 2 gồm 6 chữ (đảo ngược)
 Áp dụng: Truyền tin, nhận tin các câu sau (tiếng Việt không có dấu), chẳng hạn như:
 – Đoàn ta sinh hoạt tinh tấn nhé.
 – Chờ một chút, Đội Sen H báo tin vui sẽ sinh hoạt đội tốt hơn vào tuần tới.
-

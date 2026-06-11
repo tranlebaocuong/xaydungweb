@@ -1,30 +1,30 @@
-TẬP HỢP HÀNG NGANG, HÌNH CHỮ U 
- 
-I. Tập hợp hàng ngang: 
-1. Hiệu lệnh: Người điều khiển đưa cánh tay dang 
-ngang theo vai. 
-2. Xếp hàng: Người điều khiển đứng ở trung tâm 
--  Nếu là một hàng thì Đàn Cánh Vàng xếp trước 
-(Đầu đàn, Đàn sinh, Thứ đàn); Tiếp theo là Đàn Cánh 
-Nâu, rồi Đàn Cánh Đỏ, Đàn Cánh Hồng. 
-- Nếu là nhiều hàng: Thì Đàn Cánh Vàng xếp trên, 
-bên dưới là Đàn Cánh Nâu, rồi  Đàn Cánh Đỏ, Đàn 
-Cánh Hồng. 
-II. Tập họp hình chữ U: 
-1. Hiệu lệnh: 
-Người  điều  khiển  đưa  cánh  tay  phải  ngang  vai 
-thành góc thước thợ, bàn tay nắm lại. 
-2. Xếp hàng: Người điều khiển đứng ở trung tâm 
-- Bên phải người điều khiển là Đàn Cánh Vàng xếp 
-hàng dọc 
--  Đàn Cánh Nâu xếp hàng ngang thẳng góc cuối 
-Đàn Cánh Vàng, nối tiếp là Đàn Cánh Đỏ. 
--  Đàn Cánh Hồng xếp hàng dọc song song với Đàn 
-Cánh Vàng. 
-III. Kỷ luật: Khi có hiệu lệnh tập họp các em các em 
+TẬP HỢP HÀNG NGANG, HÌNH CHỮ U
+
+I. Tập hợp hàng ngang:
+1. Hiệu lệnh: Người điều khiển đưa cánh tay dang
+ngang theo vai.
+2. Xếp hàng: Người điều khiển đứng ở trung tâm
+- Nếu là một hàng thì Đàn Cánh Vàng xếp trước
+(Đầu đàn, Đàn sinh, Thứ đàn); Tiếp theo là Đàn Cánh
+Nâu, rồi Đàn Cánh Đỏ, Đàn Cánh Hồng.
+- Nếu là nhiều hàng: Thì Đàn Cánh Vàng xếp trên,
+bên dưới là Đàn Cánh Nâu, rồi Đàn Cánh Đỏ, Đàn
+Cánh Hồng.
+II. Tập họp hình chữ U:
+1. Hiệu lệnh:
+Người điều khiển đưa cánh tay phải ngang vai
+thành góc thước thợ, bàn tay nắm lại.
+2. Xếp hàng: Người điều khiển đứng ở trung tâm
+- Bên phải người điều khiển là Đàn Cánh Vàng xếp
+hàng dọc
+- Đàn Cánh Nâu xếp hàng ngang thẳng góc cuối
+Đàn Cánh Vàng, nối tiếp là Đàn Cánh Đỏ.
+- Đàn Cánh Hồng xếp hàng dọc song song với Đàn
+Cánh Vàng.
+III. Kỷ luật: Khi có hiệu lệnh tập họp các em các em
 cần nhớ
-- Chú ý để biết hiệu lệnh đội hình tập họp. 
-- Quan sát vị trí đứng của Đầu Đàn để xếp theo. 
-- Xếp hàng nhanh, thẳng, đều, tuyệt đối yên lặng, 
+- Chú ý để biết hiệu lệnh đội hình tập họp.
+- Quan sát vị trí đứng của Đầu Đàn để xếp theo.
+- Xếp hàng nhanh, thẳng, đều, tuyệt đối yên lặng,
 trật tự.
 ![Hình](ảnh/ảnh_bài_5/1.png)

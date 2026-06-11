@@ -1,90 +1,90 @@
-SỬ DỤNG SÉMAPHORE QUỐC TẾ 
-1- Sémaphore: Là tín hiệu thường được sử dụng 
-trong các ngành hàng hải, địa chất, do một người 
-Pháp tên Chappe phát minh năm 1794. 
-2-Phương tiện để phát tín hiệu Sémaphore là hai 
-lá cờ hình vuông mỗi cạnh khoảng 40 cm và được 
-chia theo đường chéo hình vuông thành 2 phần 
-(phần màu đỏ và phần màu 
-trắng). Gậy để buộc cờ dài 
-khoảng 50cm 55cm. Khi buộc 
-cờ vào thân gậy rồi, cán cờ còn 
-khoảng 10cm đến 15cm. 
-10-15cm 
-3- Bảng mẫu tự Sémaphore: 
-4- Cách học Sémaphore:  
-Mỗi mẫu tự Sémaphore được tạo thành bằng cách 
-đặt 2 cờ theo một góc độ nào đó mà quốc tế đã quy 
-định. Khi đánh cánh tay phải thẳng hàng với cờ.  
-Có nhiều cách học. Ví dụ: 
- Học đánh theo bảng mẫu tự chữ cái Alphabet. 
- Học theo những chữ đối:  
-A đối G; B đối F; C đối E; ... 
-BẢNG ĐỐI XỨNG 
- Học đánh theo vòng (từ vòng 1 đến vòng 7). 
-➢Vòng 1: chỉ đánh một cánh tay (Từ A  G ) 
-1         2         3       4         5           6       7       
-➢Vòng 2: Tay trụ đặt ở vị trí chữ A  (H I K L M N) 
-(vòng kép 2 cánh tay) 
-➢Vòng 3: Tay trụ đặt ở vị trí chữ B   (O P Q R S) 
-➢Vòng 4: Tay trụ đặt ở vị trí chữ C    (T U Y) 
-➢Vòng 5: Tay trụ đặt ở vị trí chữ D    (J V) 
-➢Vòng 6: tay trụ đặt ở vị trí chữ E  ( W X ) 
-➢Vòng 7:      Z 
-5. Cách đánh bảng tin bằng Sémaphore: 
-Người phát tin - Bắt đầu đánh bằng cách để cờ ngang thắt lưng. 
-Thực hiện động tác mở cờ: đánh 2 vòng số 8 nằm 
-ngang cùng 1 lúc hoặc định cờ 1800 từ 2 chân lên đầu. 
-(Đợi bên nhận phát chữ (K) mới bắt đầu phát tin).  - Khi phát tin cho một từ thì đánh liên tục 
-giữa các chữ cái. Khi đánh xong một từ, 
-người đánh chụm cờ ngang thắt lưng và 
-nghỉ khoảng 2 - 3 giây và (Nghỉ/Cách 
-khoảng) 
-Ví dụ: Để truyền một chữ “CHÀO” (CHAOF), ta 
-đánh từ vị trí C chuyển ngay sang H rồi A,O,F rồi 
-chụm cờ ngang thắt lưng. - Để thông báo mình sẽ dùng số trong bản 
-tin (dùng để rút ngắn bảng tin) đánh 
-ngược với chữ T, nghỉ 2 – 3 giây cho 
-người nhận tin chuẩn bị tinh thần.  
-Qui ước chung:  
-A = 1 ; B = 2, C = 3, D = 4, E = 5,  
-F = 6, G = 7, H = 8, I = 9, J = 0 
-Sau khi đánh số kết thúc rồi nghỉ 2 – 3 giây sau 
-đó tiếp tục bản tin binh thường. - Khi lỡ tay đánh sai bản tin bạn làm 
-như con bướm ý để thông báo là mình 
-đánh sai. - Tiếp tục, nếu sai 1 chữ cái bạn đánh 3 chữ E liên 
-tục sau đó đánh lại chữ cái vừa sai. Nếu 
-bạn sai trầm trọng quá rồi thì đánh chữ 
-ngược với L để xóa toàn bộ nội dung bản 
-tin vừa đánh.  - Khi hoàn thành bản tin bạn làm đánh 2 vòng số 8 
-nằm ngang như bắt đầu. -Những tín hiệu khác của Sémaphore cũng giống 
-như tín hiệu Morse. 
-Chú ý: - Người đứng đúng tư thế, hai vai thẳng khi phát 
-tin, không đi lại. - Không nên thay đổi tốc độ phát tin, dễ làm người 
-nhận nhận không chính xác. Tùy trình độ của người 
-nhận mà người phát điều chỉnh tốc độ của mình lại. - Chọn vị trí phát tin nên chọn vị trí cao, bằng 
-phẳng thuận tiện cho người phát tin và người nhận 
-tin dễ nhìn thấy. 
-6. Cách nhận bảng tin được phát đi bằng 
-Sémaphore: 
-Người nhận tin 
-ký hiệu) - Cách viết ký hiệu: Dùng các nét gạch (tốc kí) để 
-ghi lại ví trí tay của người phát. 
-Ví dụ: 
-R = __ x __ , B = __ x ,  F = x __ 
-Hết 1 từ thì gạch 1 khoảng để báo hiệu. - Chú ý thật kĩ các kí hiệu đặc biệt như: đánh số, sai 
-1 chữ, xóa bản tin. Đặc biệt là đánh số vì rất dễ 
-nhầm với chữ T và U.  
-7- Thực hành học bảng Sémaphore:  
-Tự rèn luyện theo bảng mẫu tự đồng thời với 
-động tác phất cờ. Học đánh theo vòng, vừa phất cờ 
-vừa hô chữ cái. 
-Bước 1: Thực hiện học thuộc vòng 1 chỉ đánh 
-một cánh tay với các chữ cái A, B, C, D, E, F, G. 
-Bước 2: Sau khi thuộc, thực hành phát tin: hai 
-đoàn sinh một nhóm, thay nhau phát tin và nhận tin, 
-ví dụ: “Bác Ba đã để gạc” (đánh không dấu) để 
-luyện tập với các chữ cái A, B, C, D, E, F, G. 
-Bước 3: Sau khi thành thạo vòng 1, lần lượt thực 
-hiện học thuộc các vòng 2 đến vòng 7 thông qua 
+SỬ DỤNG SÉMAPHORE QUỐC TẾ
+1- Sémaphore: Là tín hiệu thường được sử dụng
+trong các ngành hàng hải, địa chất, do một người
+Pháp tên Chappe phát minh năm 1794.
+2-Phương tiện để phát tín hiệu Sémaphore là hai
+lá cờ hình vuông mỗi cạnh khoảng 40 cm và được
+chia theo đường chéo hình vuông thành 2 phần
+(phần màu đỏ và phần màu
+trắng). Gậy để buộc cờ dài
+khoảng 50cm 55cm. Khi buộc
+cờ vào thân gậy rồi, cán cờ còn
+khoảng 10cm đến 15cm.
+10-15cm
+3- Bảng mẫu tự Sémaphore:
+4- Cách học Sémaphore:
+Mỗi mẫu tự Sémaphore được tạo thành bằng cách
+đặt 2 cờ theo một góc độ nào đó mà quốc tế đã quy
+định. Khi đánh cánh tay phải thẳng hàng với cờ.
+Có nhiều cách học. Ví dụ:
+ Học đánh theo bảng mẫu tự chữ cái Alphabet.
+ Học theo những chữ đối:
+A đối G; B đối F; C đối E; ...
+BẢNG ĐỐI XỨNG
+ Học đánh theo vòng (từ vòng 1 đến vòng 7).
+➢Vòng 1: chỉ đánh một cánh tay (Từ A  G )
+1 2 3 4 5 6 7
+➢Vòng 2: Tay trụ đặt ở vị trí chữ A (H I K L M N)
+(vòng kép 2 cánh tay)
+➢Vòng 3: Tay trụ đặt ở vị trí chữ B (O P Q R S)
+➢Vòng 4: Tay trụ đặt ở vị trí chữ C (T U Y)
+➢Vòng 5: Tay trụ đặt ở vị trí chữ D (J V)
+➢Vòng 6: tay trụ đặt ở vị trí chữ E ( W X )
+➢Vòng 7: Z
+5. Cách đánh bảng tin bằng Sémaphore:
+Người phát tin - Bắt đầu đánh bằng cách để cờ ngang thắt lưng.
+Thực hiện động tác mở cờ: đánh 2 vòng số 8 nằm
+ngang cùng 1 lúc hoặc định cờ 1800 từ 2 chân lên đầu.
+(Đợi bên nhận phát chữ (K) mới bắt đầu phát tin). - Khi phát tin cho một từ thì đánh liên tục
+giữa các chữ cái. Khi đánh xong một từ,
+người đánh chụm cờ ngang thắt lưng và
+nghỉ khoảng 2 - 3 giây và (Nghỉ/Cách
+khoảng)
+Ví dụ: Để truyền một chữ “CHÀO” (CHAOF), ta
+đánh từ vị trí C chuyển ngay sang H rồi A,O,F rồi
+chụm cờ ngang thắt lưng. - Để thông báo mình sẽ dùng số trong bản
+tin (dùng để rút ngắn bảng tin) đánh
+ngược với chữ T, nghỉ 2 – 3 giây cho
+người nhận tin chuẩn bị tinh thần.
+Qui ước chung:
+A = 1 ; B = 2, C = 3, D = 4, E = 5,
+F = 6, G = 7, H = 8, I = 9, J = 0
+Sau khi đánh số kết thúc rồi nghỉ 2 – 3 giây sau
+đó tiếp tục bản tin binh thường. - Khi lỡ tay đánh sai bản tin bạn làm
+như con bướm ý để thông báo là mình
+đánh sai. - Tiếp tục, nếu sai 1 chữ cái bạn đánh 3 chữ E liên
+tục sau đó đánh lại chữ cái vừa sai. Nếu
+bạn sai trầm trọng quá rồi thì đánh chữ
+ngược với L để xóa toàn bộ nội dung bản
+tin vừa đánh. - Khi hoàn thành bản tin bạn làm đánh 2 vòng số 8
+nằm ngang như bắt đầu. -Những tín hiệu khác của Sémaphore cũng giống
+như tín hiệu Morse.
+Chú ý: - Người đứng đúng tư thế, hai vai thẳng khi phát
+tin, không đi lại. - Không nên thay đổi tốc độ phát tin, dễ làm người
+nhận nhận không chính xác. Tùy trình độ của người
+nhận mà người phát điều chỉnh tốc độ của mình lại. - Chọn vị trí phát tin nên chọn vị trí cao, bằng
+phẳng thuận tiện cho người phát tin và người nhận
+tin dễ nhìn thấy.
+6. Cách nhận bảng tin được phát đi bằng
+Sémaphore:
+Người nhận tin
+ký hiệu) - Cách viết ký hiệu: Dùng các nét gạch (tốc kí) để
+ghi lại ví trí tay của người phát.
+Ví dụ:
+R = __ x __ , B = __ x , F = x __
+Hết 1 từ thì gạch 1 khoảng để báo hiệu. - Chú ý thật kĩ các kí hiệu đặc biệt như: đánh số, sai
+1 chữ, xóa bản tin. Đặc biệt là đánh số vì rất dễ
+nhầm với chữ T và U.
+7- Thực hành học bảng Sémaphore:
+Tự rèn luyện theo bảng mẫu tự đồng thời với
+động tác phất cờ. Học đánh theo vòng, vừa phất cờ
+vừa hô chữ cái.
+Bước 1: Thực hiện học thuộc vòng 1 chỉ đánh
+một cánh tay với các chữ cái A, B, C, D, E, F, G.
+Bước 2: Sau khi thuộc, thực hành phát tin: hai
+đoàn sinh một nhóm, thay nhau phát tin và nhận tin,
+ví dụ: “Bác Ba đã để gạc” (đánh không dấu) để
+luyện tập với các chữ cái A, B, C, D, E, F, G.
+Bước 3: Sau khi thành thạo vòng 1, lần lượt thực
+hiện học thuộc các vòng 2 đến vòng 7 thông qua
 thực hành. Các nhóm tự đưa ra bảng tin phát đi.
