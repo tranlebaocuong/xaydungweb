@@ -172,13 +172,13 @@ body {
   font-size: 0.95rem;
 }
 
-.lesson-list {
+.lesson-list-items {
   margin: 1rem 0;
   padding-left: 1.4rem;
   color: #f3f1c5;
 }
 
-.lesson-list li {
+.lesson-list-items li {
   margin: 0.45rem 0;
   line-height: 1.5;
 }
