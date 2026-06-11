@@ -1,9 +1,9 @@
 GÚT DÂY
-Các gút:
-- Gút dẹp
-- Gút dệt
-- Gút đầu dây
-- Gút quai chèo
-- Gút số 8
-- Gút sơn ca
+Các gút:  
+- Gút dẹp  
+- Gút dệt  
+- Gút đầu dây  
+- Gút quai chèo  
+- Gút số 8  
+- Gút sơn ca  
 - Gút thâu nới dây

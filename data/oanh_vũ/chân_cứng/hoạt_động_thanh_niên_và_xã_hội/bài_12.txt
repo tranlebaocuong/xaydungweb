@@ -1,25 +1,25 @@
-BIẾT THÊM CÁC DẤU: CHIA
-HAI NHÓM, HỌP LẠI THÀNH MỘT
-TOÁN, NGUY HIỂM, ĐỢI Ở ĐÂY
-
-I. Chuẩn bị:
-- Phấn, bảng, cây, đá, than, vôi, v.v...
-- Trong phòng học hoặc ngoài thiên nhiên.
-II. Hình vẽ:
-1. Chia hai toán
-![Hình](ảnh_bài_12/1.png)
-2. Hợp lại thành một toán:
-    hoặc
+BIẾT THÊM CÁC DẤU: CHIA 
+HAI NHÓM, HỌP LẠI THÀNH MỘT 
+TOÁN, NGUY HIỂM, ĐỢI Ở ĐÂY 
+ 
+I. Chuẩn bị: 
+- Phấn, bảng, cây, đá, than, vôi, v.v... 
+- Trong phòng học hoặc ngoài thiên nhiên. 
+II. Hình vẽ: 
+1. Chia hai toán 
+![Hình](ảnh_bài_12/1.png) 
+2. Hợp lại thành một toán: 
+    hoặc  
 ![Hình](ảnh_bài_12/2.png)
-3. Nguy hiểm:
+3. Nguy hiểm: 
 ![Hình](ảnh_bài_12/3.png)
     hoặc
 ![Hình](ảnh_bài_12/4.png)
-4. Đợi tại đây:
+4. Đợi tại đây: 
 ![Hình](ảnh_bài_12/5.png)
 
-III. Thực hành:
-- Cho các em tự vẽ sau khi đã học xong bài học.
-- Thực hiện trò chơi lớn, trò chơi vừa trong đó có
-sử dụng dấu đi đường.
+III. Thực hành: 
+- Cho các em tự vẽ sau khi đã học xong bài học. 
+- Thực hiện trò chơi lớn, trò chơi vừa trong đó có 
+sử dụng dấu đi đường. 
 ![Hình](ảnh_bài_12/cuối.png)
