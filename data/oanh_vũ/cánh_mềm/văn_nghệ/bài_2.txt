@@ -3,8 +3,8 @@ EM TẬP VẼ HÌNH CHIM OANH VŨ BẬC CÁNH MỀM, CÁI CHUÔNG, CÁI MÕ, CÂ
 I.Chuẩn bị: 
 - Một số hình vẽ trên giấy các hình con vật 
 - Các mẫu thực để quan sát
-![Hình](ảnh_bài_2/1.png)
-![Hình](ảnh_bài_2/2.png)
+![Hình](ảnh/ảnh_bài_2/1.png)
+![Hình](ảnh/ảnh_bài_2/2.png)
 II. Nội dung bài học: 
 1. Mục tiêu: 
 -  Tập  cho  các  em  vẽ  mẫu  chim  Oanh  Vũ,  cái 

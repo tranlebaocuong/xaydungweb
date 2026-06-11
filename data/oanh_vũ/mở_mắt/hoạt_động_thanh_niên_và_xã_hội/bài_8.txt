@@ -13,15 +13,15 @@ Tuỳ nghi chuẩn bị
 III/ Các dấu lối đi: 
   
 Bắt đầu đi 
-![Hình](ảnh_bài_8/1.png)
+![Hình](ảnh/ảnh_bài_8/1.png)
 
 
 Đi theolối này
-![Hình](ảnh_bài_8/2.png)
+![Hình](ảnh/ảnh_bài_8/2.png)
 
  
 Đường cấm
-![Hình](ảnh_bài_8/3.png) 
+![Hình](ảnh/ảnh_bài_8/3.png) 
  
 III/ Hướng dẫn thực hành: 
 Cho các em tập vẽ dấu bằng phấn trên bảng, bút 

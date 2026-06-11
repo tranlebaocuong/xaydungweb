@@ -16,7 +16,7 @@ tốn dây, dễ tháo gỡ, ...
 3. Một số gút cần biết: 
 3.1. Gút dệt đơn: 
 3.1.1. Cách thắt: xem hình vẽ 
-![Hình](ảnh_bài_7/dệt.png)
+![Hình](ảnh/ảnh_bài_7/dệt.png)
 3.1.2. Công dụng: 
 - Nối 2 sợi dây to nhỏ khác nhau 
 - Nối một sợi dây vào sợi dây quá ngắn. 
@@ -27,7 +27,7 @@ quá ngắn.
 - Nối dây vào vòng dây có sẵn ở góc trại. 
 3.2. Gút quai chèo: 
 3.2.1. Cách thắt: xem hình
-![Hình](ảnh_bài_7/chèo.png)
+![Hình](ảnh/ảnh_bài_7/chèo.png)
 3.2.2. Công dụng: 
 -  Buộc  dây  vào  cọc  hay  neo  thuyền  vào  một      
 gốc cây.
@@ -37,7 +37,7 @@ gốc cây.
 - Khóa dây khi làm căng dây 
 3.3. Gút số 8: 
 3.3.1. Cách thắt: xem hình vẽ 
-![Hình](ảnh_bài_7/8.png)
+![Hình](ảnh/ảnh_bài_7/8.png)
 3.3.2. Công dụng: 
 - Gút đầu dây khỏi xơ, cầm khỏi tuột. 
 - Nối một sợi dây vào vòng dây có sẵn. 
@@ -46,10 +46,10 @@ gốc cây.
 - Làm thang dây 
 3.4. Gút kẻ chài: 
 3.4.1. Cách thắt: xem hình vẽ
-![Hình](ảnh_bài_7/kc.png)
+![Hình](ảnh/ảnh_bài_7/kc.png)
 3.4.2. Công dụng: 
 Nối chỉ hay các loại dây trơn và dây đã ngâm nước. 
 3.4.3. Ứng dụng: 
 - Nối 2 sợi chỉ. 
 - Nối dây cước, dây điện.
-![Hình](ảnh_bài_7/cuối.png) 
+![Hình](ảnh/ảnh_bài_7/cuối.png) 

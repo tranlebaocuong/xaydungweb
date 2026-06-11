@@ -27,4 +27,4 @@ cần nhớ
 - Quan sát vị trí đứng của Đầu Đàn để xếp theo. 
 - Xếp hàng nhanh, thẳng, đều, tuyệt đối yên lặng, 
 trật tự.
-![Hình](ảnh_bài_5/1.png)
+![Hình](ảnh/ảnh_bài_5/1.png)

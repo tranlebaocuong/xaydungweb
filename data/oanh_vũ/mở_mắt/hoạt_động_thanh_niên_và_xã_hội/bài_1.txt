@@ -94,4 +94,4 @@ hướng dẫn các em thực hành,
 - Theo dõi cử chỉ, thái độ của từng em để kịp thời 
 uốn nắn, dạy bảo. 
 - Kiểm soát hành vi của các em trong mọi sinh hoạt. 
-![Hình](ảnh_bài_1/cuối.png)
+![Hình](ảnh/ảnh_bài_1/cuối.png)

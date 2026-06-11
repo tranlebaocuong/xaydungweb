@@ -32,7 +32,7 @@ thì phải bật đèn báo hoặc vẫy tay xin đường. Khi thấy
 đã an toàn mới được đi qua. 
 3/ Đèn tín hiệu giao thông: (xanh, vàng, đỏ) 
  
-![Hình](ảnh_bài_9/gt.png)
+![Hình](ảnh/ảnh_bài_9/gt.png)
  
 a/ Đèn Đỏ: Khi gặp đèn đỏ, tất cả các phương tiện 
 đang lưu thông phải dừng lại ở  phía trước vạch dừng 
@@ -55,4 +55,4 @@ Nếu lắp theo chiều ngang thì theo thứ tự đèn đỏ ở bên
 trái, vàng ở giữa, xanh ở bên phải hay ngược lại (đèn 
 xanh luôn hướng về phía vỉa hè hoặc giải phân cách, 
 đèn đỏ hướng xuống lòng đường)
-![Hình](ảnh_bài_9/cuối.png)
+![Hình](ảnh/ảnh_bài_9/cuối.png)

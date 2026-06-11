@@ -2,7 +2,7 @@ CHUYỆN TIỀN THÂN - MẪU CHUYỆN ĐẠO (2 tiết)
  
 A. LÒNG HIẾU CỦA CHIM OANH VŨ 
 (tiết 1)
-![Hình](ảnh_bài_12/OV.png) 
+![Hình](ảnh/ảnh_bài_12/OV.png) 
  
 I. MỤC ĐÍCH: Các em hiểu được ý nghĩa câu chuyện, 
 chim Oanh Vũ hiếu thảo với cha mẹ là tiền thân của 
@@ -88,4 +88,4 @@ Các em luôn ghi nhớ và thực hiện điều luật  thứ
 ba: Em thương người và vật. 
 Giải nghĩa từ vựng: 
 - Trắc ẩn: thương xót trong lòng. 
-![Hình](ảnh_bài_12/cuối.png)
+![Hình](ảnh/ảnh_bài_12/cuối.png)

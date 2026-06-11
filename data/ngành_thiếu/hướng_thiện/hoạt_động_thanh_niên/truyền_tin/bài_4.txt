@@ -7,7 +7,7 @@ Bảng 4 gồm 4 chữ (đổi chiều)
 Bảng 5 gồm 3 chữ còn lại 
         C −  •  −  •    J •  −  −  −    Z −  −  •   •  
 
-        ![Hình](ảnh_bài_4/tháp.png)
+        ![Hình](ảnh/ảnh_bài_4/tháp.png)
 
 Áp dụng: Truyền tin, nhận tin các câu sau (tiếng 
 Việt không có dấu), chẳng hạn như: 
@@ -17,4 +17,4 @@ hoạt đội tốt hơn vào tuần tới.
 - ...
 HOÀN CHỈNH THÁP MORSE
 
-![Hình](ảnh_bài_4/cuối.png)
+![Hình](ảnh/ảnh_bài_4/cuối.png)

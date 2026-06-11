@@ -57,4 +57,4 @@ Ca dao có câu: “Thương người như thể thương thân”
 - Lập sổ tay việc thiện. 
 - Các em tiết kiệm gạo, tiền của... để làm việc bố thí 
 giúp đỡ...
-![Hình](ảnh_bài_2/cuối.png)
+![Hình](ảnh/ảnh_bài_2/cuối.png)

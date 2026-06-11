@@ -28,4 +28,4 @@ chuẩn bị trước). Đầu truyền chậm, sau khi các em khá
 thành thạo thì truyền nhanh hơn. 
 -  Chia  các  em  thành  2  nhóm  để  vừa  truyền       
 vừa nhận.
-![Hình](ảnh_bài_8/cuối.png)
+![Hình](ảnh/ảnh_bài_8/cuối.png)

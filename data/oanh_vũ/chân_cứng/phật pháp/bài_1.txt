@@ -145,4 +145,4 @@ III. CÂU HỎI:
 2. Ai cúng dường bữa ăn sau cùng cho Đức Phật? 
 3. Tam Bảo có từ lúc nào? 
 4. Đức Phật nhập Niết bàn tại đâu? Vào ngày nào?
-![Hình](ảnh_bài_1/cuối.png)
+![Hình](ảnh/ảnh_bài_1/cuối.png)

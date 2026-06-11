@@ -38,4 +38,4 @@ bảo vệ cây xanh.
 - Tổ chức cuộc thi: viết, vẽ... về môi trường 
 -  Em bảo vệ cây xanh, môi trường xung quanh là 
 thực hành Điều luật thứ mấy của Oanh vũ?
-![Hình](ảnh_bài_5/cuối.png)
+![Hình](ảnh/ảnh_bài_5/cuối.png)

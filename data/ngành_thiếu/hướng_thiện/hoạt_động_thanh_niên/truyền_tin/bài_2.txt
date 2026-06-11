@@ -5,7 +5,7 @@ Theo bảng sắp xếp đối nhau: Bảng 2 gồm 6 chữ (đảo ngược)
         U •  •  −           D −  •  •   
         V •  •  •  −        B −  •  •  •  
 
-![Hình](ảnh_bài_2/tháp.png)
+![Hình](ảnh/ảnh_bài_2/tháp.png)
 
 
 + Thổi còi, bắt đầu bằng “Tè”, xuất phát từ ô vuông gốc của cột bên trái (phía dưới)

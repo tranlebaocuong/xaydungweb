@@ -16,7 +16,7 @@ Xong lật mặt kia cũng giống như mặt vừa xếp. Xong
 2 mặt, ta cầm bằng hai tay, lách hai ngón tay cái vào 
 hai mép giấy, lộn hai mép vừa gấp ra sau ta sẽ có 
 hình chiếc thuyền. 
-![Hình](ảnh_bài_13/1.png)
+![Hình](ảnh/ảnh_bài_13/1.png)
 
 2/ Làm chong chóng: 
 Cắt tờ giấy hình vuông,  cạnh 20cm, gấp hai đường 
@@ -43,4 +43,4 @@ những thứ đồ chơi của mình và trang trí góc học tập ở
 nhà hoặc góc của Đàn mình mà không phải tốn kém 
 như:  máy bay, mũ calô, bươm bướm, quạt xếp, con 
 hạt, lồng đèn...
-![Hình](ảnh_bài_13/2.png)
+![Hình](ảnh/ảnh_bài_13/2.png)

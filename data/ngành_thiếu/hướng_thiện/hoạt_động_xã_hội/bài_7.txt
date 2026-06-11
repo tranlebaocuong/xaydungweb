@@ -4,7 +4,7 @@ GỌI ĐIỆN THOẠI
 Điện thoại là một phương tiện truyền thông tiện lợi trong thời đại ngày nay, nhờ có điện thoại, sự thông tin liên lạc nhanh chóng, dễ dàng và mang tính chính xác cao.
 Điện thoại bàn nên đặt ở chỗ thuận tiện trong nhà, vừa tầm, tránh ẩm ướt. Bên cạnh điện thoại bàn nên có một quyển sổ nhỏ và một cây bút để khi cần ghi những điều người khác gọi đến thì có ngay, cũng nên đặt danh bạ điện thoại gần đó hoặc ghi những số điện thoại cần thiết để khi muốn gọi khỏi phải tìm kiếm.
 Điện  thoại di động là một phương tiện đa chức năng vô cùng tiện lợi, vì vậy chúng ta phải bảo quản cẩn thận, hạn chế tình trạng mất mát, hư hỏng.
-![Hình](ảnh_bài_7/dt.png)
+![Hình](ảnh/ảnh_bài_7/dt.png)
 Khi sử dụng điện thoại di động, chúng ta thường lưu số điện thoại vào danh bạ, khi cần gọi chỉ việc  mở ra, nên chúng ta không thể nào nhớ số được, khi điện thoại có vấn đề như bị mất hay hỏng, chúng ta mất hết thông tin, không gọi được cho người quen thân, bạn bè. Phục hồi lại danh bạ rất là lâu và khó đầy đủ như cũ. Để cứu vãn tình trạng này, chúng ta nên chép danh bạ vào thẻ nhớ khác hoặc lưu vào máy tính, khi có sự cố, chúng ta chỉ chép lại.
 Trước khi gọi điện thoại, chúng ta phải chuẩn bị nội dung những điều cần trao đổi, có thể viết nội dung bằng cách gạch đầu dòng trên giấy trước. Khi nói, nên trình bày ngắn gọn, không nên nói đi nói lại, nói dông dài từ chuyện này sang chuyện khác.
 Một điều cần quan tâm là bất cứ lúc nào nhấc máy cũng phải dùng lời lẽ lễ phép, dịu dàng, phải biết mình đang nói với ai rồi mới trình bày nội dung, tránh tình trạng vừa nhấc máy đã thao thao bất tuyệt, hoặc lớn tiếng la lối, đến khi nhận ra mình cần nói với bạn mà người đang nghe lại là… ba của bạn thì thật là tệ hại.
@@ -13,4 +13,4 @@ Không dùng điện thoại khi đang đổ xăng tại trạm xăng. Khi đang
 
 Ghi nhớ:
 Điện thoại là phương tiện thông tin. Lời nói từ hòa, thưa gởi là điều cần chú trọng thực hành khi sử dụng điện thoại. Người Phật tử khi dùng phương tiện thông tin này luôn mong muốn mọi người sử dụng nó một cách văn hóa, đem lại cho nhau sự an lạc, nhận được thông tin chân thật.
-![Hình](ảnh_bài_7/phật.png)
+![Hình](ảnh/ảnh_bài_7/phật.png)

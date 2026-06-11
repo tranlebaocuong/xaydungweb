@@ -38,7 +38,7 @@ trắng hoặc nền đỏ chữ trắng dùng để chỉ dẫn hoặc báo
 điều lệnh đối với xe thô sơ và người đi bộ. 
 3. Biển báo cần biết: 
 Biển 210: Giao nhau với đường sắt có rào chắn
-![Hình](ảnh_bài_14/1.png)
+![Hình](ảnh/ảnh_bài_14/1.png)
 Số hiệu biển báo: 210 
 Tên biển báo: Giao nhau với đường sắt có rào chắn 
 Chi tiết: 
@@ -52,4 +52,4 @@ khi tham gia giao thông
 -Về nhà các em hãy tìm hiểu thêm một số phương 
 tiện giao thông khác và tìm hiểu xem nó đi trên loại 
 đường giao thông nào nhé! 
-![Hình](ảnh_bài_14/cuối.png)
+![Hình](ảnh/ảnh_bài_14/cuối.png)

@@ -18,12 +18,12 @@ Bậc Mở mắt sẽ học 3 gút thường gặp hàng ngày
 là gút dẹp, gút thòng lọng và gút hoa hồng. 
 1/ Gút dẹp: 
 a/Cách làm gút dẹp đơn:
-![Hình](ảnh_bài_6/dẹp.png)
+![Hình](ảnh/ảnh_bài_6/dẹp.png)
 b/ Công dụng: 
 Nối hai đầu dây kích cở bằng nhau 
 2/ Gút thòng lọng: 
 a/Cách làm Gút thòng lọng đơn:
-![Hình](ảnh_bài_6/tl.png)
+![Hình](ảnh/ảnh_bài_6/tl.png)
 b/ Công dụng: 
 - Dùng để buộc một sợi dây vào một vật cố định 
 (cột, đinh, vòng sắt...) 
@@ -31,7 +31,7 @@ b/ Công dụng:
 to hay nhỏ 
 3/ Gút Hoa Hồng: 
 a/Cách làm:
-![Hình](ảnh_bài_6/hồng.png)
+![Hình](ảnh/ảnh_bài_6/hồng.png)
 b/ Công dụng: 
 Dùng để buộc dây giày, thắt nơ hay trang trí một 
 gói quà. 

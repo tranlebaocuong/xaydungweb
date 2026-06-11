@@ -7,8 +7,8 @@ I/ Chuẩn bị:
 Huynh Trưởng chuẩn bị một vài hình ảnh hoặc 
 các bài báo nói về các nạn nhân bị tai nạn do tiếp xúc 
 với các loại Nhiên - vật liệu trên.
-![Hình](ảnh_bài_3/bv.png)
-![Hình](ảnh_bài_3/bv1.png)
+![Hình](ảnh/ảnh_bài_3/bv.png)
+![Hình](ảnh/ảnh_bài_3/bv1.png)
 II/ Hướng dẫn: 
 Đọc các bài báo, cho các em xem những hình ảnh 
 đã chuẩn bị 
@@ -42,4 +42,4 @@ nhiều câu hỏi cho các em trả lời.
 1. Vì sao không nên tiếp xúc với các loại hóa 
 chất, điện, lửa, xăng, dầu. bếp ga, nước sôi...? 
 2. Nếu cần phải tiếp xúc em sẽ sử dụng như thế nào?
-![Hình](ảnh_bài_3/cuối.png)
+![Hình](ảnh/ảnh_bài_3/cuối.png)

@@ -97,4 +97,4 @@ hiện được
 - Đối với xã hội: người già cả, khốn khó, bệnh tật 
 - Đối với loài vật: những con vật nuôi trong nhà 
 và chung quanh em.
-![Hình](ảnh_bài_2/cuối.png)
+![Hình](ảnh/ảnh_bài_2/cuối.png)

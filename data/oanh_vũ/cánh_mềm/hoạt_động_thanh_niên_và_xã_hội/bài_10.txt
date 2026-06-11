@@ -19,10 +19,10 @@ Có  nhiều  cách  làm  dấu  như:  Dùng  phấn,  dùng
 than, dùng vôi, cành cây, hòn đá... 
 4. Các dấu cần học: 
 - Đi chậm lại 
-![Hình](ảnh_bài_10/1.png)
+![Hình](ảnh/ảnh_bài_10/1.png)
 - Đi nhanh lên
-![Hình](ảnh_bài_10/2.png)
+![Hình](ảnh/ảnh_bài_10/2.png)
 - Trở lại 
-![Hình](ảnh_bài_10/3.png)
+![Hình](ảnh/ảnh_bài_10/3.png)
 - Đến đích (hết dấu)
-![Hình](ảnh_bài_10/4.png)
+![Hình](ảnh/ảnh_bài_10/4.png)

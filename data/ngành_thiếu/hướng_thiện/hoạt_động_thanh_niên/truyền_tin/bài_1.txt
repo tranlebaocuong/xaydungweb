@@ -9,7 +9,7 @@ Theo bảng sắp xếp đối nhau: Bảng 1 gồm 8 chữ (đối xứng)
 
 Tập thổi còi  truyền tin, nhận tin các ký tự theo tháp Morse:
 
-![Hình](ảnh_bài_1/tháp.png)
+![Hình](ảnh/ảnh_bài_1/tháp.png)
 
 + Thổi còi, bắt đầu bằng “Tè”, xuất phát từ ô vuông gốc của cột bên trái, từ phía dưới lên trên (theo trục tung):
 – Phát tín hiệu “Tè” và ngưng: chữ Ttt2

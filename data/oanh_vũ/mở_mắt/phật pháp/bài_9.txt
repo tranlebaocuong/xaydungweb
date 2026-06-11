@@ -1,5 +1,5 @@
 CHÁNH NIỆM 
-![Hình](ảnh_bài_9/thiền.png)
+![Hình](ảnh/ảnh_bài_9/thiền.png)
 Con đường thực hành Thiền định là rất hiện tại và rất 
 thiết thực. 
 Huynh trưởng cho đoàn sinh đi vào thực hiện từng 
@@ -83,4 +83,4 @@ niệm thân.
  
 Câu hỏi: Nêu tóm tắt các bước của thiền tọa?. 
 Giải thích sơ lược về 4 câu kệ
-![Hình](ảnh_bài_9/cuối.png)
+![Hình](ảnh/ảnh_bài_9/cuối.png)

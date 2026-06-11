@@ -7,4 +7,4 @@ GÚT ĐẦU DÂY
 4. Ghi chú: Dây sử dụng: loại dây thừng được bện xoắn từ 3 sợi dây nhỏ. Nên làm trên một mặt phẳng, sau khi làm xong để dây được đều đặn
 5. Hướng dẫn thực hiện:
 
-![Hình](ảnh_bài_3/cuối.png)
+![Hình](ảnh/ảnh_bài_3/cuối.png)

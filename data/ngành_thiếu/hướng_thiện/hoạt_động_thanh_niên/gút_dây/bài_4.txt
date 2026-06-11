@@ -2,7 +2,7 @@ GÚT QUAI CHÈO
 
  
 1. Tên gọi:  Gút quai chèo, gút cọc chèo, thuyền chài, gút chụp.        
-![Hình](ảnh_bài_4/chèo.png)
+![Hình](ảnh/ảnh_bài_4/chèo.png)
 2. Thể loại: Buộc treo          
 
 3. Công dụng:  Buộc cứng đầu dây vào gậy
@@ -17,4 +17,4 @@ Khởi đầu buộc một đầu dây vào cây để thực hiện gút tháp,
 6. Ghi chú: Dây sử dụng mềm, không phụ thuộc vào tiết diện.
 7. Hướng dẫn thực hiện:
 
-![Hình](ảnh_bài_4/cuối.png)
+![Hình](ảnh/ảnh_bài_4/cuối.png)

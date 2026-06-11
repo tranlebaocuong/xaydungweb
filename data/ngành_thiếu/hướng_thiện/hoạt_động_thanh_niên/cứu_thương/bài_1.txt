@@ -10,7 +10,7 @@ I. Vật liệu:
 
 II. Cách rửa, sát trùng và băng vết thương:
 
-![Hình](ảnh_bài_1/ct.png)
+![Hình](ảnh/ảnh_bài_1/ct.png)
 
 1. Trước khi rửa vết thương:
 – Nếu vết thương chảy nhiều máu phải tiến hành xử trí cầm máu ngay.

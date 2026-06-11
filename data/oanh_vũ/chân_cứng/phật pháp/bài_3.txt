@@ -83,4 +83,4 @@ IV. THỰC HÀNH VẼ HOA SEN:
 - Anh chị trưởng hướng dẫn cho các em sử dụng 
 compa vẽ hình tròn, sau đó tập vẽ các cánh của huy 
 hiệu Hoa sen., tô màu hoàn thành huy hiệu hoa sen.
-![Hình](ảnh_bài_3/cuối.png)
+![Hình](ảnh/ảnh_bài_3/cuối.png)

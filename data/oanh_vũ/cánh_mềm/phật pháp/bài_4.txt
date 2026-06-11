@@ -30,4 +30,4 @@ III. CÂU HỎI
 1. Mục đích của GĐPT là gì? 
 2. Giáo dục trong GĐPT có thay cho giáo dục 
 trong nhà trường không?
-![Hình](ảnh_bài_4/cuối.png)
+![Hình](ảnh/ảnh_bài_4/cuối.png)

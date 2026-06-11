@@ -32,7 +32,7 @@ cơ hội phát khởi và dễ nhiễm các bệnh như: đau bụng,
 sán, đau mắt... 
 Đầu tóc phải cắt tỉa gọn gàng, cao ráo trông sẽ rất 
 mạnh mẽ và sáng sủa.
-![Hình](ảnh_bài_2/vs1.png)
+![Hình](ảnh/ảnh_bài_2/vs1.png)
 III/ Bài tóm tắt: 
 Giữ gìn thân  thể sạch sẽ tránh  được  rất  nhiều 
 bệnh tật, được mọi người gần gũi, yêu quý. 
@@ -82,7 +82,7 @@ Phải có ý thức bảo vệ môi trường, bỏ rác đúng nơi
 quy định. 
 Hạn chế sử dụng các vật dụng khó tiêu huỷ như 
 túi ni lông, nhựa... 
-![Hình](ảnh_bài_2/vs2.png)
+![Hình](ảnh/ảnh_bài_2/vs2.png)
 III/ Bài tóm tắt: 
 Nơi công cộng là nơi sinh hoạt chung của tất cả 
 mọi người. 
@@ -105,4 +105,4 @@ V/ Thực hành:
 Hướng đẫn các em thực hành tại nơi đang tham 
 quan hoặc ở nơi đang học,  các việc như: bỏ rác đúng 
 nơi quy định, quét rác, thu dọn vệ sinh...
-![Hình](ảnh_bài_2/cuối.png)
+![Hình](ảnh/ảnh_bài_2/cuối.png)

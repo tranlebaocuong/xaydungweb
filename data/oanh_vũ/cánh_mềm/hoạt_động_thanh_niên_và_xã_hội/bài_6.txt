@@ -38,4 +38,4 @@ d, Cờ lệnh:
 III Thực hành: 
 -  Cho các em tập họp và thực hành theo các hiệu 
 lệnh trên.
-![Hình](ảnh_bài_6/cuối.png)
+![Hình](ảnh/ảnh_bài_6/cuối.png)

@@ -49,4 +49,4 @@ cho các em hát theo từng câu, từng đoạn, đúng bài,
 Hướng  dẫn  các  em  đứng  ngay  thẳng,  trang 
 nghiêm khi thể hiện bài hát 
 Động viên khen ngợi các em hát đúng, hát hay... 
-![Hình](ảnh_bài_4/cuối.png)
+![Hình](ảnh/ảnh_bài_4/cuối.png)

@@ -7,7 +7,7 @@ R •  −  •           K −  •  −
 L •  −  •   •       Y −  •  −  −  
 F •  •   −  •       Q −  −  •  − 
 
-![Hình](ảnh_bài_3/tháp.png)
+![Hình](ảnh/ảnh_bài_3/tháp.png)
 
 Chú ý:
 Gốc “Tè”: chữ T              Gốc “Tích”: chữ E

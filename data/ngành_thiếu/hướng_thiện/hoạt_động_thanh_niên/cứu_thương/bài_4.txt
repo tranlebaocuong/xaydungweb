@@ -2,7 +2,7 @@ CHỮA NGẤT XỈU DO NẮNG
 
 1. Khái niệm
 
-![Hình](ảnh_bài_4/ngx.png)
+![Hình](ảnh/ảnh_bài_4/ngx.png)
 
 Là hiện tượng trúng nóng, trúng nắng do phơi mình quá lâu dưới ánh sáng mặt trời hoặc một nhiệt độ quá cao như trong hầm lò, một số nguyên nhân thuận lợi nhất định như gắng sức, đau ốm, ẩm ướt
 – Say nóng thường gặp vào buổi xế chiều, có nhiều tia hống ngoại, còn say nắng hay gặp vào lúc giữa trưa, khi trời nắng gay gắt, có nhiều tia tử ngoại. Say nắng thường nặng hơn say nóng, có thể gây tử vong.
@@ -16,7 +16,7 @@ Là hiện tượng trúng nóng, trúng nắng do phơi mình quá lâu dưới
 – ở người lớn và trẻ lớn, các triệu chứng xuất hiện mỗi lúc một nặng dần nếu không cứu chữa hoặc cứu chữa không đúng cách.
 Mới đầu: vã mồ hôi, nhức đầu, khó chịu, mặt đỏ nhừ, cảm giác nghẹt thở, có khi đau bụng, nôn mửa. Sau đó: chóng mặt, hoa mắt, mặt tái nhợt, mạch nhanh, ngất lịm, chuột rút, đái ít. Sốt cao có khi lên tới 42-440. Da niêm mạc khô kèm theo trụy mạch, tình trạng người bệnh li bì, giãy giụa, lẫn lộn, mê sảng, cuối cùng là hôn mê, co giật.
 Chú ý : trong say nắng bệnh nặng ngay từ đầu, sốt rất cao 43-440, có nhiều dấu hiệu thương tổn thần kinh rất rõ, có thể hồi phục hoặc khó hồi phục, có thể tụ máu dưới màng cứng và trong não. Các thương tổn thần kinh hay xảy ra ở người có xơ vữa động mạch.
-![Hình](ảnh_bài_4/ngx1.png)
+![Hình](ảnh/ảnh_bài_4/ngx1.png)
 4. Xử trí chung
 – Hạ thân nhiệt xuống dần từng bước, càng sớm càng tốt: đặt nạn nhân nằm chỗ mát, thoáng gió, cởi bớt quần áo, cho uống nước lạnh có muối. Chườm lạnh bằng nước đá khắp người, ở đầu thì chườm trán và gáy. Hoặc phun nước lạnh vào người bệnh (tránh phun vào mũi, miệng). Nếu chườm lạnh phải liên tục thay khăn, nhúng lại vào nước lạnh.
 – Theo dõi đến khi thân nhiệt hạ xuống đến 380 đưa bệnh nhân vào nằm nghỉ chỗ mát.
