@@ -1,6 +1,6 @@
 TẤM CÁM 
 (Truyện cổ tích dân tộc) 
-![Hình](ảnh_bài_4/tc.png)
+![Hình](ảnh/ảnh_bài_4/tc.png)
 I. Mục đích: Qua câu chuyện em hiểu được người tốt 
 sẽ hưởng điều tốt đẹp, người xấu sẽ bị quả báo xấu 
 II. Chuẩn bị: câu chuyện 
@@ -285,4 +285,4 @@ cái hố sâu và đun một nồi nước sôi. Tấm bảo Cám
 xuống hố rồi sai quân hầu dội nước sôi vào hố. Cám 
 chết. Mụ dì ghẻ thấy vậy cũng lăn đùng ra chết. 
 V. Ý nghĩa câu chuyện: Ở hiền gặp lành, ở ác gặp ác
-![Hình](ảnh_bài_4/cuối.png)
+![Hình](ảnh/ảnh_bài_4/cuối.png)

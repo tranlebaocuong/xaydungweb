@@ -51,9 +51,9 @@ phải thuộc mẫu tự. Thông thường là mẫu tự quốc tế
 gồm 26 chữ cái. 
 Có thể dùng mẫu tự Việt nhưng phải có chú thích 
 (khóa mở)
-![Hình](ảnh_bài_9/1.png)
+![Hình](ảnh/ảnh_bài_9/1.png)
 - Ví dụ: Vũ 
-![Hình](ảnh_bài_9/2.png)
+![Hình](ảnh/ảnh_bài_9/2.png)
 . Thực hành 
 Viết tiếng reo của Đoàn bằng dạng mật thư núi. 
 Kẻ lại ô chuồng có 26 chữ cái và lập mật thư cho tên 

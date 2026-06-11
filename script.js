@@ -197,7 +197,9 @@ function resolveImagePath(baseDir, src) {
   if (!baseDir || baseDir === '.') {
     return src;
   }
-  return `${baseDir}/${src}`;
+  const result = `${baseDir}/${src}`;
+  console.log(`[IMAGE DEBUG] baseDir="${baseDir}" src="${src}" result="${result}"`);
+  return result;
 }
 
 function toImageSrc(path) {
@@ -233,7 +235,10 @@ function formatLessonHTML(text, baseDir) {
     if (markdownMatch) {
       closeList();
       const alt = escapeHtml(markdownMatch[1].trim() || 'Hình ảnh');
-      const src = toImageSrc(resolveImagePath(baseDir, markdownMatch[2].trim()));
+      const rawSrc = markdownMatch[2].trim();
+      console.log(`[FORMAT DEBUG] raw image src from markdown: "${rawSrc}"`);
+      const src = toImageSrc(resolveImagePath(baseDir, rawSrc));
+      console.log(`[FORMAT DEBUG] final src after resolve: "${src}"`);
       htmlLines.push(`<div class="lesson-image-wrapper"><img src="${escapeHtml(src)}" alt="${alt}" class="lesson-image" /><p class="lesson-image-caption">${alt}</p></div>`);
       continue;
     }
@@ -300,6 +305,7 @@ async function loadLesson(path, button) {
     const resp = await fetch(encodeURI(path));
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const txt = await resp.text();
+    console.log(`[LOAD DEBUG] path="${path}" first 500 chars: "${txt.substring(0, 500)}"`);
     const lines = txt.split(/\r?\n/);
     const idx = lines.findIndex(l => l.trim().length > 0);
     const title = idx >= 0 ? lines[idx].trim() : getFallbackTitle(path);

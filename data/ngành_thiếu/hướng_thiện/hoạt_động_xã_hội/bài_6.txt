@@ -11,5 +11,5 @@ Chúng ta phải bảo quản máy vi tính trong điều kiện an toàn, trán
 
 Ghi nhớ:
 Máy vi tính là phương tiện. Người Phật tử sử dụng phương tiện văn minh, biết ơn bao thế hệ đã phát minh, phát triển ra phương tiện ấy. Người Phật tử dùng phương tiện ấy mang lại lợi lạc cho mình và cho người. Người Phật tử dùng phương tiện văn minh một cách rất văn hóa, cầu mong mọi người xả bỏ điều ác và đem lại cho nhau những điều thiện lành.
-![Hình](ảnh_bài_6/mt.png)
-![Hình](ảnh_bài_6/hoa sen.png)
+![Hình](ảnh/ảnh_bài_6/mt.png)
+![Hình](ảnh/ảnh_bài_6/hoa sen.png)

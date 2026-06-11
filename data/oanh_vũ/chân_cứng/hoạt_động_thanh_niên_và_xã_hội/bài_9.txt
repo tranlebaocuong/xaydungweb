@@ -5,7 +5,7 @@ I. Chuẩn bị:
 - Bảng, phấn, compa, thước kẻ, giấy, bút chì, bút 
 màu, bút mực... 
 - Tẩy, giấy (tuỳ cỡ hoa sen cần vẽ mà chuẩn bị) 
-![Hình](ảnh_bài_9/1.png)
+![Hình](ảnh/ảnh_bài_9/1.png)
 II. Bài giảng:  
 Trước hết kẻ một đường thẳng đứng, lấy tâm của hoa 
 sen mà em muốn vẽ. Chia đường kính làm ba phần bằng 
@@ -25,4 +25,4 @@ III. Thực hành:
 -  Có thể tạo thành một cuộc thi đua vẽ Huy hiệu 
 Hoa sen 
 - Triển lãm hình vẽ.
-![Hình](ảnh_bài_9/cuối.png)
+![Hình](ảnh/ảnh_bài_9/cuối.png)

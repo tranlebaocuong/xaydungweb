@@ -34,4 +34,4 @@ IV. CÂU HỎI
 - Trước đây màu Lam còn gọi màu gì? 
 - Em phải giữ chiếc áo Lam như thế nào? 
 - Em hãy nói tình cảm của em khi mặc áo Lam? 
-![Hình](ảnh_bài_10/cuối.png)
+![Hình](ảnh/ảnh_bài_10/cuối.png)

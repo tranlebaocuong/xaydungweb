@@ -8,7 +8,7 @@ II. NỘI DUNG BÀI GIẢNG
 Ăn chay nghĩa là không ăn các thức ăn chế biến từ 
 thịt của các loài động vật như heo, bò, tôm, cá, gà, vịt... 
 mà chỉ ăn những thức ăn được chế biến từ rau, củ, quả.
-![Hình](ảnh_bài_6/chay.png) 
+![Hình](ảnh/ảnh_bài_6/chay.png) 
 2. Ăn chay thể hiện tinh thần gì? 
 Ăn chay thể hiện tinh thần thương yêu muôn loài. 
 Là Oanh vũ GĐPT, các em từng bước học tập theo 
@@ -33,4 +33,4 @@ III. CÂU HỎI
 2. Ăn chay thể hiện tinh thần gì? 
 3. Ăn chay mỗi tháng 2 ngày là những ngày nào? 
 4. Thế nào là món chay giả mặn?
-![Hình](ảnh_bài_6/cuối.png)
+![Hình](ảnh/ảnh_bài_6/cuối.png)

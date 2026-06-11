@@ -43,4 +43,4 @@ rồi hạ xuống (h2)
 bụng (h3) 
 - Hết một tiếng (đoàn, đàn) hai tay cầm cờ đưa chéo 
 lên đầu.
-![Hình](ảnh_bài_7/cuối.png)
+![Hình](ảnh/ảnh_bài_7/cuối.png)

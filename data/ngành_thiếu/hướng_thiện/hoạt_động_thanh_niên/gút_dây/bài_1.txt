@@ -2,7 +2,7 @@ GÚT DẸT (DẸP)
 
 
 1. Tên gọi: dẹp hay dẹt                     
-![Hình](ảnh_bài_1/dẹp.png)
+![Hình](ảnh/ảnh_bài_1/dẹp.png)
 2. Thể loại: nối, trang trí.
  
 
@@ -20,5 +20,5 @@ trang trí trên gậy
 6. Ghi chú: Đây là gút rất phổ biến và được ứng dụng rất rộng rãi trong nhiều lĩnh vực của đời sống. Các ứng dụng kể trên chỉ minh họa một phần rất nhỏ tác dụng đa dạng của gút này.
 7. Hướng dẫn thực hiện:
 
-![Hình](ảnh_bài_1/cuối.png)
+![Hình](ảnh/ảnh_bài_1/cuối.png)
 

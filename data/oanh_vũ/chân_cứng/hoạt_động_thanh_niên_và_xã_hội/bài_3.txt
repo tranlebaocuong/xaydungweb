@@ -28,4 +28,4 @@ hành bài học. Khen thưởng và biểu dương các em có
 những  việc  làm  tốt.  Kịp  thời  nhắc  nhỡ,  uốn  nắn 
 những em chưa thật sự tốt trong việc tránh xa chất 
 cháy nổ.
-![Hình](ảnh_bài_3/cuối.png)
+![Hình](ảnh/ảnh_bài_3/cuối.png)

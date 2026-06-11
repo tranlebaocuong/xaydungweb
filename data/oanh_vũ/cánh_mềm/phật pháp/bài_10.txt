@@ -100,4 +100,4 @@ III. CÂU HỎI:
 - Muốn quy y Tam bảo em cần phải làm gì? 
 - Em quy y vào năm nào? Ở đâu? Pháp danh là gì? 
 Vị Bổn sư truyền giới cho em là vị nào?
-![Hình](ảnh_bài_10/cuối.png)
+![Hình](ảnh/ảnh_bài_10/cuối.png)

@@ -1,7 +1,7 @@
 GÚT SỐ 8
 
  1. Tên gọi: Gút số 8, gút bó           
- ![Hình](ảnh_bài_5/số8.png)
+ ![Hình](ảnh/ảnh_bài_5/số8.png)
 2. Thể loại: Buộc treo.
  
 
@@ -14,4 +14,4 @@ GÚT SỐ 8
 – Cầm đầu dây khỏi bị tuột tay.
 5. Hướng dẫn thực hiện:
 
-![Hình](ảnh_bài_5/cuối.png)
+![Hình](ảnh/ảnh_bài_5/cuối.png)

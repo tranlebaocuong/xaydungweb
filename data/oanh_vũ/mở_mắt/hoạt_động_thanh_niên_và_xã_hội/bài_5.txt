@@ -25,7 +25,7 @@ Cách đàn phó đàn vàng 1m là đàn trưởng đàn 2
 (Đàn cánh đỏ) rồi đàn 4 (Đàn cánh hồng).n
 Sau  cùng  là Đoàn phó cách Đàn phó đàn cánh 
 hồng 3m.
-![Hình](ảnh_bài_5/1.png)
+![Hình](ảnh/ảnh_bài_5/1.png)
 
 2/ Xếp 2,3,4 hàng dọc: 
 Đoàn trưởng (hoặc đầu thứ đàn) đứng ở giữa theo 
@@ -36,7 +36,7 @@ cánh tay, sau cùng là các đàn phó. Khoảng cách giữa
 hai hàng (đàn) thường là hai cánh tay (Khoảng cách 
 này có thể gia giảm tuỳ địa thế). Đoàn phó đứng cách 
 đàn phó 3m.
-![Hình](ảnh_bài_5/2.png)
+![Hình](ảnh/ảnh_bài_5/2.png)
 
 3/ Xếp hình vòng tròn: 
 Lấy  Đoàn  trưởng  (hoặc đầu thứ  đàn)  làm  tâm 
@@ -44,7 +44,7 @@ Lấy  Đoàn  trưởng  (hoặc đầu thứ  đàn)  làm  tâm
 kim đông hồ, vừa chạy vừ xem điều chỉnh vòng cho 
 tròn và giữ đều khoảng cách, rộng hẹp tuỳ theo số 
 lượng và tuỳ người điều khiển.
-![Hình](ảnh_bài_5/3.png)
+![Hình](ảnh/ảnh_bài_5/3.png)
 
 III/ Thực hành: 
 Huynh  trưởng  hướng  dẫn  các  em  thực  hành 

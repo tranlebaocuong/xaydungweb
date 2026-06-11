@@ -113,5 +113,5 @@ III/ CÂU HỎI:
 2. Thái tử Thành đạo lúc nào? 
 3. Đức Phật nhập diệt vào tháng năm nào? 
 4. Năm đó ngài bao nhiêu tuổi?
-![Hình](ảnh_bài_1/cuối.png)
+![Hình](ảnh/ảnh_bài_1/cuối.png)
 

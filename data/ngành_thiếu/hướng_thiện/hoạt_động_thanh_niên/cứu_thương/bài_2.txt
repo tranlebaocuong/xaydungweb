@@ -26,7 +26,7 @@ BĂNG TAY CHÂN
 – Băng tam giác: Là loại băng làm bằng vải mềm hình tam giác có đính thêm dải ở 3 góc, băng có kích thước đa dạng, dễ sử dụng, thường có kích thước như sau: đáy tam giác 1m, chiều cao 0,5m, dải ở 3 góc.
 Ưu điểm: Băng nhanh chóng, băng được nhiều dạng vết thương.
 Nhược điểm: Băng cầm máu kém vì không có nhiều lớp vải ép vết thương như băng cuộn.
-![Hình](ảnh_bài_2/gạc.png)
+![Hình](ảnh/ảnh_bài_2/gạc.png)
 4. Một số kiểu băng cơ bản bằng băng cuộn và băng cá nhân:
 Khi sử dụng băng cá nhân và băng cuộn có các kiểu băng như: Băng vòng trong, băng vòng xoắn, băng số 8, băng vòng xoắn có nếp gấp, băng kiểu đặc biệt.
 
@@ -52,7 +52,7 @@ a. Băng bàn chân
 
 Băng vòng tròn đầu tiên ở sát đầu ngón chân. Đưa cuộn băng đi theo hình số 8, vòng sau cổ chân
 và bắt chéo ở mu chân. Buộc hoặc cài kim băng ở đầu cuối cuộn băng.
-![Hình](ảnh_bài_2/chân.png)
+![Hình](ảnh/ảnh_bài_2/chân.png)
 
 b. Băng đầu gối
 
@@ -60,7 +60,7 @@ b. Băng đầu gối
 – Tiếp tục 1 vòng tròn chồng lên vòng tròn đầu 1/2-2/3 ở trên
 – Tiếp theo 1 vòng tròn chồng lên 1/2 vòng đầu ở dưới
 – Băng kiểu số 8 (dẻ quạt) cho đến khi xong
- ![Hình](ảnh_bài_2/đầu gối.png)
+ ![Hình](ảnh/ảnh_bài_2/đầu gối.png)
 
 c. Băng cẳng chân
 
@@ -68,20 +68,20 @@ Băng 2 vòng đầu phía trên cổ chân cố định lên nhau để cố đ
 sau đó đưa cuộn băng đi theo hình số 8, mặt băng cắt chéo nhau mặt trước cẳng chân,
 băng liên tiếp từ dưới lên trên nhiều vòng số 8, số 8 sau đè lên số 8 trước.
 Dùng kim băng hoặc buộc cố định đầu cuối của cuộn băng.
-![Hình](ảnh_bài_2/cgch.png)
+![Hình](ảnh/ảnh_bài_2/cgch.png)
 
  2. Băng tay
 
 a. Băng bàn tay
 – Băng kín bàn tay: đặt tay vào giữa khăn tam giác, ngón tay hướng lên góc đỉnh, gấp góc đỉnh lên sau bàn tay góc trái và góc phải bắt chéo ở mu bàn tay, rồi xuống đến cổ tay lại vòng lại lên mu bàn tay và buộc nút, gấp góc đỉnh lên che lấy chỗ buộc nút.
 – Băng lòng bàn tay: gấp khăn tam gác, góc thành dải, từ lòng bàn tay, vòng đến mu bàn tay bắt chéo rồi kếo về phía cổ tay rồi buộc nút ở phía mu tay.
-![Hình](ảnh_bài_2/bt.png)
+![Hình](ảnh/ảnh_bài_2/bt.png)
 b. Băng bàn tay nắm
 Trường hợp bàn tay chảy máu, cho người bệnh nắm một cuộn băng gạc, rồi gấp khăn tam giác thành dải băng quanh nắm tay, rồi buộc nắm tay.
 c. Băng khuỷu tay
 Gấp phía dưới góc khăn tam giác (rộng độ 5cm) góc đỉnh quay lên trên vai, góc trai và phải vòng qua cánh tay dưới bắt chéo phía trên khuỷu tay, rồi vòng lên cánh tay trên và buộc nút, gấp góc đỉnh xuống.
 
-![Hình](ảnh_bài_2/tay.png)
+![Hình](ảnh/ảnh_bài_2/tay.png)
 
-![Hình](ảnh_bài_2/cuối.png)
+![Hình](ảnh/ảnh_bài_2/cuối.png)
  

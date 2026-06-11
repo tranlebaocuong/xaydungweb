@@ -12,7 +12,7 @@ Sau đây là một số nhạc cụ thông dụng:
 trúc, nứa.. dùng hơi để
 thổi. Có loại sáo dọc, có
 loại sáo ngang.
-![Hình](ảnh_bài_5/sáo.png)
+![Hình](ảnh/ảnh_bài_5/sáo.png)
 
 2). ĐÀN BẦU:
 Chỉ có một dây, dùng
@@ -20,7 +20,7 @@ que gảy, có âm sắc đặc
 biệt. Đây là một trong
 những nhạc cụ độc đáo
 của Việt Nam.
-![Hình](ảnh_bài_5/đàn bầu.png)
+![Hình](ảnh/ảnh_bài_5/đàn bầu.png)
 
 3). ĐÀN TRANH:
 Đàn tranh còn gọi là đàn
@@ -28,12 +28,12 @@ Thập lục (có 16 dây), dùng
 móng gảy. Ngoài độc tấu,
 hòa tấu, còn đệm cho ngâm
 thơ...
-![Hình](ảnh_bài_5/đàn tranh.png)
+![Hình](ảnh/ảnh_bài_5/đàn tranh.png)
 4). ĐÀN NHỊ:
 Ở Miền Nam còn gọi là
 đàn cò, có 2 dây, dùng dây
 cung để kéo.
-![Hình](ảnh_bài_5/đàn nhị.png)
+![Hình](ảnh/ảnh_bài_5/đàn nhị.png)
 5). ĐÀN NGUYỆT (Nguyệt cầm)
 Ở miền Nam gọi là đàn kìm,
 có 2 dây, dùng móng gảy.
@@ -41,17 +41,17 @@ có 2 dây, dùng móng gảy.
 để đệm cho hát Chầu Văn – một
 thể loại dân ca đặc sắc của đồng
 bào Bắc Bộ.
-![Hình](ảnh_bài_5/đàn nguyệt.png)
+![Hình](ảnh/ảnh_bài_5/đàn nguyệt.png)
 6). ĐÀN ĐÁY:
 Nhạc cụ điển hình của
 hát ca trù ở Bắc Bộ.
-![Hình](ảnh_bài_5/đàn đáy.png)
+![Hình](ảnh/ảnh_bài_5/đàn đáy.png)
 7). TRỐNG:
 Có nhiều loại trống khác nhau như: Trống cái,
 trống cơm, trống đế..vv. Trống Việt Nam đa dạng
 về loại hình và nghệ thuật diễn tấu phong phú, tinh
 tế.
-![Hình](ảnh_bài_5/trống.png)
+![Hình](ảnh/ảnh_bài_5/trống.png)
 B. VÀI LÀN ĐIỆU DÂN CA CÁC MIỀN
 
 Dân ca là những bài hát do dân gian sáng tác,

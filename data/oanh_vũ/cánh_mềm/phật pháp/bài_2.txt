@@ -63,4 +63,4 @@ sống hằng ngày.
 III/ CÂU HỎI: 
 - Khẩu hiệu của em là gì? 
 - Để thực hiện tốt Khẩu hiệu nầy em phải làm gì?
-![Hình](ảnh_bài_2/cuối.png)
+![Hình](ảnh/ảnh_bài_2/cuối.png)

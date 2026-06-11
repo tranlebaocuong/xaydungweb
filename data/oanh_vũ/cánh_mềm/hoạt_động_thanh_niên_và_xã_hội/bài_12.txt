@@ -19,7 +19,7 @@ thay cho đánh răng trong một số trường hợp.
 -  Có thể hướng dẫn các em thực hành đánh răng 
 theo các bước hướng dẫn. 
 - Em đánh răng 2 đến 3 lần một ngày 
-![Hình](ảnh_bài_12/răng.png)
+![Hình](ảnh/ảnh_bài_12/răng.png)
 
 II. Quét nhà: 
 1. Chuẩn bị: Chổi, dẻ lau...
@@ -42,4 +42,4 @@ lau nhà.
 - Sau khi quét, lau nhà phải lau lại bàn ghế, sắp đặt lại 
 giày dép cho ngăn nắp. 
 4. Thực hành: Thường xuyên giúp bố mẹ quét nhà.
-![Hình](ảnh_bài_12/nhà.png)
+![Hình](ảnh/ảnh_bài_12/nhà.png)

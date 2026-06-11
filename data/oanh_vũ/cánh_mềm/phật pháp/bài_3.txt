@@ -49,4 +49,4 @@ phần có mấy cánh?
 IV. THỰC HÀNH VẼ HOA SEN 
 - Đối với bậc Mở Mắt, các anh chị trưởng tập cho 
 các em sử dụng compa vẽ hình tròn trước. 
-![Hình](ảnh_bài_3/cuối.png)
+![Hình](ảnh/ảnh_bài_3/cuối.png)

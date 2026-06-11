@@ -1,7 +1,7 @@
 GÚT SƠN CA
 
 1. Tên gọi: Gút sơn ca              
-![Hình](ảnh_bài_6/sơn ca.png)
+![Hình](ảnh/ảnh_bài_6/sơn ca.png)
 2. Thể loại: Buộc treo
 3. Công dụng:  Dùng để cột vào cây
 4. Ứng dụng:
@@ -12,4 +12,4 @@ Khóa gút ở cọc trại, ở cáng dây
 …
 5. Hướng dẫn thực hiện:
 
-![Hình](ảnh_bài_6/cuối.png)
+![Hình](ảnh/ảnh_bài_6/cuối.png)

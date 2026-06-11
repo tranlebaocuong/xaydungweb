@@ -27,4 +27,4 @@ III. ĐẶT CÂU HỎI
 - Ba Ngôi báu là gì? 
 - Pháp báu là gì? 
 - Em quý trọng kinh sách như thế nào? 
-![Hình](ảnh_bài_11/cuối.png)
+![Hình](ảnh/ảnh_bài_11/cuối.png)
