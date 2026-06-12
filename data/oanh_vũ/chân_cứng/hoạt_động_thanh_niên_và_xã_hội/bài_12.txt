@@ -7,7 +7,7 @@ I. Chuẩn bị:
 - Trong phòng học hoặc ngoài thiên nhiên.
 II. Hình vẽ:
 1. Chia hai toán
-![Hình](ảnh_bài_12/1.png) 
+![Hình](ảnh_bài_12/1.png)
 2. Hợp lại thành một toán: hoặc
 ![Hình](ảnh_bài_12/2.png)
 3. Nguy hiểm:

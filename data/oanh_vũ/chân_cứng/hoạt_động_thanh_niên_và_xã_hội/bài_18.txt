@@ -5,7 +5,7 @@ I. Chuẩn bị:
 - Có thể đưa các em đến khu phố có biển báo sẽ học để các em quan sát
 II. Bài học
 1. Đường cấm đi xe đạp: Nền trắng, viền đỏ, có một gạch chéo màu đỏ, ngay chính giữa hình tròn có hình một chiếc xe đạp màu đen.
-![Hình](ảnh_bài_18/1.png) 
+![Hình](ảnh_bài_18/1.png)
 2. Đường cấm đi ngược chiều (Đường một chiều)
 ![Hình](ảnh_bài_18/2.png)
 Hình tròn nền đỏ, ở giữa có một vạch ngang màu trắng.

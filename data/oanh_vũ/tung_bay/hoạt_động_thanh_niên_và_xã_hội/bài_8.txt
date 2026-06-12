@@ -48,7 +48,7 @@ Z _ _..
 8 _ _ _..
 9 _ _ _ _.
 Dấu chấm. _. _. _ Dấu phẩy _ _.. _ _ Dấu hỏi.. _ _..
-Cấp Cứu: ... _ _ _...
+Cấp Cứu:... _ _ _...
 (SOS)
 
 * Các tín hiệu MORSE dùng cho Việt Ngữ: chữ S là dấu sắc chữ F là dấu huyền chữ R là dấu hỏi chữ X là dấu ngã chữ J là dấu nặng

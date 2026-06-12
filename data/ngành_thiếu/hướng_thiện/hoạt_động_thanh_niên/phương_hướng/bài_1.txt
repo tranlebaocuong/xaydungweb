@@ -19,7 +19,7 @@ Phương pháp này có độ chính xác thấp
 2) Phương pháp 2: Owendoff cải tiến
 ![Hình](ảnh_bài_1/mt1.png)
 
-Cũng như phương pháp Owendoff nhưng thời gian lâu hơn và chỉ nên bắt đầu vào khoảng 11 giờ 00 để kết thúc vào khoảng13 giờ 00 :
+Cũng như phương pháp Owendoff nhưng thời gian lâu hơn và chỉ nên bắt đầu vào khoảng 11 giờ 00 để kết thúc vào khoảng13 giờ 00:
 Lúc 11 giờ, sau khi lấy dấu đầu bóng gậy (A) ta phải vẽ một cung tròn có bán kính bằng chiều dài bóng gậy và đợi qua trưa.
 
 Lúc 13 giờ, bóng gậy lại chạm vào cung tròn đã vẽ tại điểm (B). Nối AB ta có hướng TÂY ĐÔNG chính xác, hay nối chân gậy với trung điểm của AB ta có hướng BẮC NAM.

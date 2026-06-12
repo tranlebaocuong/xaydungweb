@@ -46,6 +46,15 @@ def is_uppercase_title_line(text: str) -> bool:
     return bool(letters) and letters == letters.upper()
 
 
+def is_likely_title_continuation_line(text: str) -> bool:
+    without_parentheses = re.sub(r"\([^)]*\)", "", text)
+    letters = re.sub(r"[^A-Za-zÀ-ỹĐđ]", "", without_parentheses)
+    has_lesson_part = bool(re.search(r"\(\s*(?:\d+\s*)?tiết\s*\d*\s*\)", text, flags=re.I))
+    if not letters:
+        return has_lesson_part
+    return letters == letters.upper() and (has_lesson_part or len(text) <= 70)
+
+
 def parse_title(text: str, fallback: str) -> str:
     lines = text.splitlines()
     first_content_line = next((i for i, line in enumerate(lines) if line.strip()), -1)
@@ -57,6 +66,9 @@ def parse_title(text: str, fallback: str) -> str:
         trimmed = lines[i].strip()
         if not trimmed:
             break
+        if title_lines and is_likely_title_continuation_line(trimmed):
+            title_lines.append(trimmed)
+            continue
         if title_lines and is_content_start_line(trimmed):
             break
         if title_lines and is_uppercase_title_line(title_lines[-1]) and has_lowercase_letter(trimmed):
@@ -82,12 +94,9 @@ def main() -> int:
             continue
         title = parse_title(text, path.stem)
         if (
-            len(title) > 95
-            or re.search(r"\b[IVXLCDM]+\s*[-./]\s+", title, flags=re.I)
-            or re.search(r"\b[A-Z]\s*[-./)]\s+", title)
-            or re.search(r"\b[0-9]+\s*[-.)]\s+", title)
-            or "Mục đích" in title
-            or "Chuẩn bị" in title
+            len(title) > 180
+            or re.search(r"\b(?:I|II|III|IV|V)\s*[/.-]\s+(?:MỤC|NỘI|CÂU|CHUẨN)", title, flags=re.I)
+            or re.search(r"\b(?:Mục đích|Nội dung|Chuẩn bị|Câu hỏi)\s*:", title, flags=re.I)
         ):
             suspicious.append((path, title))
 

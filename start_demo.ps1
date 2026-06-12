@@ -3,9 +3,10 @@ Set-Location -Path $PSScriptRoot
 Write-Host "Dang mo demo tai lieu tu hoc..."
 Write-Host "Thu muc: $(Get-Location)"
 Write-Host "URL mac dinh: http://127.0.0.1:8000/index.html"
-Write-Host "Style hien tai: styles.css?v=13"
-Write-Host "Script hien tai: script.js?v=17"
-Write-Host "Neu vua cap nhat code, bam Ctrl+F5 trong trinh duyet de tai script moi."
+Write-Host "Style hien tai: styles.css?v=17"
+Write-Host "Script hien tai: script.js?v=21"
+Write-Host "Neu xem tren dien thoai, hay mo dung dia chi do cua so demo hien ra."
+Write-Host "Neu vua cap nhat code, bam Ctrl+F5 hoac dong tab mo lai de tai ban moi."
 Write-Host ""
 
 $python = Get-Command python -ErrorAction SilentlyContinue
@@ -16,7 +17,8 @@ if ($python) {
 } elseif ($py) {
     py music.py --demo --port 8000
 } else {
-    Write-Host "Khong tim thay Python. Hay cai Python hoac chay lenh: python music.py --demo --port 8000"
+    Write-Host "Khong tim thay Python."
+    Write-Host "Hay cai Python hoac chay lenh: python music.py --demo --port 8000"
 }
 
 Write-Host ""

@@ -25,7 +25,7 @@ ii. Chọn hướng lều:
 Thông thường lều bạt có 2 cửa (tức là nơi hướng gậy và dây chính). Hướng lều cần ưu tiên cho các điều sau đây: + Hướng lều của BTC qui định + Quay về hướng cột cờ trại + Quay về lều của BTC + Quay về sân sinh hoạt, lều trại. Ngoài ra ta chọn hướng lều tránh gió (mùa mưa, mùa lạnh) hoặc đón gió (mùa hè, mùa nóng). Có thể chọn hướng Đông Bắc - Tây Nam.
 iii/ Quy trình dựng lều:
 ![Hình](ảnh_bài_15/2.png)
-a. Trải lều: trãi phẳng, chú ý hướng lều, lưu ý tấm lều trãi, lều mặt.
+a. Trải lều: trải phẳng, chú ý hướng lều, lưu ý tấm lều trải, lều mặt.
 b. Đặt gậy: gậy đặt thẳng ở hai đầu lều chiều dài của gậy cũng là khoảng cách của cọc chính lều và chân gậy.
 c. Đóng cọc: 2 cọc chính đóng ở chân gậy chính, các cọc phụ đóng thành từng cặp cho cân xứng thông qua tấm lều. Khoảng cách từ mép lều đến các cọc phụ xa gần tùy theo muốn mép lều cao hay thấp. Cọc cần đóng xiên chiều ngược lại với lều để khi cột dây lên thì dây phải vuông góc với các cọc. (nên nhớ chỉ đóng tạm tức đóng khoảng 2/3 cọc).
 d. Cột dây: thông thường là các loại nút: thòng lọng, thuyền chài, chạy, bồ câu... Đầu gậy chính cột nút thuyền chài, mép lều cột nút thòng lọng hay thợ dệt, ở cọc cột nút chạy hay bồ câu.
@@ -42,7 +42,7 @@ b. Xuống lều:
 - Dùng tay còn lại nắm khoảng cách lều theo chiều đứng để nhập đôi lều lại lần nữa và cứ thế cho đến khi vừa ý.
 - Cuốn lều lại bằng cách nhập đôi 2 góc đang cầm vào giữa, tiếp tục cho đến khi xong (các mép lều phải được gói vào trong để di chuyển không bị bung ra vừa xấu, vừa không an toàn).
 1. 3 Các tình huống cần xử lý:
-Nếu lều bị chùng do lều quá cũ, do mưa ướt khắc phục bằng: làm thêm gậy phụ, tăng lực ở các dây chính và các dây phụ. Khi dựng lều cột dây phải cột nút sống để dễ tháo dây, nếu còn dư phải thắt gọn lại cho đẹp, không vướng. Các đồ dùng trong lều phải bố trí theo qui định. Thí dụ: đồ dùng cá nhân phải để xung quanh lều để có khoảng trống cho sinh hoạt, hội họp, nghỉ, ngủ, ... giày dép phải để bên ngoài tránh bụi, mùi hôi cho lều... Một số điều cần tránh: + Không nấu và ăn trong lều (đề phòng kiến, gián và côn trùng vào ban đêm). + Không phơi quần áo, khăn... trên các dây lều... sẽ làm cho lều nhanh bị chùng và rất mất thẩm mỹ
+Nếu lều bị chùng do lều quá cũ, do mưa ướt khắc phục bằng: làm thêm gậy phụ, tăng lực ở các dây chính và các dây phụ. Khi dựng lều cột dây phải cột nút sống để dễ tháo dây, nếu còn dư phải thắt gọn lại cho đẹp, không vướng. Các đồ dùng trong lều phải bố trí theo qui định. Thí dụ: đồ dùng cá nhân phải để xung quanh lều để có khoảng trống cho sinh hoạt, hội họp, nghỉ, ngủ,... giày dép phải để bên ngoài tránh bụi, mùi hôi cho lều... Một số điều cần tránh: + Không nấu và ăn trong lều (đề phòng kiến, gián và côn trùng vào ban đêm). + Không phơi quần áo, khăn... trên các dây lều... sẽ làm cho lều nhanh bị chùng và rất mất thẩm mỹ
 2. XÂY TỔ ĐÀN:
 Tổ đàn là nơi ngủ nghỉ của loài chim. Em là Oanh vũ sống theo hình thức đàn nên việc xây tổ, sống gần gũi với thiên nhiên là điều nên làm.
 Tổ có thể thực hiện trên chạng ba, chạng tư cây thấp. Cũng có thể hình thành dưới lùm cây, kéo các cành là quay quanh tổ, đan chéo hoặc buộc vào nhau.

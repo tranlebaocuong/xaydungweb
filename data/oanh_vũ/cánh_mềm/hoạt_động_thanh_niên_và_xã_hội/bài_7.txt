@@ -5,7 +5,7 @@ Dây làm gút (2 sợi dây to nhỏ khác nhau); dây cước, dây điện.
 II. Nội dung bài học:
 1. Khái niệm về gút:
 Đó là cách thắt buộc dây, sử dụng dây cho nhu cầu trong cuộc sống.
-Thắt buộc có phương pháp nhanh chóng, chắc chắn, ít tốn dây, dễ tháo gỡ, ...
+Thắt buộc có phương pháp nhanh chóng, chắc chắn, ít tốn dây, dễ tháo gỡ,...
 2. Ý nghĩa của việc học gút:
 - Rèn tính tháo vát, nhanh nhẹn.
 - Biết chọn dây và giữ gìn dây.
@@ -44,4 +44,4 @@ Nối chỉ hay các loại dây trơn và dây đã ngâm nước.
 3.4.3. Ứng dụng:
 - Nối 2 sợi chỉ.
 - Nối dây cước, dây điện.
-![Hình](ảnh/ảnh_bài_7/cuối.png) 
+![Hình](ảnh/ảnh_bài_7/cuối.png)

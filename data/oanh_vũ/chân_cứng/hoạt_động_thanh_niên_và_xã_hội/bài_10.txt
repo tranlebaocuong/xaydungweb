@@ -2,7 +2,7 @@ BIẾT SỬ DỤNG VI TÍNH
 
 I. Chuẩn bị
 - Máy vi tính.
-- Internet (có thể USB D.Com 3G...)
+- Internet (có thể USB D. Com 3G...)
 - Chuyện kể hoặc thông tin trên báo chí, truyền hình,...
 II. Bài giảng:
 - Ở bậc học dưới các em đã làm quen với máy vi tính; biết cách mở và tắt, làm quen với các bộ phận trên máy vi tính.

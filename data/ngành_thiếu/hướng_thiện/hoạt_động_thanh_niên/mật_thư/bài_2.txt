@@ -6,7 +6,7 @@ I. Thay thế bằng Morse
 1. Chẵn lẻ:
 Số lẻ = tich (o), Số chẵn = te (-) (Chìa khóa = chẵn lẻ)
 2. Âm nhạc:
-Tùy vào chìa khóa, ta có thể biết được rằng nốt nhạc nào được ký hiệu là tich (o) và nốt nhạc nào được ký hiệu là te (-) (có thể dựa theo nốt nhạc, cao độ, nốt đen – nốt trắng, nốt đơn – nốt móc,…)
+Tùy vào chìa khóa, ta có thể biết được rằng nốt nhạc nào được ký hiệu là tich (o) và nốt nhạc nào được ký hiệu là te (-) (có thể dựa theo nốt nhạc, cao độ, nốt đen – nốt trắng, nốt đơn – nốt móc, …)
 3. Núi đồi:
 Người ta ký hiệu như sau:
 Tich = đồi (^), Te = núi (/\)
@@ -27,7 +27,7 @@ Ví dụ: OTT A = 1
 BMM: 14, 7, 21, 24 – 7, 9, 15, 23, 9, 19 (AR)
 Sẽ được dịch là: “NGUX GIOWIS”
 Bạch Văn: “Ngũ Giới”
-Như vậy, người đố mật thư có thể thay đổi khóa. Thay vì A = 1, thì ta có thể cho A = 2, 3,… hay một số bất kỳ nào khác, hoặc ta không dùng A mà có thể dùng một chữ nào đó và bằng một số nào đó, ví dụ:
+Như vậy, người đố mật thư có thể thay đổi khóa. Thay vì A = 1, thì ta có thể cho A = 2, 3, … hay một số bất kỳ nào khác, hoặc ta không dùng A mà có thể dùng một chữ nào đó và bằng một số nào đó, ví dụ:
 Khóa: Anh và em đều vào lớp một A = M = 1 Em lên năm M = 5 Bay hỏi ai là anh cả 7 = A Tình yêu không phai 0 = 5 (five)
 Giải phương trình tìm nghiệm (x = …)
 Trong trò chơi lớn có biến thể chút ít, như thay vì chạy số từ 1″ 26 thì có thể chạy số lớn hơn, hoặc chạy số dài hơn…
