@@ -20,8 +20,7 @@ Bước 3: Vẽ họa tiết vào các mảng hình.
 Hoàn chỉnh vẽ các họa tiết vào các mảng hình.
 ![Hình](ảnh/ảnh_bài_4/bước 3_2.png)
 
-(phân chia để vẽ họa tiết xen kẽ)
-(vẽ dần từ đơn giản đến phức tạp)
+(phân chia để vẽ họa tiết xen kẽ) (vẽ dần từ đơn giản đến phức tạp)
 
 Bước 4: Tìm và vẽ màu.
 ![Hình](ảnh/ảnh_bài_4/bước 4.png)
@@ -63,24 +62,14 @@ Xếp ngang đường cắt
 
 B. KHẮC TRÊN PHẤN, TẨY
 1. Khắc trên phấn
-a. Vật liệu:
-+ Phấn viết bảng, dao nhỏ nhọn sắc, mảnh chai, bút chì.
-+ Hình mẫu định khắc (hoặc trong tư duy).
+a. Vật liệu: + Phấn viết bảng, dao nhỏ nhọn sắc, mảnh chai, bút chì. + Hình mẫu định khắc (hoặc trong tư duy).
 
-b. Các bước điêu khắc phấn:
-+ Phân chia các phần cần khắc (ví dụ: đầu, mình, chân) theo chiều dài viên phấn.
+b. Các bước điêu khắc phấn: + Phân chia các phần cần khắc (ví dụ: đầu, mình, chân) theo chiều dài viên phấn.
 ![Hình](ảnh/ảnh_bài_4/khắc1.png)
-+ Phân chia các phần nhỏ trên mỗi phần đã chia (ví dụ: tóc, trán, mắt, môi, mũi, cằm,... nằm ở phần đầu).
-+ Vẽ trên phấn các phần nổi cơ bản, định hình các phần cao thấp.
-+ Dùng dao, mảnh chai cạo, gọt, khoét nhẹ, làm nổi rõ dần hình cần khắc và dần hoàn chỉnh tượng khắc.
++ Phân chia các phần nhỏ trên mỗi phần đã chia (ví dụ: tóc, trán, mắt, môi, mũi, cằm,... nằm ở phần đầu). + Vẽ trên phấn các phần nổi cơ bản, định hình các phần cao thấp. + Dùng dao, mảnh chai cạo, gọt, khoét nhẹ, làm nổi rõ dần hình cần khắc và dần hoàn chỉnh tượng khắc.
 
 2. Khắc trên tẩy (gôm)
-a. Vật liệu:
-+ 2-3 cục tẩy (tùy theo bạn thích làm bao nhiêu con dấu), chọn tẩy dày và to cho dễ điêu khắc. Nên sử dụng loại tẩy dai (không bở vụn) và có bề mặt mịn, mượt (không rỗ).
-+ Dao rọc giấy, chọn dao lưỡi mỏng và nhỏ.
-+ Mực bút máy hoặc mực in.
-+ Bút bi, bút chì.
-+ Hình mẫu định khắc (hoặc trong tư duy).
+a. Vật liệu: + 2-3 cục tẩy (tùy theo bạn thích làm bao nhiêu con dấu), chọn tẩy dày và to cho dễ điêu khắc. Nên sử dụng loại tẩy dai (không bở vụn) và có bề mặt mịn, mượt (không rỗ). + Dao rọc giấy, chọn dao lưỡi mỏng và nhỏ. + Mực bút máy hoặc mực in. + Bút bi, bút chì. + Hình mẫu định khắc (hoặc trong tư duy).
 
 b. Các bước điêu khắc tẩy:
 Bước 1: Vẽ hình mà em muốn lên giấy. Chú ý kích thước phải nhỏ hơn so với kích thước của tẩy. Sau đó đặt hình vẽ lên trên tờ giấy than (mặt than của giấy úp vào mặt sau của tờ giấy đã vẽ). Đồ lại một lần nữa trên hình đã vẽ để có nét vẽ trên mặt sau của tờ giấy (hình ngược).
@@ -94,10 +83,7 @@ Bằng những bước đơn giản như vậy, mỗi người đều có thể 
 
 C. NẮN TĨNH VẬT (Thiếu Nam)
 1. Vật liệu: đất sét, vật mẫu.
-2. Cách nặn tĩnh vật:
-+ Nhồi đất cho nhuyễn, vừa ráo tay.
-+ Tập nắn những vật dụng như: bình hoa, cốc uống nước trà, gạt tàn, con gà trống, gà mái, trứng gà, chim bay...
-+ Để khô và dùng màu sơn nước sơn bên ngoài các màu thích hợp và đẹp mắt.
+2. Cách nặn tĩnh vật: + Nhồi đất cho nhuyễn, vừa ráo tay. + Tập nắn những vật dụng như: bình hoa, cốc uống nước trà, gạt tàn, con gà trống, gà mái, trứng gà, chim bay... + Để khô và dùng màu sơn nước sơn bên ngoài các màu thích hợp và đẹp mắt.
 Hiện nay có loại đất sét mịn thơm, có thể cán mỏng làm thành cánh hoa, cành lá nhiều màu sắc rất đẹp.
 ![Hình](ảnh/ảnh_bài_4/nặn.png)
 
@@ -107,9 +93,7 @@ Hướng dẫn cho đoàn sinh làm một con búp bê đơn giản.
 
 D. LÀM LỒNG ĐÈN
 Những lồng đèn Ông sao, đèn bánh ú, đèn cá chép... được làm bằng nan tre truyền thống mãi mãi tồn tại. Nay chúng ta biết làm thêm các lồng đèn:
-1. Đèn hoa sen thả xuống nước trong lễ phóng đăng:
-a/. Làm bằng nan tre dán giấy kính màu: Cắt nan tre nhỏ khoảng 30 cm, bằng nhau, uốn cong nan tre theo hình chữ U, dùng dây thép nhỏ cột cố định và dán giấy màu thành cánh hoa.
-b/. Làm bằng giấy lịch (tờ) cũ: Cắt giấy thành hình cánh sen, lớn nhỏ tùy ý, một hoa sen có từ 4 cánh trở lên. (Có giấy carton mỏng cứng càng tốt.)
+1. Đèn hoa sen thả xuống nước trong lễ phóng đăng: a/. Làm bằng nan tre dán giấy kính màu: Cắt nan tre nhỏ khoảng 30 cm, bằng nhau, uốn cong nan tre theo hình chữ U, dùng dây thép nhỏ cột cố định và dán giấy màu thành cánh hoa. b/. Làm bằng giấy lịch (tờ) cũ: Cắt giấy thành hình cánh sen, lớn nhỏ tùy ý, một hoa sen có từ 4 cánh trở lên. (Có giấy carton mỏng cứng càng tốt.)
 Sau khi có được cánh sen, chúng ta cắt đều các miếng xốp (loại dùng làm thùng đá) hoặc thân cây chuối chia ½ để nổi được dưới nước, rồi cắm các cánh sen theo hình tròn. Ở giữa thắp đèn sáp.
 
 2. Đèn giấy xếp

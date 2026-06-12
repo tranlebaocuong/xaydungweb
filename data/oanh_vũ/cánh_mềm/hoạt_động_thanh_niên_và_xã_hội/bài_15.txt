@@ -1,70 +1,23 @@
-LÀM QUEN VỚI MÁY VI TÍNH  
-I. Chuẩn bị: 
-Máy vi tính 
-II. Nội dung bài học: 
-1. Vai trò của máy vi tính: 
-1.1. Trong đời sống gia đình 
-Máy tính hoạt động được là nhờ có bộ xử lý. Các 
-thiết bị có bộ xử lý giống như máy tính, có thể chọn 
-chương trình cho máy giặt, hẹn giờ tắt mở và chọn 
-kênh cho ti vi, đặt giờ báo thức cho đồng hồ điện tử... 
-Điện thoại di động, đèn điều khiển giao thong, đèn 
-biển quảng cáo... 
-1.2. Trong cơ quan, cửa hàng, bệnh viện 
-Nhờ có máy tính việc soạn, in văn bản, cho mượn 
-sách trong thư viện, bán vé máy bay, rút tiền tự động... 
-được thực hiện nhanh chóng và chính xác. 
-1.3. Trong phòng nghiên cứu, nhà máy 
-Trong phòng nghiên cứu và nhà máy, máy tính đã 
-làm thay đổi cách làm việc của con người. 
-Vd: Thiết kế nhà, mẫu thời trang... trên máy tính. 
-1.4. Mạng máy tính 
-Nhiều máy tính nối với nhau tạo thành mạng máy 
-tính. Các máy tính trong mạng có thể trao đổi thông 
-tin với nhau.
-Rất nhiều máy tính trên thế giới nối với nhau tạo 
-thành một mạng lớn gọi là mạng Internet. 
-2. Giới thiệu máy tính 
-- Có 2 loại máy tính: MT xách tay và MT để bàn 
-- Các bộ phận của MT để bàn 
-+ Màn hình 
-+ Phần thân máy 
-+ Bàn phím 
-+ Chuột 
-- Chức năng 
-+ Màn hình: Có cấu tạo và hình dạng như màn 
-hình ti vi. Các dòng chữ, số và hình ảnh hiện trên màn 
-hình cho thấy kết quả hoạt động của máy tính. 
-+ Phần thân: Là 1 hộp chứa nhiều chi tiết tinh vi, 
-trong đó có bộ vi xử lý là bộ não điều khiển mọi hoạt 
-động của MT. 
-+ Bàn phím: Gồm nhiều phím, khi gõ ta gửi tín 
-hiệu vào máy tính. 
-+ Chuột: Giúp điều khiển MT nhanh và thuận tiện 
-3. Làm việc với máy tính 
-3.1. Bật máy: Gồm 2 thao tác 
-+ Bật công tắc màn hình 
-+ Bật công tắc trên thân máy 
-Chú  ý:  Một số loại MT có 1 công tắc chung cho 
-thân máy và màn hình, với loại này em chỉ cần bật 
-công tắc chung.
-- Trên màn hình nền có nhiều biểu tượng: Đó là 
-những hình vẽ nhỏ, mỗi biểu tượng ứng với một 
-công việc. 
-3.2. Tư thế ngồi 
-Nên ngồi thẳng, tư thế thoải mái sao cho không 
-phải ngẩng cổ hay ngước mắt nhìn màn hình. Tay đặt 
-ngang tầm bàn phím và không phải vươn xa, chuột đặt 
-bên tay phải. 
-Nên giữ khoảng cách giữa mắt và màn hình từ 50 - 
-80cm. 
-3.3. Ánh sáng 
-Máy tính nên đặt ở vị trí sao cho ánh sáng không 
-chiếu thẳng vào màn hình và mắt 
-3.4. Tắt máy 
-- Thoát hết chương trình đã mở 
-- Chọn start/Shutdown 
-- Tắt nguồn điện 
-III. Thực hành: 
-Chia các em thành các nhóm nhỏ, yêu cầu các em 
-thực hiện các thao tác khởi động và tắt máy.
+LÀM QUEN VỚI MÁY VI TÍNH
+I. Chuẩn bị:
+Máy vi tính
+II. Nội dung bài học:
+1. Vai trò của máy vi tính:
+1.1. Trong đời sống gia đình Máy tính hoạt động được là nhờ có bộ xử lý. Các thiết bị có bộ xử lý giống như máy tính, có thể chọn chương trình cho máy giặt, hẹn giờ tắt mở và chọn kênh cho ti vi, đặt giờ báo thức cho đồng hồ điện tử...
+Điện thoại di động, đèn điều khiển giao thong, đèn biển quảng cáo...
+1.2. Trong cơ quan, cửa hàng, bệnh viện Nhờ có máy tính việc soạn, in văn bản, cho mượn sách trong thư viện, bán vé máy bay, rút tiền tự động...
+được thực hiện nhanh chóng và chính xác.
+1.3. Trong phòng nghiên cứu, nhà máy Trong phòng nghiên cứu và nhà máy, máy tính đã làm thay đổi cách làm việc của con người.
+Vd: Thiết kế nhà, mẫu thời trang... trên máy tính.
+1.4. Mạng máy tính Nhiều máy tính nối với nhau tạo thành mạng máy tính. Các máy tính trong mạng có thể trao đổi thông tin với nhau.
+Rất nhiều máy tính trên thế giới nối với nhau tạo thành một mạng lớn gọi là mạng Internet.
+2. Giới thiệu máy tính
+- Có 2 loại máy tính: MT xách tay và MT để bàn - Các bộ phận của MT để bàn + Màn hình + Phần thân máy + Bàn phím + Chuột - Chức năng + Màn hình: Có cấu tạo và hình dạng như màn hình ti vi. Các dòng chữ, số và hình ảnh hiện trên màn hình cho thấy kết quả hoạt động của máy tính. + Phần thân: Là 1 hộp chứa nhiều chi tiết tinh vi, trong đó có bộ vi xử lý là bộ não điều khiển mọi hoạt động của MT. + Bàn phím: Gồm nhiều phím, khi gõ ta gửi tín hiệu vào máy tính. + Chuột: Giúp điều khiển MT nhanh và thuận tiện
+3. Làm việc với máy tính
+3.1. Bật máy: Gồm 2 thao tác + Bật công tắc màn hình + Bật công tắc trên thân máy Chú ý: Một số loại MT có 1 công tắc chung cho thân máy và màn hình, với loại này em chỉ cần bật công tắc chung.
+- Trên màn hình nền có nhiều biểu tượng: Đó là những hình vẽ nhỏ, mỗi biểu tượng ứng với một công việc.
+3.2. Tư thế ngồi Nên ngồi thẳng, tư thế thoải mái sao cho không phải ngẩng cổ hay ngước mắt nhìn màn hình. Tay đặt ngang tầm bàn phím và không phải vươn xa, chuột đặt bên tay phải.
+Nên giữ khoảng cách giữa mắt và màn hình từ 50 - 80cm.
+3.3. Ánh sáng Máy tính nên đặt ở vị trí sao cho ánh sáng không chiếu thẳng vào màn hình và mắt 3.4. Tắt máy - Thoát hết chương trình đã mở - Chọn start/Shutdown - Tắt nguồn điện
+III. Thực hành:
+Chia các em thành các nhóm nhỏ, yêu cầu các em thực hiện các thao tác khởi động và tắt máy.

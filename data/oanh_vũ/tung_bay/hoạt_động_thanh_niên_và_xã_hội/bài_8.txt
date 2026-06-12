@@ -1,0 +1,71 @@
+TRUYỀN TIN BẰNG CỜ, VÀI
+TÍN HIỆU CẦN DÙNG: BẮT ĐẦU
+GỌI, SẴN SÀNG, HẾT TIN, LẶP LẠI
+
+I. Mục tiêu
+Sau bài học, Đoàn sinh có thể: • Sử dụng cờ Semaphore để nhận và tập truyền tin theo tín hiệu Morse
+II. Chuẩn bị đồ dùng
+• 1 cặp cờ Semaphore: đỏ và trắng (hoặc đỏ/vàng) với kích thước vừa đủ lớn và 1 Bảng Morse (xem hình bên dưới) • Kích thước của lá cờ thường dùng là 30cm*30cm hoặc 40cm*40cm
+![Hình](ảnh_bài_8/1.png)
+Bảng tín hiệu Morse:
+
+E.
+I..
+S...
+H....
+A. _
+U.. _
+V... _
+R. _.
+P. _ _.
+W. _ _
+L. _..
+F.. _.
+C _. _.
+J. _ _ _
+0 _ _ _ _ _
+1. _ _ _ _
+2.. _ _ _
+3... _ _
+4.... _
+
+T _
+M _ _
+O _ _ _
+CH _ _ _ _
+N _.
+D _..
+B _...
+K _. _
+X _.._
+G _ _.
+Y _. _ _
+Q _ _. _
+Z _ _..
+5.....
+6 _....
+7 _ _...
+8 _ _ _..
+9 _ _ _ _.
+Dấu chấm. _. _. _ Dấu phẩy _ _.. _ _ Dấu hỏi.. _ _..
+Cấp Cứu: ... _ _ _...
+(SOS)
+
+* Các tín hiệu MORSE dùng cho Việt Ngữ: chữ S là dấu sắc chữ F là dấu huyền chữ R là dấu hỏi chữ X là dấu ngã chữ J là dấu nặng
+
+Â = AA
+Ê = EE
+Ô = OO
+Ă = AW
+Ơ =OW
+Ư = UW
+Đ = DD
+
+III/ Nội dung bài học
+Khi dùng cờ semaphore cần chú ý những điểm sau: • Quy định tín hiệu: Tích (o) 1 cánh tay (tay phải) giơ ngang; Tè (-) 2 cánh tay giơ ngang. • Hết một cụm âm tín hiệu của một chữ: để xuôi hai cánh tay dọc theo thân người. Hết một cụm từ có nghĩa là: xếp chéo hai lá cờ trước thân người. • Dùng hệ thống bảng dấu chuyển giống phần tín hiệu phát bằng còi.
+Điểm cần chú ý: • Khi phát tin tránh để cờ bị rối, muốn vậy phải:
+đánh cờ theo hình số 8, tránh các hướng gió mạnh • Người phát tin luôn chọn vị trí cao để đứng và ở tư thế nghiêm. • Nội dung bản tin cần được soạn thật ngắn gọn, súc tích.
+Các dấu hiệu truyền tin bằng cờ: • Kêu gọi để truyền tin: đưa 2 tay cầm cờ ngang vai rồi hạ xuống thấp sát thân người (giống tư thế đứng nghiêm). Làm động tác này nhiều lần đến khi nào nhận được tín hiệu trả lời: Sẵn sàng nhận tin • Sẵn sàng nhận tin: đưa 2 tay cầm cờ chéo trên đầu, phất chéo qua chéo lại theo hình số 8 nhiều lần. • Hiểu rồi, đồng ý: đưa tay phải cầm cờ ngang vai, tay trái cầm cờ để chéo trước bụng. • Xin lặp lại: đưa 2 tay cầm cờ ngang vai đến khi nhận được tín hiệu trả lời • Hết bản tin: đưa 2 tay cầm cờ để chéo trên đầu.
+IV/ Thực hành
+Huynh Trưởng phát 1 vài bản tin Morse ngắn, đơn giản sử dụng cờ để đoàn sinh tập nhận. Sau đó, có thể chia các nhóm Đoàn sinh để các em tự thi đua phát tin và nhận tin. Hoặc lồng ghép kiểm tra kỹ năng phát, nhận tin của Đoàn sinh thông qua 1 buổi Trò chơi lớn, Trò chơi vừa.
+![Hình](ảnh_bài_8/2.png)

@@ -1,21 +1,14 @@
-THỰC HÀNH TRUYỀN VÀ NHẬN TIN BẰNG CÒI 
- 
-I. Nguyên tắc truyền và nhận Morse 
-- Phải học thật thuộc lòng bản ký hiệu Morse 
-- Phải thực hành luôn cho thật quen và khỏi quên. 
--  Phải tập nhận ra chữ ngay, không nhận theo lối 
-ghi lại tích tè rồi dịch sau. 
-II. Cách thổi còi khi nhận bản tin: 
--  Âm tích: thổi ngắn gọn. Âm tè: thổi dài (thời 
-gian thổi âm tè dài gấp 4 lần thời gian thổi âm tích) 
--  Khi thổi, đặt lưỡi sát miệng còi, thổi mạnh,  dứt 
-khoát, không do dự (nhưng không thổi mạnh quá sẽ 
-mất sức) 
-III. Thực hành 
-- Cho các em học thuộc lòng bản ký hiệu. 
-- Truyền tin ngắn cho các em nhận. 
--  Cho các em truyền bản tin (do Huynh trưởng ra 
-nội dung bản văn hoặc các em tự đặt) 
-- Phân chia nhóm để truyền và nhận tin. 
-- Lúc đầu truyền chậm, dần dần nhanh. Thực hành 
-nhiều và thường xuyên.
+THỰC HÀNH TRUYỀN VÀ NHẬN TIN BẰNG CÒI
+
+I. Nguyên tắc truyền và nhận Morse
+- Phải học thật thuộc lòng bản ký hiệu Morse - Phải thực hành luôn cho thật quen và khỏi quên.
+- Phải tập nhận ra chữ ngay, không nhận theo lối ghi lại tích tè rồi dịch sau.
+II. Cách thổi còi khi nhận bản tin:
+- Âm tích: thổi ngắn gọn. Âm tè: thổi dài (thời gian thổi âm tè dài gấp 4 lần thời gian thổi âm tích)
+- Khi thổi, đặt lưỡi sát miệng còi, thổi mạnh, dứt khoát, không do dự (nhưng không thổi mạnh quá sẽ mất sức)
+III. Thực hành
+- Cho các em học thuộc lòng bản ký hiệu.
+- Truyền tin ngắn cho các em nhận.
+- Cho các em truyền bản tin (do Huynh trưởng ra nội dung bản văn hoặc các em tự đặt)
+- Phân chia nhóm để truyền và nhận tin.
+- Lúc đầu truyền chậm, dần dần nhanh. Thực hành nhiều và thường xuyên.
