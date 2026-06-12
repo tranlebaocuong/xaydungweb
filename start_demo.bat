@@ -6,7 +6,7 @@ echo Dang mo demo tai lieu tu hoc...
 echo Thu muc: %cd%
 echo URL mac dinh: http://127.0.0.1:8000/index.html
 echo Style hien tai: styles.css?v=17
-echo Script hien tai: script.js?v=21
+echo Script hien tai: script.js?v=22
 echo Neu xem tren dien thoai, hay mo dung dia chi do cua so demo hien ra.
 echo Neu vua cap nhat code, bam Ctrl+F5 hoac dong tab mo lai de tai ban moi.
 echo.
