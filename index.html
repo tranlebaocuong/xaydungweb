@@ -3,19 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Demo Phật Pháp - Hướng Thiện</title>
+  <title>CHƯƠNG TRÌNH TU HỌC GIA ĐÌNH PHẬT TỬ</title>
   <link rel="icon" href="favicon.ico" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=13" />
 </head>
 <body>
   <div class="app-shell">
     <header class="app-header">
+      <button id="menuToggle" class="menu-toggle" type="button" aria-controls="lessonPanel" aria-expanded="false" aria-label="Mở danh sách bài học">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <h1>TÀI LIỆU TU HỌC</h1>
-      <p>Chọn một mục bên trái: bắt đầu từ "HƯỚNG THIỆN" hoặc "SƠ THIỆN", sau đó chọn nhánh và bài học tương ứng.</p>
+      <p>Nhấp bên trái để tìm kiếm bậc học bạn cần tài liệu.</p>
       </header>
 
       <main class="app-main">
-      <aside class="lesson-list">
+      <aside id="lessonPanel" class="lesson-list" aria-label="Danh sách bài học">
         <h2>Danh sách bài học</h2>
         <div id="lessonButtons" class="buttons"></div>
       </aside>
@@ -23,13 +28,13 @@
       <section class="lesson-content">
         <h2 id="lessonTitle" class="lesson-title hidden"></h2>
         <div id="lessonPlaceholder" class="placeholder">
-          <p>Chọn một bài học ở bên trái để xem nội dung.</p>
+          <p>Mở thanh trượt trên cùng ở bên trái để xem bậc học bạn cần tìm tài liệu.</p>
         </div>
         <article id="lessonOutput" class="output hidden"></article>
       </section>
     </main>
   </div>
 
-  <script src="script.js?v=1"></script>
+    <script src="script.js?v=17"></script>
 </body>
 </html>

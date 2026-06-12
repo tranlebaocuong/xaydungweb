@@ -1,46 +1,24 @@
-THUỘC VÀ TRUYỀN NHẬN  
-CÁC MẪU TỰ BẰNG KÝ HIỆU 
-MORSE: E - I - S - H - T - M - O - CH 
- 
-I/ Xuất xứ: 
-Ký  hiệu  Morse  do  ông  Samuel  Finley  Breese 
-Morse, người Mỹ, sinh năm 1791 mất năm 1872, phát 
-minh vào khoảng năm 1835 bằng cách dùng các ký 
-hiệu Tích (.), Tè (-) hợp lại thành chữ và số. Mỗi chữ 
-có tối đa là 4 ký hiệu, mỗi số có tối đa 5 ký hiệu. 
-II/ Các ký hiệu Morse: 
-E .    T   - 
-I ..   M  -- 
-S ...  O   --- 
-H....  CH --- 
-III/ Hướng dẫn: 
-Huynh trưởng hướng dẫn các em học thuộc các 
-mẫu tự bằng ký hiệu Morse theo yêu cầu của bài giảng 
-Các em thực hành thật nhiều cách truyền và nhận 
-từng chữ, từng câu 
-Tập cho các em nhận ra chữ ngay sau khi đánh 
-Morse,  không nhận theo lối ghi lại ký hiệu tích tè ra 
-giấy rồi mới dịch. 
-IV/ Cách truyền tin: 
-Có rất nhiều cách truyền tin. Trong khuôn khổ 
-của Bậc Mở Mắt chỉ giới thiệu hai cách truyền tin 
-phổ biến: 
-* Truyền tin bằng còi: 
-- Âm tích thổi 1 tiếng ngắn. 
-- Âm tè thổi dài hơn (thời gian âm tè dài gấp 4 lần 
-âm tích) 
--  Khi thổi phải đặt lưỡi sát miệng còi, thổi mạnh, 
-dứt khoát, không do dự. Không quá mạnh làm mất sức 
-và khó nghe 
-* Truyền tin bằng cờ: 
-- Đứng thẳng người, nơi cao, thoáng rộng, hai tay 
-cầm cờ. 
--  Đánh tích (.) một tay cầm cờ đưa thẳng ngang 
-vai rồi hạ xuống (h1) 
--  Đánh tè (-) hai tay cầm cờ đưa thẳng ngang vai 
-rồi hạ xuống (h2) 
-- Hết một chữ (a, b, c)hai tay cầm cờ đưa chéo trước 
-bụng (h3) 
-- Hết một tiếng (đoàn, đàn) hai tay cầm cờ đưa chéo 
-lên đầu.
+THUỘC VÀ TRUYỀN NHẬN
+CÁC MẪU TỰ BẰNG KÝ HIỆU
+MORSE: E - I - S - H - T - M - O - CH
+
+I/ Xuất xứ:
+Ký hiệu Morse do ông Samuel Finley Breese Morse, người Mỹ, sinh năm 1791 mất năm 1872, phát minh vào khoảng năm 1835 bằng cách dùng các ký hiệu Tích (.), Tè (-) hợp lại thành chữ và số. Mỗi chữ có tối đa là 4 ký hiệu, mỗi số có tối đa 5 ký hiệu.
+II/ Các ký hiệu Morse:
+E . T -
+I .. M --
+S ... O ---
+H.... CH ---
+III/ Hướng dẫn:
+Huynh trưởng hướng dẫn các em học thuộc các mẫu tự bằng ký hiệu Morse theo yêu cầu của bài giảng Các em thực hành thật nhiều cách truyền và nhận từng chữ, từng câu Tập cho các em nhận ra chữ ngay sau khi đánh Morse, không nhận theo lối ghi lại ký hiệu tích tè ra giấy rồi mới dịch.
+IV/ Cách truyền tin:
+Có rất nhiều cách truyền tin. Trong khuôn khổ của Bậc Mở Mắt chỉ giới thiệu hai cách truyền tin phổ biến: * Truyền tin bằng còi:
+- Âm tích thổi 1 tiếng ngắn.
+- Âm tè thổi dài hơn (thời gian âm tè dài gấp 4 lần âm tích)
+- Khi thổi phải đặt lưỡi sát miệng còi, thổi mạnh, dứt khoát, không do dự. Không quá mạnh làm mất sức và khó nghe * Truyền tin bằng cờ:
+- Đứng thẳng người, nơi cao, thoáng rộng, hai tay cầm cờ.
+- Đánh tích (.) một tay cầm cờ đưa thẳng ngang vai rồi hạ xuống (h1)
+- Đánh tè (-) hai tay cầm cờ đưa thẳng ngang vai rồi hạ xuống (h2)
+- Hết một chữ (a, b, c)hai tay cầm cờ đưa chéo trước bụng (h3)
+- Hết một tiếng (đoàn, đàn) hai tay cầm cờ đưa chéo lên đầu.
 ![Hình](ảnh/ảnh_bài_7/cuối.png)

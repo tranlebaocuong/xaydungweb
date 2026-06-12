@@ -2,8 +2,31 @@ const lessonButtons = document.getElementById('lessonButtons');
 const lessonTitleElement = document.getElementById('lessonTitle');
 const lessonOutput = document.getElementById('lessonOutput');
 const lessonPlaceholder = document.getElementById('lessonPlaceholder');
+const appShell = document.querySelector('.app-shell');
+const menuToggle = document.getElementById('menuToggle');
+const lessonPanel = document.getElementById('lessonPanel');
 let activeButton = null;
 const viewHistory = [];
+
+function setMenuOpen(isOpen) {
+  appShell?.classList.toggle('menu-open', isOpen);
+  menuToggle?.setAttribute('aria-expanded', String(isOpen));
+}
+
+function toggleMenu() {
+  setMenuOpen(!appShell?.classList.contains('menu-open'));
+}
+
+menuToggle?.addEventListener('click', (event) => {
+  event.stopPropagation();
+  toggleMenu();
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    setMenuOpen(false);
+  }
+});
 
 // Hard-coded lesson map (client-side) based on workspace structure.
 const structure = {
@@ -71,6 +94,29 @@ const structure = {
           'VĂN NGHỆ': {
             introFile: 'data/oanh_vũ/chân_cứng/văn_nghệ/giới_thiệu.txt',
             basePath: 'data/oanh_vũ/chân_cứng/văn_nghệ',
+            files: ['bài_1.txt','bài_2.txt','bài_3.txt','bài_4.txt','bài_5.txt','bài_6.txt','bài_7.txt']
+          }
+        }
+      },
+      'TUNG BAY': {
+        sections: {
+          'PHẬT PHÁP': {
+            introFile: 'data/oanh_vũ/tung_bay/phật pháp/giới_thiệu.txt',
+            basePath: 'data/oanh_vũ/tung_bay/phật pháp',
+            files: [
+              'bài_1.txt','bài_2.txt','bài_3.txt','bài_4.txt','bài_5.txt','bài_6.txt','bài_7.txt','bài_8.txt','bài_9.txt','bài_10.txt','bài_11.txt','bài_12.txt','bài_13.txt','bài_14.txt','bài_15.txt','bài_16.txt'
+            ]
+          },
+          'HOẠT ĐỘNG THANH NIÊN VÀ XÃ HỘI': {
+            introFile: 'data/oanh_vũ/tung_bay/hoạt_động_thanh_niên_và_xã_hội/giới_thiệu.txt',
+            basePath: 'data/oanh_vũ/tung_bay/hoạt_động_thanh_niên_và_xã_hội',
+            files: [
+              'bài_1.txt','bài_2.txt','bài_3.txt','bài_4.txt','bài_5.txt','bài_6.txt','bài_7.txt','bài_8.txt','bài_9.txt','bài_10.txt','bài_11.txt','bài_12.txt','bài_13.txt','bài_14.txt','bài_15.txt','bài_16.txt','bài_17.txt','bài_18.txt','bài_19.txt','bài_20.txt','bài_21.txt','bài_22.txt'
+            ]
+          },
+          'VĂN NGHỆ': {
+            introFile: 'data/oanh_vũ/tung_bay/văn_nghệ/giới_thiệu.txt',
+            basePath: 'data/oanh_vũ/tung_bay/văn_nghệ',
             files: ['bài_1.txt','bài_2.txt','bài_3.txt','bài_4.txt','bài_5.txt','bài_6.txt','bài_7.txt']
           }
         }
@@ -181,6 +227,7 @@ function createButton(label, onClick) {
   btn.type = 'button';
   btn.className = 'lesson-button';
   btn.textContent = label;
+  btn.title = label;
   btn.addEventListener('click', () => onClick(btn));
   return btn;
 }
@@ -207,29 +254,30 @@ function escapeHtml(text) {
 function isHeadingLine(line) {
   const trimmed = line.trim();
   if (!trimmed) return false;
-  if (/^[IVXLCDM]+\./i.test(trimmed)) return true;
-  if (/^[0-9]+[.)]\s+/.test(trimmed)) return true;
-  if (/^[a-z][.)]\s+/.test(trimmed)) return true;
+  if (/^[IVXLCDM]+\s*[-./]\s*/i.test(trimmed)) return true;
+  if (/^[0-9]+\s*[-.)]\s+/.test(trimmed)) return true;
+  if (/^[a-zA-Z]\s*[-./)]\s*/.test(trimmed)) return true;
   return trimmed === trimmed.toUpperCase() && /[A-ZÀ-ỸỤƠƯÁÀẠẢẤẦẨẪẬẮẰẲẴẶÉÈẺẼẸÍÌỈĨỊÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÚÙỦŨỤƯỨỪỬỮỰÝỲỶỸỴĐ]/.test(trimmed) && trimmed.length > 2;
 }
 
 function resolveImagePath(baseDir, src) {
+  const candidates = getImagePathCandidates(baseDir, src);
+  return candidates[0] || src;
+}
+
+function getImagePathCandidates(baseDir, src) {
   if (!src || /^(https?:|data:|\/)/i.test(src)) {
-    return src;
+    return [src];
   }
   if (!baseDir || baseDir === '.') {
-    return src;
+    return [src];
   }
 
   const normalizedSrc = src.replace(/\\/g, '/').replace(/^\.\/+/, '');
   if (/^ảnh_bài_/i.test(normalizedSrc)) {
-    const result = `${baseDir}/ảnh/${normalizedSrc}`;
-    console.log(`[IMAGE DEBUG] baseDir="${baseDir}" src="${src}" result="${result}"`);
-    return result;
+    return [`${baseDir}/ảnh/${normalizedSrc}`, `${baseDir}/${normalizedSrc}`];
   }
-  const result = `${baseDir}/${normalizedSrc}`;
-  console.log(`[IMAGE DEBUG] baseDir="${baseDir}" src="${src}" result="${result}"`);
-  return result;
+  return [`${baseDir}/${normalizedSrc}`];
 }
 
 function toImageSrc(path) {
@@ -237,6 +285,88 @@ function toImageSrc(path) {
     return path;
   }
   return encodeURI(path);
+}
+
+function imageFallbackAttributes(baseDir, rawSrc) {
+  const candidates = getImagePathCandidates(baseDir, rawSrc).map(toImageSrc);
+  if (candidates.length < 2) {
+    return { src: candidates[0] || '', attrs: '' };
+  }
+  return {
+    src: candidates[0],
+    attrs: ` data-fallback-src="${escapeHtml(candidates[1])}" onerror="useImageFallback(this)"`
+  };
+}
+
+function useImageFallback(img) {
+  const fallbackSrc = img.getAttribute('data-fallback-src');
+  if (!fallbackSrc) {
+    return;
+  }
+  img.removeAttribute('data-fallback-src');
+  img.src = fallbackSrc;
+}
+
+function isImageMarkdownLine(line) {
+  return /^\s*!\[[^\]]*\]\([^)]+\)\s*$/.test(line);
+}
+
+function isContentStartLine(line) {
+  const trimmed = line.trim();
+  if (!trimmed) return false;
+  if (isImageMarkdownLine(trimmed)) return true;
+  if (/^\(.+\)$/.test(trimmed)) return true;
+  if (/^[IVXLCDM]+\s*[-./]\s*/i.test(trimmed)) return true;
+  if (/^[A-Z]\s*[-./)]\s*/.test(trimmed)) return true;
+  if (/^[0-9]+\s*[-.)]\s+/.test(trimmed)) return true;
+  if (/^[-*+]\s+/.test(trimmed)) return true;
+  return false;
+}
+
+function hasLowercaseLetter(text) {
+  return /[a-zàáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/.test(text);
+}
+
+function isUppercaseTitleLine(text) {
+  const letters = text.replace(/[^A-Za-zÀ-ỹĐđ]/g, '');
+  return letters.length > 0 && letters === letters.toUpperCase();
+}
+
+function parseLessonText(text, fallbackTitle = 'Giới thiệu') {
+  const lines = text.split(/\r?\n/);
+  const firstContentLine = lines.findIndex(line => line.trim().length > 0);
+  if (firstContentLine < 0) {
+    return { title: fallbackTitle, content: '' };
+  }
+
+  const titleLines = [];
+  let contentStart = firstContentLine;
+
+  for (let i = firstContentLine; i < lines.length; i += 1) {
+    const trimmed = lines[i].trim();
+    if (!trimmed) {
+      contentStart = i + 1;
+      break;
+    }
+    if (titleLines.length > 0 && isContentStartLine(trimmed)) {
+      contentStart = i;
+      break;
+    }
+    if (titleLines.length > 0 && isUppercaseTitleLine(titleLines[titleLines.length - 1]) && hasLowercaseLetter(trimmed)) {
+      contentStart = i;
+      break;
+    }
+    if (titleLines.length >= 4) {
+      contentStart = i;
+      break;
+    }
+    titleLines.push(trimmed);
+    contentStart = i + 1;
+  }
+
+  const title = titleLines.join(' ').replace(/\s+/g, ' ').trim() || fallbackTitle;
+  const content = lines.slice(contentStart).join('\n').trim();
+  return { title, content };
 }
 
 function formatLessonHTML(text, baseDir) {
@@ -266,18 +396,16 @@ function formatLessonHTML(text, baseDir) {
       closeList();
       const alt = escapeHtml(markdownMatch[1].trim() || 'Hình ảnh');
       const rawSrc = markdownMatch[2].trim();
-      console.log(`[FORMAT DEBUG] raw image src from markdown: "${rawSrc}"`);
-      const src = toImageSrc(resolveImagePath(baseDir, rawSrc));
-      console.log(`[FORMAT DEBUG] final src after resolve: "${src}"`);
-      htmlLines.push(`<div class="lesson-image-wrapper"><img src="${escapeHtml(src)}" alt="${alt}" class="lesson-image" /><p class="lesson-image-caption">${alt}</p></div>`);
+      const image = imageFallbackAttributes(baseDir, rawSrc);
+      htmlLines.push(`<div class="lesson-image-wrapper"><img src="${escapeHtml(image.src)}" alt="${alt}" class="lesson-image"${image.attrs} /><p class="lesson-image-caption">${alt}</p></div>`);
       continue;
     }
 
     const imageLineMatch = line.match(imageLine);
     if (imageLineMatch) {
       closeList();
-      const src = toImageSrc(resolveImagePath(baseDir, imageLineMatch[1].trim()));
-      htmlLines.push(`<div class="lesson-image-wrapper"><img src="${escapeHtml(src)}" alt="Hình ảnh" class="lesson-image" /></div>`);
+      const image = imageFallbackAttributes(baseDir, imageLineMatch[1].trim());
+      htmlLines.push(`<div class="lesson-image-wrapper"><img src="${escapeHtml(image.src)}" alt="Hình ảnh" class="lesson-image"${image.attrs} /></div>`);
       continue;
     }
 
@@ -310,8 +438,7 @@ async function fetchTitleFromFile(path) {
     const resp = await fetch(encodeURI(path));
     if (!resp.ok) return getFallbackTitle(path);
     const txt = await resp.text();
-    const first = txt.split(/\r?\n/).find(l => l.trim().length > 0);
-    return first ? first.trim() : getFallbackTitle(path);
+    return parseLessonText(txt, getFallbackTitle(path)).title;
   } catch {
     return getFallbackTitle(path);
   }
@@ -336,10 +463,7 @@ async function loadLesson(path, button) {
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const txt = await resp.text();
     console.log(`[LOAD DEBUG] path="${path}" first 500 chars: "${txt.substring(0, 500)}"`);
-    const lines = txt.split(/\r?\n/);
-    const idx = lines.findIndex(l => l.trim().length > 0);
-    const title = idx >= 0 ? lines[idx].trim() : getFallbackTitle(path);
-    const content = idx >= 0 ? lines.slice(idx + 1).join('\n').trim() : lines.join('\n').trim();
+    const { title, content } = parseLessonText(txt, getFallbackTitle(path));
     const lessonDir = path.includes('/') ? path.slice(0, path.lastIndexOf('/')) : '.';
     lessonTitleElement.textContent = title;
     lessonTitleElement.classList.remove('hidden');
@@ -351,12 +475,7 @@ async function loadLesson(path, button) {
   }
 }
 
-async function showLessonsList(basePath, files) {
-  clearButtons();
-  lessonTitleElement.classList.add('hidden');
-  lessonOutput.classList.add('hidden');
-  lessonPlaceholder.classList.remove('hidden');
-
+async function appendLessonButtons(basePath, files) {
   // Ensure bài_7 is included for gút_dây (some builds missed it)
   const fileList = Array.isArray(files) ? files.slice() : [];
   if (basePath && basePath.includes('gút_dây') && !fileList.includes('bài_7.txt')) {
@@ -368,6 +487,15 @@ async function showLessonsList(basePath, files) {
     const title = await fetchTitleFromFile(rel);
     lessonButtons.appendChild(createButton(title, (btn) => loadLesson(rel, btn)));
   }
+}
+
+async function showLessonsList(basePath, files) {
+  clearButtons();
+  lessonTitleElement.classList.add('hidden');
+  lessonOutput.classList.add('hidden');
+  lessonPlaceholder.classList.remove('hidden');
+
+  await appendLessonButtons(basePath, files);
 
   const back = createBackButton();
   if (back) lessonButtons.appendChild(back);
@@ -390,10 +518,7 @@ async function showSectionIntro(introPath, basePath, files) {
     const resp = await fetch(encodeURI(introPath));
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const txt = await resp.text();
-    const lines = txt.split(/\r?\n/);
-    const idx = lines.findIndex(l => l.trim().length > 0);
-    const title = idx >= 0 ? lines[idx].trim() : 'Giới thiệu';
-    const content = idx >= 0 ? lines.slice(idx + 1).join('\n').trim() : lines.join('\n').trim();
+    const { title, content } = parseLessonText(txt, 'Giới thiệu');
     const introDir = introPath.includes('/') ? introPath.slice(0, introPath.lastIndexOf('/')) : '.';
     lessonTitleElement.textContent = title;
     lessonTitleElement.classList.remove('hidden');
@@ -402,11 +527,8 @@ async function showSectionIntro(introPath, basePath, files) {
     lessonOutput.textContent = `Lỗi khi tải giới thiệu: ${err.message}`;
   }
 
-  // Add button to go to lessons list
   if (files && files.length > 0) {
-    lessonButtons.appendChild(createButton('Danh sách bài học', () => {
-      navigate(() => showLessonsList(basePath, files));
-    }));
+    await appendLessonButtons(basePath, files);
   }
 
   const back = createBackButton();

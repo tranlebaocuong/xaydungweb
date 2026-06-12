@@ -1,0 +1,56 @@
+MẬT THƯ
+
+(DÙNG CHỮ, SỐ THAY THẾ KÝ HIỆU MORSE)
+
+I. Mục tiêu
+Sau bài học, Đs có thể • Giải các mật thư dùng chữ, số thay cho ký hiệu Morse • Tự tạo ra mật thư dựa trên phương pháp này
+II. Chuẩn bị đồ dùng
+• Một vài mật thư dạng chữ/số để thi đua giữa các đội • Bảng Morse để giúp các em nhắc lại kiến thức
+III/ Nội dung bài học
+1. Định nghĩa về mật thư:
+Tiếng Hy Lạp mật thư có nghĩa là Kryptos (dấu kín, bí mật) và Gramma nghĩa là bảng văn lá thư. Hay trong tiếng Anh mật thư có nghĩa là secret letter. Vậy mật thư có thể hiểu là 1 bản thông tin gồm những ký tự khó hiểu, những ký hiệu bí mật mà chỉ có người gửi và người nhận mới hiểu được nhằm giữ kín nội dung cần trao đổi, thông tin. Các ký hiệu ấy gọi chung là mật mã. Muốn hiểu được nội dung của bức thư thì phải phá bí mật của ký hiệu và cách sắp xếp. Quá trình khám phá ấy gọi là giải mã. Mật mã gồm 2 yếu tố: hệ thống và chìa khoá
+1. 1 Hệ thống
+Mật thư được mã hoá theo một hệ thống nào đó.
+Hệ thống này gồm những quy định bất biến, những bước tiến hành nhất định. Gồm 3 hệ thống cơ bản:
+Hệ thống thay thế:
+Mỗi mẫu tự của bản tin được thay thế bằng một ký hiệu mật mã nào đó
+
+Hệ thống đổi chỗ:
+Hệ thống này không dùng ký hiệu mật mã nhưng nó xác định tên trật tự của bản tin
+
+Hệ thống ẩn dấu:
+Khi bản tin vẫn giữ bình thường và không được thay thế bằng các ký hiệu mật mã nhưng lại được nguỵ trang dưới một hình thức khác thì được gọi là mật thư ẩn dấu
+
+Ngoài ra người ta còn kết hợp cả ba hệ thống lại làm tăng thêm sự phong phú và phức tạp của mật thư.
+Trong bài học này ta sẽ tập trung vào HỆ THỐNG
+THAY THẾ
+1. 2 Chìa khóa
+Để nâng cao tính bí mật của mật thư người ta còn tạo ra chìa khoá. Chìa khoá là mấu chốt của mật thư.
+Nếu người đọc biết hệ thống nhưng không biết chìa khoá thì cũng không giải được mật thư. Chìa khoá có nhiều dạng, có thể là một từ, một nhóm từ, một tiếng...v.v....
+Trong các trò chơi lớn phần lớn đều không sử dụng chìa khoá. Thật ra những chìa khoá mà chúng ta thường gặp chỉ là 1 gợi ý nhỏ về hệ thống của mật thư để người chơi dễ giải hơn.
+2. Yêu cầu và mục đích của mật thư:
+2. 1 Mục đích
+• Trong phạm vi hoạt động thanh niên, mật thư đưa ra để giáo dục, vui chơi, luyện trí. Rèn luyện cho đoàn sinh sự nhạy bén, sáng suốt, năng động, phán đoán, khả năng xoay sở khi gặp khó khăn để phục vụ nhân sinh xã hội, giúp đỡ người khác theo châm ngôn của ngành và theo tinh thần tự lợi tự tha của đạo. • Về mặt tinh thần, môn học này nhằm đào luyện tự tin, tự chủ, trước mắt nhằm tạo cho đoàn sinh sự tò mò thích thú, tập tính toán, suy diễn, đặt giả thuyết quanh vấn đề cho đến khi đạt được mục đích.
+2. 2 Yêu cầu:
+• Mật thư đưa ra phải phù hợp với trình độ người chơi, tránh tình trạng quá khó sẽ làm người chơi nản lòng. Tuy nhiên, không nên đưa ra mật thư quá dễ sẽ làm cho cuộc chơi mất phần thú vị. Người lập mật thư nên tạo ra những mật thư đòi hỏi người chơi động não. • Mật thư phải phù hợp với lứa tuổi, tâm lý của đoàn sinh, đối với ngành thiếu thì năng động. Mật thư trong GĐPT nên mang một nét đặc thù riêng như được viết dưới dạng Phật hóa mang tính giáo dục. Nội dung của mật thư có thể là yêu cầu đoàn sinh nhắc lại 1 bài học nào đó. • Cuối cùng, mật thư phải phù hợp với hoàn cảnh, mục đích, thời gian của cuộc chơi và phải chính xác rõ ràng
+3. Cách giải mật thư: Người giải mật thư cần
+✓ Bình tĩnh, tự tin nhưng không chủ quan ✓ Nghiên cứu khoá giải thật kỹ ✓ Đặt các giả thiết và lần lượt giải quyết ✓ Đối với mật thư trong trò chơi lớn, ta nên sao y bản chính và chia thành nhiều nhóm nhỏ để dịch. Như thế ta sẽ tận dụng được hết chất xám trí tuệ ở trong đội tránh tình trạng xúm lại chụm đầu vào tranh nhau 1 tờ giấy để rồi kết quả không đi tới đâu. ✓ Cuối cùng nếu dịch xong, ta viết lại bản bạch văn cho rõ ràng, sạch sẽ và đầy đủ ý nghĩa.
+4. Một số mật thư dùng chữ/số thay cho ký hiệu
+Morse
+4. 1 Mật thư dùng số
+N =12
+
+Bản tin:
+124606800302340460268001240461012011203645 - AR
+Hướng dẫn: • N = 12 (Trong ký tự Morse N là “_.”, vậy 1 là _, 2 là.) • Vậy số lẻ là Tè, số chẵn là tích • Số 0 là cách 1 chữ, 00 là cách 1 từ Bạch văn: BI TRIS DUNGX → BI TRÍ DŨNG
+4. 2 Mật thư dùng chữ
+
+N =br
+
+Bản tin: BrasNraH2tAihaTnaKncvB2daeKuihNhiKhtiNhie
+t - AR
+Hướng dẫn: • N = br (Trong ký tự Morse N là “_.”, vậy b là _, r là.) • Vậy chữ cao là Tè, chữ thấp là tích • Chữ hoa là cách 1 chữ, Chữ hoa bình phương là cách 1 từ Bạch văn: BI TRIS DUNGX → BI TRÍ DŨNG
+4. 3 Biến thể
+![Hình](ảnh_bài_10/1.png)
+IV/ Thực hành
+Sau khi ra nhiều bài tập mật thư để các em tập giải, Huynh trưởng có thể chia các nhóm Đoàn sinh để các em tự thi đua sáng tạo mật thư và đố nhau. Hoặc lồng ghép kiểm tra kỹ năng giải mật thư của Đoàn sinh thông qua 1 buổi Trò chơi lớn, Trò chơi vừa.

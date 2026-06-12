@@ -1,49 +1,33 @@
 MỘT VÀI CÁCH GIẢI MẬT THƯ DẠNG THƯỜNG GẶP
 
- 
 HỆ THỐNG THAY THẾ
 Văn bản được mã hóa bằng cách thay thế bởi những chữ, số, kí hiệu riêng (bao gồm cả âm thanh, hình ảnh…) theo một hệ thống.
 I. Thay thế bằng Morse
 1. Chẵn lẻ:
-Số lẻ = tich (o),  Số chẵn = te (-)
-(Chìa khóa = chẵn lẻ)
+Số lẻ = tich (o), Số chẵn = te (-) (Chìa khóa = chẵn lẻ)
 2. Âm nhạc:
-Tùy vào chìa khóa, ta có thể biết được rằng nốt nhạc nào được ký hiệu là tich (o) và nốt nhạc nào được ký hiệu là te (-)
-(có thể dựa theo nốt nhạc, cao độ, nốt đen – nốt trắng, nốt đơn – nốt móc,…)
+Tùy vào chìa khóa, ta có thể biết được rằng nốt nhạc nào được ký hiệu là tich (o) và nốt nhạc nào được ký hiệu là te (-) (có thể dựa theo nốt nhạc, cao độ, nốt đen – nốt trắng, nốt đơn – nốt móc,…)
 3. Núi đồi:
 Người ta ký hiệu như sau:
-Tich = đồi (^),  Te = núi (/\)
+Tich = đồi (^), Te = núi (/\)
 Theo đó ta cứ chuyển thành tín hiệu Morse và dịch bình thường.
 II. Chữ thay chữ
 Loại mật thư “Chữ thay chữ” sẽ thể hiện cho chúng ta thấy một bản tin toàn là những chữ khó hiểu. Từ đó, ta phải giải khóa để hiểu những chữ đó muốn nói gì.
 Ở đây, ta thử với loại chìa khóa A = b. Trước hết ta phải nhập bảng dưới đây:
 
-
-Ví dụ:  OTT:      A = b
-BMM:  qibbuk – qibqs – ubxoh (AR)
-Sẽ được dịch là “PHAATJ    PHAPS   TAWNG
-Bạch Văn: “Phật Pháp Tăng”
+Ví dụ: OTT: A = b BMM: qibbuk – qibqs – ubxoh (AR)
+Sẽ được dịch là “PHAATJ PHAPS TAWNG Bạch Văn: “Phật Pháp Tăng”
 Như vậy, người đố mật thư có thể thay đổi khóa. Thay vì A = b, thì ta có thể cho A bằng một chữ bất kỳ nào khác, hoặc ta không dùng A mà có thể dùng một chữ nào đó cũng được. Chẳng hạn:
-Khóa:  A đi chăn dê                             A = D
-Bò con bằng tuổi dê                             B = D
-Kéo thang một nấc xê ra ngoài                   H = C
-Hãy ca hát cho vui                              K = H
-Rùa bị điện giật                                Q = T
-…
+Khóa: A đi chăn dê A = D Bò con bằng tuổi dê B = D Kéo thang một nấc xê ra ngoài H = C Hãy ca hát cho vui K = H Rùa bị điện giật Q = T …
 Dạng trên là cơ bản nhất của chữ thay chữ, khi chơi trò chơi lớn có thể có rất nhiều biến thể của dạng trên và biến thể của khóa.
 III. Số thay chữ
 Đây là dạng mật thư rất đơn giản. Ta chỉ cần viết ra 26 chữ cái, rồi sau đó, viết ngay dưới vị trí A là số 1, B là số 2… và Z là số 26. Sau đó dịch bình thường bằng cách: Cứ thấy số nào thì điền chữ tương ứng vào bên dưới.
 
-
- 
-Ví dụ:   OTT       A = 1
+Ví dụ: OTT A = 1
 BMM: 14, 7, 21, 24 – 7, 9, 15, 23, 9, 19 (AR)
-Sẽ được dịch là: “NGUX  GIOWIS”
+Sẽ được dịch là: “NGUX GIOWIS”
 Bạch Văn: “Ngũ Giới”
 Như vậy, người đố mật thư có thể thay đổi khóa. Thay vì A = 1, thì ta có thể cho A = 2, 3,… hay một số bất kỳ nào khác, hoặc ta không dùng A mà có thể dùng một chữ nào đó và bằng một số nào đó, ví dụ:
-Khóa:  Anh và em đều vào lớp một     A = M = 1
-Em lên năm                           M = 5
-Bay hỏi ai là anh cả                 7 = A
-Tình yêu không phai                  0 = 5 (five)
-Giải phương trình tìm nghiệm         (x = …)
+Khóa: Anh và em đều vào lớp một A = M = 1 Em lên năm M = 5 Bay hỏi ai là anh cả 7 = A Tình yêu không phai 0 = 5 (five)
+Giải phương trình tìm nghiệm (x = …)
 Trong trò chơi lớn có biến thể chút ít, như thay vì chạy số từ 1″ 26 thì có thể chạy số lớn hơn, hoặc chạy số dài hơn…
