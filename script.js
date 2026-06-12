@@ -261,7 +261,10 @@ function createButton(label, onClick) {
   btn.className = 'lesson-button';
   btn.textContent = label;
   btn.title = label;
-  btn.addEventListener('click', () => onClick(btn));
+  btn.addEventListener('click', (event) => {
+    event.stopPropagation();
+    onClick(btn);
+  });
   return btn;
 }
 
