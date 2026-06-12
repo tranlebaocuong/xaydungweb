@@ -51,7 +51,7 @@ document.addEventListener('click', (event) => {
 
 // Hard-coded lesson map (client-side) based on workspace structure.
 const structure = {
-  'OANH VŨ': {
+  'NGÀNH ĐỒNG': {
     sections: {
       'MỞ MẮT': {
         sections: {
