@@ -243,6 +243,18 @@ function setActiveButton(button) {
   if (activeButton) activeButton.classList.add('active');
 }
 
+function setLessonTitle(title) {
+  const normalizedTitle = title.replace(/\s+/g, ' ').trim();
+  lessonTitleElement.textContent = normalizedTitle;
+  lessonTitleElement.classList.remove('title-long', 'title-very-long');
+
+  if (normalizedTitle.length >= 72) {
+    lessonTitleElement.classList.add('title-very-long');
+  } else if (normalizedTitle.length >= 48) {
+    lessonTitleElement.classList.add('title-long');
+  }
+}
+
 function createButton(label, onClick) {
   const btn = document.createElement('button');
   btn.type = 'button';
@@ -353,6 +365,16 @@ function isUppercaseTitleLine(text) {
   return letters.length > 0 && letters === letters.toUpperCase();
 }
 
+function isLikelyTitleContinuationLine(text) {
+  const withoutParentheses = text.replace(/\([^)]*\)/g, '');
+  const letters = withoutParentheses.replace(/[^A-Za-zÀ-ỹĐđ]/g, '');
+  const hasLessonPart = /\(\s*(?:\d+\s*)?tiết\s*\d*\s*\)/i.test(text);
+  if (!letters.length) {
+    return hasLessonPart;
+  }
+  return letters === letters.toUpperCase() && (hasLessonPart || text.length <= 70);
+}
+
 function parseLessonText(text, fallbackTitle = 'Giới thiệu') {
   const lines = text.split(/\r?\n/);
   const firstContentLine = lines.findIndex(line => line.trim().length > 0);
@@ -368,6 +390,11 @@ function parseLessonText(text, fallbackTitle = 'Giới thiệu') {
     if (!trimmed) {
       contentStart = i + 1;
       break;
+    }
+    if (titleLines.length > 0 && isLikelyTitleContinuationLine(trimmed)) {
+      titleLines.push(trimmed);
+      contentStart = i + 1;
+      continue;
     }
     if (titleLines.length > 0 && isContentStartLine(trimmed)) {
       contentStart = i;
@@ -474,7 +501,7 @@ async function loadLesson(path, button) {
   lessonOutput.textContent = 'Đang tải nội dung...';
 
   if (window.location.protocol === 'file:') {
-    lessonTitleElement.textContent = getFallbackTitle(path);
+    setLessonTitle(getFallbackTitle(path));
     lessonTitleElement.classList.remove('hidden');
     lessonOutput.textContent = 'Trang đang được mở trực tiếp từ file. Vui lòng chạy server tĩnh (ví dụ: python -m http.server) và truy cập lại trang qua http://localhost.';
     return;
@@ -484,14 +511,13 @@ async function loadLesson(path, button) {
     const resp = await fetch(encodeURI(path));
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const txt = await resp.text();
-    console.log(`[LOAD DEBUG] path="${path}" first 500 chars: "${txt.substring(0, 500)}"`);
     const { title, content } = parseLessonText(txt, getFallbackTitle(path));
     const lessonDir = path.includes('/') ? path.slice(0, path.lastIndexOf('/')) : '.';
-    lessonTitleElement.textContent = title;
+    setLessonTitle(title);
     lessonTitleElement.classList.remove('hidden');
     lessonOutput.innerHTML = content ? formatLessonHTML(content, lessonDir) : '<p>[Không có nội dung khác ngoài tiêu đề]</p>';
   } catch (err) {
-    lessonTitleElement.textContent = getFallbackTitle(path);
+    setLessonTitle(getFallbackTitle(path));
     lessonTitleElement.classList.remove('hidden');
     lessonOutput.textContent = `Lỗi khi tải nội dung: ${err.message}`;
   }
@@ -542,7 +568,7 @@ async function showSectionIntro(introPath, basePath, files) {
     const txt = await resp.text();
     const { title, content } = parseLessonText(txt, 'Giới thiệu');
     const introDir = introPath.includes('/') ? introPath.slice(0, introPath.lastIndexOf('/')) : '.';
-    lessonTitleElement.textContent = title;
+    setLessonTitle(title);
     lessonTitleElement.classList.remove('hidden');
     lessonOutput.innerHTML = content ? formatLessonHTML(content, introDir) : '<p>[Không có nội dung khác ngoài tiêu đề]</p>';
   } catch (err) {

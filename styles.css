@@ -293,21 +293,23 @@ body::before {
 .lesson-title {
   position: relative;
   margin: 0 0 1.25rem;
-  padding: 0.45rem 0 1.35rem 5rem;
+  padding: 0.35rem 0 1.35rem;
   min-height: 74px;
+  display: grid;
+  grid-template-columns: 60px minmax(0, 1fr);
+  align-items: center;
+  column-gap: 1.3rem;
   color: #ffe38b;
   font-size: clamp(1.35rem, 2.2vw, 2.05rem);
   font-weight: 900;
-  line-height: 1.22;
+  line-height: 1.18;
   letter-spacing: 0;
+  overflow-wrap: anywhere;
   border-bottom: 1px solid var(--line);
 }
 
 .lesson-title::before {
   content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
   width: 60px;
   height: 60px;
   border-radius: 999px;
@@ -315,6 +317,16 @@ body::before {
   background:
     var(--lotus-icon) center / 70% 70% no-repeat,
     radial-gradient(circle, rgba(240, 196, 93, 0.16), rgba(255, 255, 255, 0.02));
+}
+
+.lesson-title.title-long {
+  font-size: clamp(1.14rem, 1.58vw, 1.55rem);
+  line-height: 1.14;
+}
+
+.lesson-title.title-very-long {
+  font-size: clamp(1rem, 1.32vw, 1.28rem);
+  line-height: 1.12;
 }
 
 .placeholder,
@@ -568,14 +580,26 @@ body::before {
   .lesson-title {
     min-height: 0;
     margin-bottom: 0.85rem;
-    padding: 0 0 0.9rem 3.25rem;
-    font-size: clamp(1.08rem, 6vw, 1.42rem);
-    line-height: 1.22;
+    padding: 0.15rem 0 1rem;
+    grid-template-columns: 36px minmax(0, 1fr);
+    column-gap: 0.75rem;
+    font-size: clamp(1rem, 5.4vw, 1.28rem);
+    line-height: 1.16;
   }
 
   .lesson-title::before {
-    width: 42px;
-    height: 42px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .lesson-title.title-long {
+    font-size: clamp(0.9rem, 4.15vw, 1.02rem);
+    line-height: 1.13;
+  }
+
+  .lesson-title.title-very-long {
+    font-size: clamp(0.8rem, 3.65vw, 0.92rem);
+    line-height: 1.12;
   }
 
   .placeholder {
@@ -624,5 +648,15 @@ body::before {
   .lesson-list {
     width: calc(100vw - 1rem);
     max-width: 340px;
+  }
+
+  .lesson-title {
+    grid-template-columns: 32px minmax(0, 1fr);
+    column-gap: 0.65rem;
+  }
+
+  .lesson-title::before {
+    width: 32px;
+    height: 32px;
   }
 }

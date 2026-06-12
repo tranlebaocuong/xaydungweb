@@ -14,7 +14,7 @@ Ví dụ: Mật thư 1 “Lạ nhĩ! mùa này gió thổi hướng tây nam”.
 NGYAPA – AFIJNE – MHDFEM – ODTUOD –
 OHSWOF – INRAQA – ADNUNS. AR
 Cách giải:
-Ta thấy bản tin có 7 cụm chữ, mỗi cụm có 6 ký tự, khóa chỉ hướng đọc bản tin theo hướng tây nam. + Kẻ bảng gồm 7 dòng và 6 cột. + Lần lượt viết các cụm chữ theo hàng ngang: hàng ngang 1 là cụm chữ: NGYAPA, hàng ngang thứ 2 là cụm chữ: AFIJNE… cho đến hàng ngang thứ 7 là cụm chữ: ADNUNS. + Xác định hướng: Bắc – Nam theo chiều dọc thẳng đứng của tờ giấy,… (Hình 1) + Theo khóa, xác định hướng tây nam và đọc bản tin theo hướng mũi tên tây nam.
+Ta thấy bản tin có 7 cụm chữ, mỗi cụm có 6 ký tự, khóa chỉ hướng đọc bản tin theo hướng tây nam. + Kẻ bảng gồm 7 dòng và 6 cột. + Lần lượt viết các cụm chữ theo hàng ngang: hàng ngang 1 là cụm chữ: NGYAPA, hàng ngang thứ 2 là cụm chữ: AFIJNE… cho đến hàng ngang thứ 7 là cụm chữ: ADNUNS. + Xác định hướng: Bắc – Nam theo chiều dọc thẳng đứng của tờ giấy, … (Hình 1) + Theo khóa, xác định hướng tây nam và đọc bản tin theo hướng mũi tên tây nam.
 N G Y A P A
 A F I J N E
 M H D F E M
@@ -52,12 +52,12 @@ Bản dịch: VEEF CHUAF SAMS HOOIS TIMF
 PHAATJ TRONG TA.
 “Về chùa sám hối tìm Phật trong ta”
 II. Mật thư ẩn dấu
-* Mật thư ẩn dấu: Bản tin vẫn giữ bình thường và không được thay thế bằng ký hiệu mật mã, nhưng lại được ngụy trang dưới một hình thức khác. Ý nghĩa của bản văn được giấu kín bằng các từ, bằng cụm từ, bằng số và bằng nhiều dạng ký tự khác,…
+* Mật thư ẩn dấu: Bản tin vẫn giữ bình thường và không được thay thế bằng ký hiệu mật mã, nhưng lại được ngụy trang dưới một hình thức khác. Ý nghĩa của bản văn được giấu kín bằng các từ, bằng cụm từ, bằng số và bằng nhiều dạng ký tự khác, …
 Ví dụ: Mật thư 4 “Một sống, một chết”
 N A G E O T A M I D F C T G A M K Q H P O C O X
 N E G L C B O A S R K V H P O V B Y A V U F S -AR
 Cách giải:
-Theo khóa, có nghĩa là chữ đầu tiên giữ lại (“một sống” được viết trước), chữ thứ hai bỏ đi (“một chết” được viết sau) lấy viết gạch bỏ, chữ kế tiếp giữ lại, chữ kế tiếp bỏ đi (gạch bỏ),… và cứ như thế sẽ được bản văn.
+Theo khóa, có nghĩa là chữ đầu tiên giữ lại (“một sống” được viết trước), chữ thứ hai bỏ đi (“một chết” được viết sau) lấy viết gạch bỏ, chữ kế tiếp giữ lại, chữ kế tiếp bỏ đi (gạch bỏ), … và cứ như thế sẽ được bản văn.
 N A G E O T A M I D F C T G A M K Q H P O C O X
 N E G L C B O A S R K V H P O V B Y A V U F S.
 Bản dịch: “Ngoài ta không có kho báu”

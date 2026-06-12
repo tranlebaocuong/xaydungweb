@@ -5,9 +5,9 @@ MORSE: E - I - S - H - T - M - O - CH
 I/ Xuất xứ:
 Ký hiệu Morse do ông Samuel Finley Breese Morse, người Mỹ, sinh năm 1791 mất năm 1872, phát minh vào khoảng năm 1835 bằng cách dùng các ký hiệu Tích (.), Tè (-) hợp lại thành chữ và số. Mỗi chữ có tối đa là 4 ký hiệu, mỗi số có tối đa 5 ký hiệu.
 II/ Các ký hiệu Morse:
-E . T -
-I .. M --
-S ... O ---
+E. T -
+I.. M --
+S... O ---
 H.... CH ---
 III/ Hướng dẫn:
 Huynh trưởng hướng dẫn các em học thuộc các mẫu tự bằng ký hiệu Morse theo yêu cầu của bài giảng Các em thực hành thật nhiều cách truyền và nhận từng chữ, từng câu Tập cho các em nhận ra chữ ngay sau khi đánh Morse, không nhận theo lối ghi lại ký hiệu tích tè ra giấy rồi mới dịch.

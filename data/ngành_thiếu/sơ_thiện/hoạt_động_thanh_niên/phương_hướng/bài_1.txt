@@ -1,6 +1,6 @@
 CÁCH TÌM PHƯƠNG HƯỚNG
 BẰNG ĐỒNG HỒ CÓ KIM GIỜ
-Chúng ta biết: Buổi sáng, mặt trời mọc ở đằng Đông (Đông Nam, Đông Đông Nam, chính Đông, Đông Đông Bắc,…). Buổi chiều, mặt trời lặn ở đằng Tây (Tây Bắc, Tây Tây Bắc, chính Tây, Tây Tây Nam,…). Vị trí mọc và lặn của mặt trời trong năm không cố định mà thay đổi theo chu kỳ: Xuân Phân, Hạ Chí, Thu Phân, Đông Chí.
+Chúng ta biết: Buổi sáng, mặt trời mọc ở đằng Đông (Đông Nam, Đông Đông Nam, chính Đông, Đông Đông Bắc, …). Buổi chiều, mặt trời lặn ở đằng Tây (Tây Bắc, Tây Tây Bắc, chính Tây, Tây Tây Nam, …). Vị trí mọc và lặn của mặt trời trong năm không cố định mà thay đổi theo chu kỳ: Xuân Phân, Hạ Chí, Thu Phân, Đông Chí.
 Theo đó, (đối với vị trí Việt Nam) những ngày Xuân Phân và Thu Phân thì mặt trời sẽ mọc ở chính Đông và lặn chính Tây. Những ngày Hạ Chí (mùa Hè) thì mặt trời mọc ở Đông Bắc và lặn ở Tây Bắc.
 Những ngày Đông Chí (mùa Đông) thì Mặt trời mọc ở Đông Nam và lặn ở Tây Nam. Giữa trưa, Mặt trời không đứng bóng mà lại chệch về hướng Nam, lúc đó bóng của vật sẽ đổ về hướng Bắc.
 Đó là xem phương hướng trực tiếp theo mặt trời.
