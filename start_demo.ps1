@@ -3,8 +3,8 @@ Set-Location -Path $PSScriptRoot
 Write-Host "Dang mo demo tai lieu tu hoc..."
 Write-Host "Thu muc: $(Get-Location)"
 Write-Host "URL mac dinh: http://127.0.0.1:8000/index.html"
-Write-Host "Style hien tai: styles.css?v=13"
-Write-Host "Script hien tai: script.js?v=17"
+Write-Host "Style hien tai: styles.css?v=14"
+Write-Host "Script hien tai: script.js?v=18"
 Write-Host "Neu vua cap nhat code, bam Ctrl+F5 trong trinh duyet de tai script moi."
 Write-Host ""
 

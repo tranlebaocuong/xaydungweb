@@ -5,8 +5,8 @@ cd /d "%~dp0"
 echo Dang mo demo tai lieu tu hoc...
 echo Thu muc: %cd%
 echo URL mac dinh: http://127.0.0.1:8000/index.html
-echo Style hien tai: styles.css?v=13
-echo Script hien tai: script.js?v=17
+echo Style hien tai: styles.css?v=14
+echo Script hien tai: script.js?v=18
 echo Neu vua cap nhat code, bam Ctrl+F5 trong trinh duyet de tai script moi.
 echo.
 

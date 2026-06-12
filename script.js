@@ -17,6 +17,16 @@ function toggleMenu() {
   setMenuOpen(!appShell?.classList.contains('menu-open'));
 }
 
+function isMobileMenuLayout() {
+  return window.matchMedia('(max-width: 820px)').matches;
+}
+
+function closeMenuOnMobile() {
+  if (isMobileMenuLayout()) {
+    setMenuOpen(false);
+  }
+}
+
 menuToggle?.addEventListener('click', (event) => {
   event.stopPropagation();
   toggleMenu();
@@ -26,6 +36,17 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') {
     setMenuOpen(false);
   }
+});
+
+document.addEventListener('click', (event) => {
+  if (!isMobileMenuLayout() || !appShell?.classList.contains('menu-open')) {
+    return;
+  }
+  const target = event.target;
+  if (lessonPanel?.contains(target) || menuToggle?.contains(target)) {
+    return;
+  }
+  setMenuOpen(false);
 });
 
 // Hard-coded lesson map (client-side) based on workspace structure.
@@ -446,6 +467,7 @@ async function fetchTitleFromFile(path) {
 
 async function loadLesson(path, button) {
   setActiveButton(button);
+  closeMenuOnMobile();
   lessonTitleElement.classList.add('hidden');
   lessonOutput.classList.remove('hidden');
   lessonPlaceholder.classList.add('hidden');
