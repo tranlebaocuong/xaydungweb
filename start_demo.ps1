@@ -13,12 +13,12 @@ $python = Get-Command python -ErrorAction SilentlyContinue
 $py = Get-Command py -ErrorAction SilentlyContinue
 
 if ($python) {
-    python music.py --demo --port 8000
+    python main.py --port 8000
 } elseif ($py) {
-    py music.py --demo --port 8000
+    py main.py --port 8000
 } else {
     Write-Host "Khong tim thay Python."
-    Write-Host "Hay cai Python hoac chay lenh: python music.py --demo --port 8000"
+    Write-Host "Hay cai Python hoac chay lenh: python main.py --port 8000"
 }
 
 Write-Host ""

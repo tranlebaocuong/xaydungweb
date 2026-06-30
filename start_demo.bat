@@ -13,14 +13,14 @@ echo.
 
 where python >nul 2>nul
 if %errorlevel%==0 (
-    python music.py --demo --port 8000
+    python main.py --port 8000
 ) else (
     where py >nul 2>nul
     if %errorlevel%==0 (
-        py music.py --demo --port 8000
+        py main.py --port 8000
     ) else (
         echo Khong tim thay Python.
-        echo Hay cai Python hoac chay lenh: python music.py --demo --port 8000
+        echo Hay cai Python hoac chay lenh: python main.py --port 8000
     )
 )
 
