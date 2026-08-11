@@ -5,6 +5,7 @@ const lessonPlaceholder = document.getElementById('lessonPlaceholder');
 const appShell = document.querySelector('.app-shell');
 const menuToggle = document.getElementById('menuToggle');
 const lessonPanel = document.getElementById('lessonPanel');
+const lessonSearchInput = document.getElementById('lessonSearch');
 let activeButton = null;
 const viewHistory = [];
 
@@ -237,6 +238,23 @@ function clearButtons() {
   lessonButtons.innerHTML = '';
 }
 
+function refreshButtonVisibility() {
+  if (!lessonSearchInput) {
+    return;
+  }
+
+  const query = lessonSearchInput.value.trim().toLowerCase();
+  const buttons = Array.from(lessonButtons?.children || []);
+
+  buttons.forEach((button) => {
+    const matchesQuery = !query || button.textContent.toLowerCase().includes(query);
+    const shouldKeepVisible = button.classList.contains('search-pinned') || matchesQuery;
+    button.style.display = shouldKeepVisible ? '' : 'none';
+  });
+}
+
+lessonSearchInput?.addEventListener('input', refreshButtonVisibility);
+
 function setActiveButton(button) {
   if (activeButton) activeButton.classList.remove('active');
   activeButton = button;
@@ -255,12 +273,15 @@ function setLessonTitle(title) {
   }
 }
 
-function createButton(label, onClick) {
+function createButton(label, onClick, options = {}) {
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'lesson-button';
   btn.textContent = label;
   btn.title = label;
+  if (options.pinned) {
+    btn.classList.add('search-pinned');
+  }
   btn.addEventListener('click', (event) => {
     event.stopPropagation();
     onClick(btn);
@@ -270,7 +291,7 @@ function createButton(label, onClick) {
 
 function createBackButton() {
   if (viewHistory.length <= 1) return null;
-  return createButton('« Quay lại', () => goBack());
+  return createButton('« Quay lại', () => goBack(), { pinned: true });
 }
 
 function getFallbackTitle(filename) {
@@ -483,15 +504,36 @@ function formatLessonHTML(text, baseDir) {
   return htmlLines.join('');
 }
 
+async function fetchLessonData(path, fallbackTitle = getFallbackTitle(path)) {
+  if (window.location.protocol === 'file:') {
+    throw new Error('Trang đang được mở trực tiếp từ file.');
+  }
+
+  const apiUrl = `/api/lesson?path=${encodeURIComponent(path)}`;
+  const resp = await fetch(apiUrl);
+  if (!resp.ok) {
+    throw new Error(`HTTP ${resp.status}`);
+  }
+
+  const data = await resp.json();
+  if (!data || typeof data.content !== 'string') {
+    throw new Error('Dữ liệu bài học không hợp lệ.');
+  }
+
+  const title = data.title || parseLessonText(data.content, fallbackTitle).title;
+  const lessonPath = data.path || path;
+  const lessonDir = lessonPath.includes('/') ? lessonPath.slice(0, lessonPath.lastIndexOf('/')) : '.';
+
+  return { title, content: data.content, path: lessonPath, baseDir: lessonDir };
+}
+
 async function fetchTitleFromFile(path) {
-  if (window.location.protocol === 'file:') return getFallbackTitle(path);
+  const fallbackTitle = getFallbackTitle(path);
   try {
-    const resp = await fetch(encodeURI(path));
-    if (!resp.ok) return getFallbackTitle(path);
-    const txt = await resp.text();
-    return parseLessonText(txt, getFallbackTitle(path)).title;
+    const data = await fetchLessonData(path, fallbackTitle);
+    return data.title;
   } catch {
-    return getFallbackTitle(path);
+    return fallbackTitle;
   }
 }
 
@@ -506,19 +548,15 @@ async function loadLesson(path, button) {
   if (window.location.protocol === 'file:') {
     setLessonTitle(getFallbackTitle(path));
     lessonTitleElement.classList.remove('hidden');
-    lessonOutput.textContent = 'Trang đang được mở trực tiếp từ file. Vui lòng chạy server tĩnh (ví dụ: python -m http.server) và truy cập lại trang qua http://localhost.';
+    lessonOutput.textContent = 'Trang đang được mở trực tiếp từ file. Vui lòng chạy server HTTP và truy cập lại trang qua http://127.0.0.1:8000.';
     return;
   }
 
   try {
-    const resp = await fetch(encodeURI(path));
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const txt = await resp.text();
-    const { title, content } = parseLessonText(txt, getFallbackTitle(path));
-    const lessonDir = path.includes('/') ? path.slice(0, path.lastIndexOf('/')) : '.';
+    const { title, content, baseDir } = await fetchLessonData(path, getFallbackTitle(path));
     setLessonTitle(title);
     lessonTitleElement.classList.remove('hidden');
-    lessonOutput.innerHTML = content ? formatLessonHTML(content, lessonDir) : '<p>[Không có nội dung khác ngoài tiêu đề]</p>';
+    lessonOutput.innerHTML = content ? formatLessonHTML(content, baseDir) : '<p>[Không có nội dung khác ngoài tiêu đề]</p>';
   } catch (err) {
     setLessonTitle(getFallbackTitle(path));
     lessonTitleElement.classList.remove('hidden');
@@ -550,6 +588,7 @@ async function showLessonsList(basePath, files) {
 
   const back = createBackButton();
   if (back) lessonButtons.appendChild(back);
+  refreshButtonVisibility();
 }
 
 async function showSectionIntro(introPath, basePath, files) {
@@ -566,14 +605,10 @@ async function showSectionIntro(introPath, basePath, files) {
   }
 
   try {
-    const resp = await fetch(encodeURI(introPath));
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const txt = await resp.text();
-    const { title, content } = parseLessonText(txt, 'Giới thiệu');
-    const introDir = introPath.includes('/') ? introPath.slice(0, introPath.lastIndexOf('/')) : '.';
+    const { title, content, baseDir } = await fetchLessonData(introPath, 'Giới thiệu');
     setLessonTitle(title);
     lessonTitleElement.classList.remove('hidden');
-    lessonOutput.innerHTML = content ? formatLessonHTML(content, introDir) : '<p>[Không có nội dung khác ngoài tiêu đề]</p>';
+    lessonOutput.innerHTML = content ? formatLessonHTML(content, baseDir) : '<p>[Không có nội dung khác ngoài tiêu đề]</p>';
   } catch (err) {
     lessonOutput.textContent = `Lỗi khi tải giới thiệu: ${err.message}`;
   }
@@ -584,6 +619,7 @@ async function showSectionIntro(introPath, basePath, files) {
 
   const back = createBackButton();
   if (back) lessonButtons.appendChild(back);
+  refreshButtonVisibility();
 }
 
 function showSections(sections) {
@@ -606,6 +642,7 @@ function showSections(sections) {
 
   const back = createBackButton();
   if (back) lessonButtons.appendChild(back);
+  refreshButtonVisibility();
 }
 
 async function showCategories(sections) {
@@ -645,6 +682,7 @@ async function showRoot() {
       }
     }));
   }
+  refreshButtonVisibility();
 }
 
 async function navigate(viewFn) {
