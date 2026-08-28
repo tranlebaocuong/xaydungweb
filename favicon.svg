@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Biểu tượng tài liệu tu học">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d76e"/>
+      <stop offset="100%" stop-color="#d9a441"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <circle cx="64" cy="64" r="46" fill="none" stroke="url(#gold)" stroke-width="4" opacity="0.9"/>
+
+  <path d="M32 78V42c9-9 20-13 32-13s23 4 32 13v36c-9-7-20-10-32-10s-23 3-32 10Z" fill="#f8fafc" opacity="0.96"/>
+  <path d="M64 29v37" stroke="#0f172a" stroke-width="3.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M42 60h44" stroke="#0f172a" stroke-width="3.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M42 70h44" stroke="#0f172a" stroke-width="3.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M42 80h26" stroke="#0f172a" stroke-width="3.5" stroke-linecap="round" opacity="0.7"/>
+
+  <path d="M49 52c10-12 18-18 28-18 5 0 9 2 13 6-7 2-12 7-17 12-4 4-9 9-16 12-3 1-6 1-8 0v-12Z" fill="url(#gold)" opacity="0.95"/>
+  <path d="M52 86c6-8 12-14 20-17 10-4 18-3 25 1-7 5-13 11-17 19-5 9-10 13-17 13-5 0-9-5-11-16Z" fill="#d8b15f" opacity="0.82"/>
+</svg>

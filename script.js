@@ -5,7 +5,9 @@ const lessonPlaceholder = document.getElementById('lessonPlaceholder');
 const appShell = document.querySelector('.app-shell');
 const menuToggle = document.getElementById('menuToggle');
 const lessonPanel = document.getElementById('lessonPanel');
+const lessonSearchInput = document.getElementById('lessonSearch');
 let activeButton = null;
+let activeView = null;
 const viewHistory = [];
 
 function setMenuOpen(isOpen) {
@@ -47,6 +49,12 @@ document.addEventListener('click', (event) => {
     return;
   }
   setMenuOpen(false);
+});
+
+window.addEventListener('resize', () => {
+  if (!isMobileMenuLayout()) {
+    setMenuOpen(false);
+  }
 });
 
 // Hard-coded lesson map (client-side) based on workspace structure.
@@ -237,6 +245,128 @@ function clearButtons() {
   lessonButtons.innerHTML = '';
 }
 
+function normalizeSearchText(value) {
+  return String(value || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function restoreVisibleButtonsFromCurrentView() {
+  if (!lessonSearchInput) {
+    return;
+  }
+
+  const query = normalizeSearchText(lessonSearchInput.value);
+  if (!query) {
+    activeView?.();
+    return;
+  }
+
+  const buttons = Array.from(lessonButtons?.children || []);
+  buttons.forEach((button) => {
+    const matchesQuery = normalizeSearchText(button.textContent).includes(query);
+    const shouldKeepVisible = button.classList.contains('search-pinned') || matchesQuery;
+    button.style.display = shouldKeepVisible ? '' : 'none';
+  });
+}
+
+function openNavigationNode(info) {
+  if (!info || typeof info !== 'object') {
+    return null;
+  }
+
+  if (info.introFile) {
+    return () => navigate(() => showSectionIntro(info.introFile, info.basePath, info.files || []));
+  }
+
+  if (info.sections) {
+    return () => navigate(() => showSections(info.sections));
+  }
+
+  if (info.files) {
+    return () => navigate(() => showLessonsList(info.basePath, info.files));
+  }
+
+  return null;
+}
+
+function collectMatchingSearchEntries(node, query, results = []) {
+  if (!node || typeof node !== 'object') {
+    return results;
+  }
+
+  const normalizedQuery = normalizeSearchText(query);
+
+  for (const [label, info] of Object.entries(node)) {
+    if (!info || typeof info !== 'object') {
+      continue;
+    }
+
+    const normalizedLabel = normalizeSearchText(label);
+    const nextStep = openNavigationNode(info);
+
+    if (normalizedLabel.includes(normalizedQuery) && nextStep) {
+      results.push({ label, navigate: nextStep });
+    }
+
+    if (info.sections) {
+      collectMatchingSearchEntries(info.sections, normalizedQuery, results);
+    }
+
+    if (info.files && normalizedLabel.includes(normalizedQuery)) {
+      const basePath = info.basePath || '.';
+      results.push({ label, navigate: () => navigate(() => showLessonsList(basePath, info.files || [])) });
+    }
+  }
+
+  return results;
+}
+
+function refreshButtonVisibility() {
+  if (!lessonSearchInput) {
+    return;
+  }
+
+  const query = normalizeSearchText(lessonSearchInput.value);
+
+  if (!query) {
+    const buttons = Array.from(lessonButtons?.children || []);
+    buttons.forEach((button) => {
+      button.style.display = '';
+    });
+    return;
+  }
+
+  const allMatches = collectMatchingSearchEntries(structure, query);
+  if (allMatches.length > 0) {
+    const seen = new Set();
+    clearButtons();
+    allMatches.forEach(({ label, navigate }) => {
+      const key = label.toLowerCase();
+      if (seen.has(key)) {
+        return;
+      }
+      seen.add(key);
+      lessonButtons.appendChild(createButton(label, () => navigate()));
+    });
+    const back = createBackButton();
+    if (back) lessonButtons.insertBefore(back, lessonButtons.firstChild);
+    return;
+  }
+
+  const buttons = Array.from(lessonButtons?.children || []);
+  buttons.forEach((button) => {
+    const matchesQuery = normalizeSearchText(button.textContent).includes(query);
+    const shouldKeepVisible = button.classList.contains('search-pinned') || matchesQuery;
+    button.style.display = shouldKeepVisible ? '' : 'none';
+  });
+}
+
+lessonSearchInput?.addEventListener('input', refreshButtonVisibility);
+
 function setActiveButton(button) {
   if (activeButton) activeButton.classList.remove('active');
   activeButton = button;
@@ -255,14 +385,28 @@ function setLessonTitle(title) {
   }
 }
 
-function createButton(label, onClick) {
+function clearSearchQuery() {
+  if (!lessonSearchInput) {
+    return;
+  }
+  lessonSearchInput.value = '';
+  lessonSearchInput.dispatchEvent(new Event('input'));
+}
+
+function createButton(label, onClick, options = {}) {
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'lesson-button';
   btn.textContent = label;
   btn.title = label;
+  if (options.pinned) {
+    btn.classList.add('search-pinned');
+  }
   btn.addEventListener('click', (event) => {
     event.stopPropagation();
+    if (lessonSearchInput && lessonSearchInput.value.trim()) {
+      clearSearchQuery();
+    }
     onClick(btn);
   });
   return btn;
@@ -270,7 +414,14 @@ function createButton(label, onClick) {
 
 function createBackButton() {
   if (viewHistory.length <= 1) return null;
-  return createButton('« Quay lại', () => goBack());
+  return createButton('« Quay lại', () => goBack(), { pinned: true });
+}
+
+function insertBackButtonAtTop() {
+  const back = createBackButton();
+  if (!back) return;
+  const firstChild = lessonButtons.firstChild;
+  lessonButtons.insertBefore(back, firstChild);
 }
 
 function getFallbackTitle(filename) {
@@ -483,15 +634,36 @@ function formatLessonHTML(text, baseDir) {
   return htmlLines.join('');
 }
 
+async function fetchLessonData(path, fallbackTitle = getFallbackTitle(path)) {
+  if (window.location.protocol === 'file:') {
+    throw new Error('Trang đang được mở trực tiếp từ file.');
+  }
+
+  const apiUrl = `/api/lesson?path=${encodeURIComponent(path)}`;
+  const resp = await fetch(apiUrl);
+  if (!resp.ok) {
+    throw new Error(`HTTP ${resp.status}`);
+  }
+
+  const data = await resp.json();
+  if (!data || typeof data.content !== 'string') {
+    throw new Error('Dữ liệu bài học không hợp lệ.');
+  }
+
+  const title = data.title || parseLessonText(data.content, fallbackTitle).title;
+  const lessonPath = data.path || path;
+  const lessonDir = lessonPath.includes('/') ? lessonPath.slice(0, lessonPath.lastIndexOf('/')) : '.';
+
+  return { title, content: data.content, path: lessonPath, baseDir: lessonDir };
+}
+
 async function fetchTitleFromFile(path) {
-  if (window.location.protocol === 'file:') return getFallbackTitle(path);
+  const fallbackTitle = getFallbackTitle(path);
   try {
-    const resp = await fetch(encodeURI(path));
-    if (!resp.ok) return getFallbackTitle(path);
-    const txt = await resp.text();
-    return parseLessonText(txt, getFallbackTitle(path)).title;
+    const data = await fetchLessonData(path, fallbackTitle);
+    return data.title;
   } catch {
-    return getFallbackTitle(path);
+    return fallbackTitle;
   }
 }
 
@@ -506,19 +678,15 @@ async function loadLesson(path, button) {
   if (window.location.protocol === 'file:') {
     setLessonTitle(getFallbackTitle(path));
     lessonTitleElement.classList.remove('hidden');
-    lessonOutput.textContent = 'Trang đang được mở trực tiếp từ file. Vui lòng chạy server tĩnh (ví dụ: python -m http.server) và truy cập lại trang qua http://localhost.';
+    lessonOutput.textContent = 'Trang đang được mở trực tiếp từ file. Vui lòng chạy server HTTP và truy cập lại trang qua http://127.0.0.1:8000.';
     return;
   }
 
   try {
-    const resp = await fetch(encodeURI(path));
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const txt = await resp.text();
-    const { title, content } = parseLessonText(txt, getFallbackTitle(path));
-    const lessonDir = path.includes('/') ? path.slice(0, path.lastIndexOf('/')) : '.';
+    const { title, content, baseDir } = await fetchLessonData(path, getFallbackTitle(path));
     setLessonTitle(title);
     lessonTitleElement.classList.remove('hidden');
-    lessonOutput.innerHTML = content ? formatLessonHTML(content, lessonDir) : '<p>[Không có nội dung khác ngoài tiêu đề]</p>';
+    lessonOutput.innerHTML = content ? formatLessonHTML(content, baseDir) : '<p>[Không có nội dung khác ngoài tiêu đề]</p>';
   } catch (err) {
     setLessonTitle(getFallbackTitle(path));
     lessonTitleElement.classList.remove('hidden');
@@ -541,18 +709,19 @@ async function appendLessonButtons(basePath, files) {
 }
 
 async function showLessonsList(basePath, files) {
+  activeView = () => showLessonsList(basePath, files);
   clearButtons();
   lessonTitleElement.classList.add('hidden');
   lessonOutput.classList.add('hidden');
   lessonPlaceholder.classList.remove('hidden');
 
+  insertBackButtonAtTop();
   await appendLessonButtons(basePath, files);
-
-  const back = createBackButton();
-  if (back) lessonButtons.appendChild(back);
+  refreshButtonVisibility();
 }
 
 async function showSectionIntro(introPath, basePath, files) {
+  activeView = () => showSectionIntro(introPath, basePath, files);
   clearButtons();
   lessonTitleElement.classList.add('hidden');
   lessonOutput.classList.remove('hidden');
@@ -566,32 +735,29 @@ async function showSectionIntro(introPath, basePath, files) {
   }
 
   try {
-    const resp = await fetch(encodeURI(introPath));
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const txt = await resp.text();
-    const { title, content } = parseLessonText(txt, 'Giới thiệu');
-    const introDir = introPath.includes('/') ? introPath.slice(0, introPath.lastIndexOf('/')) : '.';
+    const { title, content, baseDir } = await fetchLessonData(introPath, 'Giới thiệu');
     setLessonTitle(title);
     lessonTitleElement.classList.remove('hidden');
-    lessonOutput.innerHTML = content ? formatLessonHTML(content, introDir) : '<p>[Không có nội dung khác ngoài tiêu đề]</p>';
+    lessonOutput.innerHTML = content ? formatLessonHTML(content, baseDir) : '<p>[Không có nội dung khác ngoài tiêu đề]</p>';
   } catch (err) {
     lessonOutput.textContent = `Lỗi khi tải giới thiệu: ${err.message}`;
   }
 
+  insertBackButtonAtTop();
   if (files && files.length > 0) {
     await appendLessonButtons(basePath, files);
   }
-
-  const back = createBackButton();
-  if (back) lessonButtons.appendChild(back);
+  refreshButtonVisibility();
 }
 
 function showSections(sections) {
+  activeView = () => showSections(sections);
   clearButtons();
   lessonTitleElement.classList.add('hidden');
   lessonOutput.classList.add('hidden');
   lessonPlaceholder.classList.remove('hidden');
 
+  insertBackButtonAtTop();
   for (const [label, info] of Object.entries(sections)) {
     lessonButtons.appendChild(createButton(label, async () => {
       if (info.introFile) {
@@ -603,17 +769,17 @@ function showSections(sections) {
       }
     }));
   }
-
-  const back = createBackButton();
-  if (back) lessonButtons.appendChild(back);
+  refreshButtonVisibility();
 }
 
 async function showCategories(sections) {
+  activeView = () => showCategories(sections);
   clearButtons();
   lessonTitleElement.classList.add('hidden');
   lessonOutput.classList.add('hidden');
   lessonPlaceholder.classList.remove('hidden');
 
+  insertBackButtonAtTop();
   for (const [label, info] of Object.entries(sections)) {
     lessonButtons.appendChild(createButton(label, async () => {
       if (info.introFile) {
@@ -625,12 +791,10 @@ async function showCategories(sections) {
       }
     }));
   }
-
-  const back = createBackButton();
-  if (back) lessonButtons.appendChild(back);
 }
 
 async function showRoot() {
+  activeView = showRoot;
   clearButtons();
   lessonTitleElement.classList.add('hidden');
   lessonOutput.classList.add('hidden');
@@ -645,6 +809,7 @@ async function showRoot() {
       }
     }));
   }
+  refreshButtonVisibility();
 }
 
 async function navigate(viewFn) {

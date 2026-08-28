@@ -214,6 +214,15 @@ def manage_playlists():
 
 def serve_demo(port=SERVER_PORT, open_browser=True):
     """Serve the demo web application."""
+    try:
+        from main import serve
+    except ImportError:
+        serve = None
+
+    if serve is not None:
+        serve(port=port, open_browser=open_browser)
+        return
+
     demo_dir = PROJECT_ROOT
     if not demo_dir.is_dir():
         print(f"Không tìm thấy thư mục demo: {demo_dir}")
