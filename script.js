@@ -7,6 +7,7 @@ const menuToggle = document.getElementById('menuToggle');
 const lessonPanel = document.getElementById('lessonPanel');
 const lessonSearchInput = document.getElementById('lessonSearch');
 let activeButton = null;
+let activeView = null;
 const viewHistory = [];
 
 function setMenuOpen(isOpen) {
@@ -48,6 +49,12 @@ document.addEventListener('click', (event) => {
     return;
   }
   setMenuOpen(false);
+});
+
+window.addEventListener('resize', () => {
+  if (!isMobileMenuLayout()) {
+    setMenuOpen(false);
+  }
 });
 
 // Hard-coded lesson map (client-side) based on workspace structure.
@@ -238,16 +245,121 @@ function clearButtons() {
   lessonButtons.innerHTML = '';
 }
 
+function normalizeSearchText(value) {
+  return String(value || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function restoreVisibleButtonsFromCurrentView() {
+  if (!lessonSearchInput) {
+    return;
+  }
+
+  const query = normalizeSearchText(lessonSearchInput.value);
+  if (!query) {
+    activeView?.();
+    return;
+  }
+
+  const buttons = Array.from(lessonButtons?.children || []);
+  buttons.forEach((button) => {
+    const matchesQuery = normalizeSearchText(button.textContent).includes(query);
+    const shouldKeepVisible = button.classList.contains('search-pinned') || matchesQuery;
+    button.style.display = shouldKeepVisible ? '' : 'none';
+  });
+}
+
+function openNavigationNode(info) {
+  if (!info || typeof info !== 'object') {
+    return null;
+  }
+
+  if (info.introFile) {
+    return () => navigate(() => showSectionIntro(info.introFile, info.basePath, info.files || []));
+  }
+
+  if (info.sections) {
+    return () => navigate(() => showSections(info.sections));
+  }
+
+  if (info.files) {
+    return () => navigate(() => showLessonsList(info.basePath, info.files));
+  }
+
+  return null;
+}
+
+function collectMatchingSearchEntries(node, query, results = []) {
+  if (!node || typeof node !== 'object') {
+    return results;
+  }
+
+  const normalizedQuery = normalizeSearchText(query);
+
+  for (const [label, info] of Object.entries(node)) {
+    if (!info || typeof info !== 'object') {
+      continue;
+    }
+
+    const normalizedLabel = normalizeSearchText(label);
+    const nextStep = openNavigationNode(info);
+
+    if (normalizedLabel.includes(normalizedQuery) && nextStep) {
+      results.push({ label, navigate: nextStep });
+    }
+
+    if (info.sections) {
+      collectMatchingSearchEntries(info.sections, normalizedQuery, results);
+    }
+
+    if (info.files && normalizedLabel.includes(normalizedQuery)) {
+      const basePath = info.basePath || '.';
+      results.push({ label, navigate: () => navigate(() => showLessonsList(basePath, info.files || [])) });
+    }
+  }
+
+  return results;
+}
+
 function refreshButtonVisibility() {
   if (!lessonSearchInput) {
     return;
   }
 
-  const query = lessonSearchInput.value.trim().toLowerCase();
-  const buttons = Array.from(lessonButtons?.children || []);
+  const query = normalizeSearchText(lessonSearchInput.value);
 
+  if (!query) {
+    const buttons = Array.from(lessonButtons?.children || []);
+    buttons.forEach((button) => {
+      button.style.display = '';
+    });
+    return;
+  }
+
+  const allMatches = collectMatchingSearchEntries(structure, query);
+  if (allMatches.length > 0) {
+    const seen = new Set();
+    clearButtons();
+    allMatches.forEach(({ label, navigate }) => {
+      const key = label.toLowerCase();
+      if (seen.has(key)) {
+        return;
+      }
+      seen.add(key);
+      lessonButtons.appendChild(createButton(label, () => navigate()));
+    });
+    const back = createBackButton();
+    if (back) lessonButtons.insertBefore(back, lessonButtons.firstChild);
+    return;
+  }
+
+  const buttons = Array.from(lessonButtons?.children || []);
   buttons.forEach((button) => {
-    const matchesQuery = !query || button.textContent.toLowerCase().includes(query);
+    const matchesQuery = normalizeSearchText(button.textContent).includes(query);
     const shouldKeepVisible = button.classList.contains('search-pinned') || matchesQuery;
     button.style.display = shouldKeepVisible ? '' : 'none';
   });
@@ -273,6 +385,14 @@ function setLessonTitle(title) {
   }
 }
 
+function clearSearchQuery() {
+  if (!lessonSearchInput) {
+    return;
+  }
+  lessonSearchInput.value = '';
+  lessonSearchInput.dispatchEvent(new Event('input'));
+}
+
 function createButton(label, onClick, options = {}) {
   const btn = document.createElement('button');
   btn.type = 'button';
@@ -284,6 +404,9 @@ function createButton(label, onClick, options = {}) {
   }
   btn.addEventListener('click', (event) => {
     event.stopPropagation();
+    if (lessonSearchInput && lessonSearchInput.value.trim()) {
+      clearSearchQuery();
+    }
     onClick(btn);
   });
   return btn;
@@ -292,6 +415,13 @@ function createButton(label, onClick, options = {}) {
 function createBackButton() {
   if (viewHistory.length <= 1) return null;
   return createButton('« Quay lại', () => goBack(), { pinned: true });
+}
+
+function insertBackButtonAtTop() {
+  const back = createBackButton();
+  if (!back) return;
+  const firstChild = lessonButtons.firstChild;
+  lessonButtons.insertBefore(back, firstChild);
 }
 
 function getFallbackTitle(filename) {
@@ -579,19 +709,19 @@ async function appendLessonButtons(basePath, files) {
 }
 
 async function showLessonsList(basePath, files) {
+  activeView = () => showLessonsList(basePath, files);
   clearButtons();
   lessonTitleElement.classList.add('hidden');
   lessonOutput.classList.add('hidden');
   lessonPlaceholder.classList.remove('hidden');
 
+  insertBackButtonAtTop();
   await appendLessonButtons(basePath, files);
-
-  const back = createBackButton();
-  if (back) lessonButtons.appendChild(back);
   refreshButtonVisibility();
 }
 
 async function showSectionIntro(introPath, basePath, files) {
+  activeView = () => showSectionIntro(introPath, basePath, files);
   clearButtons();
   lessonTitleElement.classList.add('hidden');
   lessonOutput.classList.remove('hidden');
@@ -613,21 +743,21 @@ async function showSectionIntro(introPath, basePath, files) {
     lessonOutput.textContent = `Lỗi khi tải giới thiệu: ${err.message}`;
   }
 
+  insertBackButtonAtTop();
   if (files && files.length > 0) {
     await appendLessonButtons(basePath, files);
   }
-
-  const back = createBackButton();
-  if (back) lessonButtons.appendChild(back);
   refreshButtonVisibility();
 }
 
 function showSections(sections) {
+  activeView = () => showSections(sections);
   clearButtons();
   lessonTitleElement.classList.add('hidden');
   lessonOutput.classList.add('hidden');
   lessonPlaceholder.classList.remove('hidden');
 
+  insertBackButtonAtTop();
   for (const [label, info] of Object.entries(sections)) {
     lessonButtons.appendChild(createButton(label, async () => {
       if (info.introFile) {
@@ -639,18 +769,17 @@ function showSections(sections) {
       }
     }));
   }
-
-  const back = createBackButton();
-  if (back) lessonButtons.appendChild(back);
   refreshButtonVisibility();
 }
 
 async function showCategories(sections) {
+  activeView = () => showCategories(sections);
   clearButtons();
   lessonTitleElement.classList.add('hidden');
   lessonOutput.classList.add('hidden');
   lessonPlaceholder.classList.remove('hidden');
 
+  insertBackButtonAtTop();
   for (const [label, info] of Object.entries(sections)) {
     lessonButtons.appendChild(createButton(label, async () => {
       if (info.introFile) {
@@ -662,12 +791,10 @@ async function showCategories(sections) {
       }
     }));
   }
-
-  const back = createBackButton();
-  if (back) lessonButtons.appendChild(back);
 }
 
 async function showRoot() {
+  activeView = showRoot;
   clearButtons();
   lessonTitleElement.classList.add('hidden');
   lessonOutput.classList.add('hidden');

@@ -1,77 +1,89 @@
 # Demo Tài liệu Tu Học
 
-Đây là demo web cho bộ tài liệu tu học. Giao diện dùng HTML/CSS/JavaScript, backend Python phục vụ web tĩnh và cung cấp API đọc dữ liệu bài học từ thư mục `data/`.
+Đây là web demo cho bộ tài liệu tu học của gia đình Phật tử. Ứng dụng đang chạy theo mô hình: frontend HTML/CSS/JavaScript + backend Python phục vụ tĩnh và API đọc dữ liệu từ thư mục `data/`.
 
-## Nội dung hiện có
+## Tính năng hiện có
 
-Demo hiện hỗ trợ:
+- Menu trái dạng danh mục theo cây học liệu
+- Tìm kiếm theo bậc học và danh mục lớn như: `SƠ THIỆN`, `HƯỚNG THIỆN`, `NGÀNH THIẾU`, `NGÀNH ĐỒNG`, `PHẬT PHÁP`, `HOẠT ĐỘNG THANH NIÊN`, ...
+- Nút quay lại ở đầu danh sách để dễ điều hướng khi đã đi sâu vào từng mục
+- Giao diện tối ưu cho desktop và mobile
+- Nút menu mobile với overlay và animation tối giản
+- Icon sách/biểu tượng tu học, theme tối hiện đại hơn
+
+## Cấu trúc dữ liệu
+
+Demo đang hỗ trợ các nhánh chính như:
 
 - `NGÀNH THIẾU`
   - `HƯỚNG THIỆN`
   - `SƠ THIỆN`
-- `OANH VŨ`
+- `NGÀNH ĐỒNG`
   - `MỞ MẮT`
   - `CÁNH MỀM`
   - `CHÂN CỨNG`
+  - `TUNG BAY`
 
-Mỗi mục có các phần như `PHẬT PHÁP`, `HOẠT ĐỘNG THANH NIÊN`, `HOẠT ĐỘNG XÃ HỘI`, `VĂN NGHỆ`, và các bài học được lưu trong thư mục `data/`.
+Mỗi nhánh chứa các phần như `PHẬT PHÁP`, `HOẠT ĐỘNG THANH NIÊN`, `HOẠT ĐỘNG XÃ HỘI`, `VĂN NGHỆ`, và các bài học được lưu dưới `data/`.
 
-## Cách chạy demo
+## Cách khởi động demo
 
-1. Mở PowerShell hoặc terminal ở thư mục gốc `a:\xaydungweb`.
-2. Chạy lệnh:
-
-```powershell
-python main.py --port 8000
-```
-
-Hoặc dùng lệnh cũ, hiện đã được nối sang backend mới:
+Từ thư mục gốc của project:
 
 ```powershell
-python music.py --demo --port 8000
+.\.venv\Scripts\python.exe main.py --port 8000 --no-browser
 ```
 
-3. Nếu cổng `8000` đã bị chiếm, backend sẽ tự động thử các cổng tiếp theo từ `8000` đến `8009`.
-4. Mở trình duyệt và truy cập URL được in ra, thường là:
+Nếu chưa kích hoạt venv nhưng đã cài Python hệ thống:
 
+```powershell
+python main.py --port 8000 --no-browser
 ```
+
+Hoặc dùng:
+
+```powershell
+py main.py --port 8000 --no-browser
+```
+
+Sau đó mở trình duyệt và truy cập:
+
+```text
 http://127.0.0.1:8000/index.html
 ```
 
 ## Chạy nhanh trên Windows
 
-- `start_demo.ps1`
-- `start_demo.bat`
+Có sẵn 2 script:
 
-Các script này chạy backend từ thư mục chứa file.
+- `start_demo.bat`
+- `start_demo.ps1`
+
+Hai file này đều ưu tiên dùng Python ảo `.venv` nếu có, nếu không thì fallback về `python` hoặc `py`.
 
 ## API backend
 
 - `GET /api/health` — kiểm tra backend đang chạy
-- `GET /api/structure` — trả về cây thư mục/bài học trong `data/`
+- `GET /api/structure` — trả về cây dữ liệu từ `data/`
 - `GET /api/lesson?path=data/.../bài_1.txt` — trả về tiêu đề và nội dung bài học
 
-## Tại sao phải dùng server HTTP
+## Lưu ý quan trọng
 
-Trang demo sử dụng `fetch()` trong `script.js` để tải nội dung từ file `.txt`. Vì vậy, nếu mở `index.html` bằng `file://`, nội dung sẽ không tải được và có thể gặp lỗi.
+- Không nên mở trực tiếp `index.html` bằng `file://` vì frontend dùng `fetch()` để tải dữ liệu `.txt`.
+- Hãy luôn chạy qua server HTTP để tránh lỗi tải nội dung.
+- Nếu vừa sửa giao diện hoặc icon, nhấn `Ctrl+F5` hoặc mở tab mới để tránh cache cũ của browser.
 
-Server HTTP giúp:
+## Các file chính
 
-- phục vụ các file `index.html`, `styles.css`, `script.js` đúng cách
-- tải nội dung bài học qua HTTP
-- tránh lỗi `fetch` khi mở trực tiếp từ file local
-
-## Các tệp quan trọng
-
-- `index.html` — giao diện trang demo
-- `styles.css` — phong cách hiển thị
-- `script.js` — logic điều hướng và tải bài học
-- `main.py` — backend Python phục vụ web và API
-- `music.py` — script cũ, hiện vẫn chạy được demo và gọi backend mới
-- `start_demo.ps1`, `start_demo.bat` — script chạy nhanh trên Windows
-- `data/` — thư mục chứa nội dung bài học `.txt`
+- `index.html` — shell giao diện demo
+- `styles.css` — style chính của UI
+- `script.js` — điều hướng, tìm kiếm, trình bày bài học
+- `main.py` — backend server và API
+- `data/` — dữ liệu bài học dạng `.txt`
+- `start_demo.bat` — launcher cho Windows CMD
+- `start_demo.ps1` — launcher cho PowerShell
 
 ## Ghi chú
 
-- Nếu muốn sửa nội dung bài học, chỉnh các file `.txt` trong `data/`.
-- `music.py` còn có chế độ `--playlist` để quản lý playlist, nhưng README này tập trung vào demo web/backend.
+- Nếu cần sửa nội dung học liệu, chỉnh trực tiếp trong thư mục `data/`.
+- Nếu thay đổi giao diện, template và CSS đang được lưu theo phiên bản `?v=` để tránh cache trình duyệt giữ bản cũ.

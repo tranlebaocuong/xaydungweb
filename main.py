@@ -14,15 +14,121 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 DATA_ROOT = PROJECT_ROOT / "data"
 
 
+def fallback_title(path: Path) -> str:
+    name = path.stem.replace("_", " ").replace("-", " ")
+    clean = " ".join(part for part in re.split(r"\s+", name) if part)
+    return clean.strip() or path.parent.name
+
+
+def is_image_markdown_line(line: str) -> bool:
+    return bool(re.fullmatch(r"\s*!\[[^\]]*\]\([^)]+\)\s*", line))
+
+
+def is_content_start_line(line: str) -> bool:
+    trimmed = line.strip()
+    if not trimmed:
+        return False
+    if is_image_markdown_line(trimmed):
+        return True
+    if re.fullmatch(r"\(.+\)", trimmed):
+        return True
+    if re.fullmatch(r"[IVXLCDM]+\s*[-./]\s*.*", trimmed, flags=re.IGNORECASE):
+        return True
+    if re.fullmatch(r"[A-Z]\s*[-./)]\s*.*", trimmed):
+        return True
+    if re.fullmatch(r"[0-9]+\s*[-.)]\s+.*", trimmed):
+        return True
+    if re.fullmatch(r"[-*+]\s+.*", trimmed):
+        return True
+    return False
+
+
+def has_lowercase_letter(text: str) -> bool:
+    return bool(re.search(r"[a-zàáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]", text))
+
+
+def is_uppercase_title_line(text: str) -> bool:
+    letters = re.sub(r"[^A-Za-zÀ-ỹĐđ]", "", text)
+    return bool(letters) and letters == letters.upper()
+
+
+def is_likely_title_continuation_line(text: str) -> bool:
+    without_parentheses = re.sub(r"\([^)]*\)", "", text)
+    letters = re.sub(r"[^A-Za-zÀ-ỹĐđ]", "", without_parentheses)
+    has_lesson_part = bool(re.search(r"\(\s*(?:\d+\s*)?tiết\s*\d*\s*\)", text, flags=re.IGNORECASE))
+    if not letters:
+        return has_lesson_part
+    return letters == letters.upper() and (has_lesson_part or len(text) <= 70)
+
+
+def parse_lesson_text(text: str, fallback_title_value: str = "Giới thiệu") -> dict:
+    lines = text.splitlines()
+    first_content_line = next((i for i, line in enumerate(lines) if line.strip()), None)
+    if first_content_line is None:
+        return {"title": fallback_title_value, "content": ""}
+
+    title_lines: list[str] = []
+    content_start = first_content_line
+
+    for i in range(first_content_line, len(lines)):
+        trimmed = lines[i].strip()
+        if not trimmed:
+            content_start = i + 1
+            break
+        if title_lines and is_likely_title_continuation_line(trimmed):
+            title_lines.append(trimmed)
+            content_start = i + 1
+            continue
+        if title_lines and is_content_start_line(trimmed):
+            content_start = i
+            break
+        if title_lines and is_uppercase_title_line(title_lines[-1]) and has_lowercase_letter(trimmed):
+            content_start = i
+            break
+        if len(title_lines) >= 4:
+            content_start = i
+            break
+        title_lines.append(trimmed)
+        content_start = i + 1
+
+    title = " ".join(title_lines) if title_lines else fallback_title_value
+    title = re.sub(r"\s+", " ", title).strip() or fallback_title_value
+    content = "\n".join(lines[content_start:]).strip()
+    return {"title": title, "content": content}
+
+
 def setup_utf8_console():
     if sys.platform != "win32":
         return
     for stream in (sys.stdin, sys.stdout, sys.stderr):
-        if stream is not None and hasattr(stream, "reconfigure"):
+        if stream is None:
+            continue
+        reconfigure = getattr(stream, "reconfigure", None)
+        if callable(reconfigure):
             try:
-                stream.reconfigure(encoding="utf-8")
+                reconfigure(encoding="utf-8")
             except (OSError, ValueError, AttributeError):
                 pass
+
+
+def build_data_structure(root: Path) -> list[dict]:
+    if not root.exists():
+        return []
+
+    items: list[dict] = []
+    for child in sorted(root.iterdir(), key=lambda p: p.name.casefold()):
+        if child.name.startswith("."):
+            continue
+        item: dict = {"name": child.name, "path": child.relative_to(PROJECT_ROOT).as_posix()}
+        if child.is_dir():
+            item["type"] = "directory"
+            item["children"] = build_data_structure(child)
+        elif child.is_file() and child.suffix.lower() == ".txt":
+            item["type"] = "file"
+        else:
+            continue
+        items.append(item)
+    return items
 
 
 class DemoHandler(SimpleHTTPRequestHandler):
@@ -41,12 +147,22 @@ class DemoHandler(SimpleHTTPRequestHandler):
         if parsed.path == "/api/health":
             self.send_json({"ok": True, "name": "Tài liệu tu học"})
             return
+        if parsed.path == "/api/structure":
+            self.handle_structure()
+            return
         if parsed.path == "/api/lesson":
             self.handle_lesson(parsed.query)
             return
         if parsed.path in ("", "/"):
             self.path = "/index.html"
         super().do_GET()
+
+    def handle_structure(self):
+        self.send_json({
+            "ok": True,
+            "root": DATA_ROOT.relative_to(PROJECT_ROOT).as_posix(),
+            "structure": build_data_structure(DATA_ROOT),
+        })
 
     def handle_lesson(self, query):
         params = parse_qs(query)
@@ -90,9 +206,10 @@ class DemoHandler(SimpleHTTPRequestHandler):
         self.send_json({"ok": False, "error": message}, status=status)
 
     def guess_type(self, path):
-        if path.endswith(".txt"):
+        path_text = str(path)
+        if path_text.endswith(".txt"):
             return "text/plain; charset=utf-8"
-        return super().guess_type(path)
+        return super().guess_type(path_text)
 
 
 def serve(port=PORT, open_browser=True):
