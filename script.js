@@ -639,22 +639,35 @@ async function fetchLessonData(path, fallbackTitle = getFallbackTitle(path)) {
     throw new Error('Trang đang được mở trực tiếp từ file.');
   }
 
-  const apiUrl = `/api/lesson?path=${encodeURIComponent(path)}`;
-  const resp = await fetch(apiUrl);
-  if (!resp.ok) {
-    throw new Error(`HTTP ${resp.status}`);
+  const apiUrl = new URL('api/lesson', document.baseURI);
+  apiUrl.searchParams.set('path', path);
+
+  try {
+    const resp = await fetch(apiUrl);
+    if (!resp.ok) {
+      throw new Error(`HTTP ${resp.status}`);
+    }
+
+    const data = await resp.json();
+    if (!data || typeof data.content !== 'string') {
+      throw new Error('Dữ liệu bài học không hợp lệ.');
+    }
+
+    const title = data.title || parseLessonText(data.content, fallbackTitle).title;
+    const lessonPath = data.path || path;
+    const lessonDir = lessonPath.includes('/') ? lessonPath.slice(0, lessonPath.lastIndexOf('/')) : '.';
+    return { title, content: data.content, path: lessonPath, baseDir: lessonDir };
+  } catch (apiError) {
+    const staticUrl = new URL(path.replace(/\\/g, '/'), document.baseURI);
+    const resp = await fetch(staticUrl);
+    if (!resp.ok) {
+      throw apiError;
+    }
+
+    const parsed = parseLessonText(await resp.text(), fallbackTitle);
+    const lessonDir = path.includes('/') ? path.slice(0, path.lastIndexOf('/')) : '.';
+    return { title: parsed.title, content: parsed.content, path, baseDir: lessonDir };
   }
-
-  const data = await resp.json();
-  if (!data || typeof data.content !== 'string') {
-    throw new Error('Dữ liệu bài học không hợp lệ.');
-  }
-
-  const title = data.title || parseLessonText(data.content, fallbackTitle).title;
-  const lessonPath = data.path || path;
-  const lessonDir = lessonPath.includes('/') ? lessonPath.slice(0, lessonPath.lastIndexOf('/')) : '.';
-
-  return { title, content: data.content, path: lessonPath, baseDir: lessonDir };
 }
 
 async function fetchTitleFromFile(path) {
